@@ -1,0 +1,8 @@
+-- type_pack.vhd
+-- Jean P. Walker
+-- Definition of types and subtypes used within the project.
+
+package types is
+  type chip_bv_idx is (-2, 1);
+  type chip is bit_vector(chip_bv_idx);
+end package;

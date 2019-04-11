@@ -1,0 +1,3 @@
+-- types_bdy.vhd
+-- Jean P. Walker
+-- Body of functions used in 
