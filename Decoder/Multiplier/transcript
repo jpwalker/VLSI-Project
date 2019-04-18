@@ -1,0 +1,46 @@
+# Compile of types.vhd was successful.
+# Compile of types_bdy.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+# reading /afs/cad/sw.common/mentor.2012/modelsim
+# Loading project Multiplier
+vsim work.multiplier
+# vsim work.multiplier 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading typelibrary.types(body)
+# Loading work.multiplier(dataflow)#1
+force -freeze A(15) 0 0, 1 1, -1 2, 0 3, 1 4, -1 5, 0 6, 1 7, -1 8 
+force -freeze B(15) 0 0, 0 1, 0 2, 1 3, 1 4, 1 5, -1 6, -1 7, -1 8
+run 9
+add wave -position insertpoint sim:/multiplier/*
+force -freeze A(15) 0 0, 1 1, -1 2, 0 3, 1 4, -1 5, 0 6, 1 7, -1 8
+force -freeze B(15) 0 0, 0 1, 0 2, 1 3, 1 4, 1 5, -1 6, -1 7, -1 8
+run 9
+add wave -position insertpoint sim:/multiplier/*
+force -freeze A(15) 0 0, 1 1, -1 2, 0 3, 1 4, -1 5, 0 6, 1 7, -1 8
+force -freeze B(15) 0 0, 0 1, 0 2, 1 3, 1 4, 1 5, -1 6, -1 7, -1 8
+run 10
+force A(0) -1 0
+force A(1) -1 0
+force A(2) -1 0
+force A(3) -1 0
+force A(4) -1 0
+force A(5) -1 0
+force A(6) -1 0
+force A(7) -1 0
+run 20
+restart
+force a(15) 0 0 
+force b(15) 0 0 
+run 10
+force a(15) 1 0
+run 10
+force a(15) -1 0
+run 10
+force b(15) 1 0
+run 10
+force b(15) -1 0
+run 10
+force a(15) 1 0
+run 10
+quit -sim
