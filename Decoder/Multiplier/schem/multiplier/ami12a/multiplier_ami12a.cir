@@ -1,0 +1,11 @@
+* Component: $HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier  Viewpoint: ami12a
+.INCLUDE $HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/ami12a/multiplier_ami12a.spi
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+* --- Singles
+
+* --- Libsetup
+

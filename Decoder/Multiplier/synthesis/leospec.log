@@ -1,0 +1,73 @@
+/afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/bin/Linux/spectrum 
+-------------------------------------------------
+LeonardoSpectrum Level 3 - 2011a.4 (Release Production Release, compiled May 26 2011 at 11:43:50)
+Copyright 1990-2010 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2010 Compuware Corporation
+
+Checking Security ...
+
+   *** Welcome to Interactive LeonardoSpectrum Level 3 Version 2011a.4 ***
+
+News :
+  * Enter "help" to get an overview of all commands
+  * Enter <command> -help  to get usage of each command
+
+Session history will be logged to file '/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/leospec.his'
+Reading library file `/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/tsmc018_typ.syn`...
+Library version = v3.1 Release : Patch (a) : (Aug 26, 2005)
+Delays assume: Process=typical Temp=  0.0 C  Voltage=1.80 V  
+Info: setting encoding to auto
+Info, Command 'load_library' finished successfully
+Error, '/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../../../TypeLibrary' is a directory
+Error, cannot find file '../../../TypeLibrary/*.vhd'
+-- Reading file /afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/data/standard.vhd for unit standard
+-- Loading package standard into library std
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../../../TypeLibrary/types.vhd into library work
+-- Loading package types into library work
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../../../TypeLibrary/types_bdy.vhd into library work
+Info: "../../../TypeLibrary/types_bdy.vhd" Nothing to synthesize
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../multiplier.vhd into library work
+-- Loading entity multiplier into library work
+Error, '/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../' is a directory
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../multiplier.vhd into library work
+-- Loading entity multiplier into library work
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../multiplier.vhd",line 8: Warning, replacing multiplier in HDL library work.
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../mult_DFarch.vhd into library work
+-- Loading architecture dataflow of multiplier into library work
+-- Compiling root entity multiplier(dataflow)
+Info, Command 'read' finished successfully
+  "optimize" -- optimize and map a design to a target technology
+usage : "optimize" [<design>]
+   [-target <string>]      -- specify the target technology library for this design
+   [-io_target <string>]   -- specify the target IO cell library if separate from target technology
+   [-single_level]         -- perform optimization only at the top level of hierarchy
+   [-flatten]              -- obsolete - new format is "-hierarchy flatten"
+   [-hierarchy <string>]   -- hierarchy handling: auto|preserve|flatten
+   [-effort <string>]      -- optimization effort : remap|quick|standard
+   [-chip]|[-macro]         -- add IO buffers (chip)(default) to this design, or not (macro)
+   [-area]|[-delay]|[-auto]  -- optimize to obtain minimum delay, area or to automatically find the best result(default)
+   [-pass <list>]|[-nopass <list>]-- explicitly run a pass (pass) or explicitly avoid a pass(nopass)
+   [-boundary]             -- do boundary optimization
+Info: optimize: library 'tsmc018' has not yet been loaded, it will now be loaded
+Error, cannot find file 'tsmc018.syn'
+multiplier(dataflow) not found
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../multiplier.vhd into library work
+-- Loading entity multiplier into library work
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../multiplier.vhd",line 8: Warning, replacing multiplier in HDL library work.
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../mult_DFarch.vhd into library work
+-- Loading architecture dataflow of multiplier into library work
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/../mult_DFarch.vhd",line 5: Warning, replacing dataflow of entity multiplier.
+-- Compiling root entity multiplier(dataflow)
+-- Info, replacing multiplier(dataflow)
+Info, Command 'read' finished successfully
+multiplier not found
+NO wire table is found
+-- Optimizing netlist .work.multiplier.dataflow
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+-- Writing file multiplier.syn.v
+Info, Command 'write' finished successfully

@@ -1,8 +1,20 @@
-/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/DecoderParts/decoder_parts_bdy.vhd {0 {vcom -work DecoderParts -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/DecoderParts/decoder_parts_bdy.vhd
+/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/DecoderParts/decoder_parts.vhd {1 {vcom -work DecoderParts -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/DecoderParts/decoder_parts.vhd
+Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package types
+-- Compiling package DecoderParts
+
+} {} {}} /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/DecoderParts/decoder_parts_bdy.vhd {1 {vcom -work DecoderParts -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/DecoderParts/decoder_parts_bdy.vhd
 Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
 -- Loading package STANDARD
 -- Compiling package body DecoderParts
-** Error: (vcom-11) Could not find work.decoderparts.
-** Error: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/DecoderParts/decoder_parts_bdy.vhd(5): VHDL Compiler exiting
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package types
+-- Loading package DecoderParts
 
-} {5.0 7.0} {}}
+} {} {}}

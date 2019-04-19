@@ -1,0 +1,50 @@
+#
+#
+# /afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/bin/Linux/spectrum 
+# Fri Apr 19 19:32:30 2019
+load_library tsmc018_typ.syn
+
+ls ../../..
+
+read -format vhd ../../../TypeLibrary
+
+### Previous Command Failed
+
+ls ../../../TypeLibrary
+
+read -format vhdl ../../../TypeLibrary/*.vhd
+
+### Previous Command Failed
+
+read -format vhdl ../../../TypeLibrary/types.vhd ../../../TypeLibrary/types_bdy.vhd
+
+read -format vhdl -technology tsmc018 ../multiplier.vhd ../
+
+### Previous Command Failed
+
+ls ../
+
+read -format vhdl -technology tsmc018 ../multiplier.vhd ../mult_DFarch.vhd
+
+help optimize
+
+optimize -target tsmc018 -macro multiplier(dataflow)
+
+### Previous Command Failed
+
+optimize -target tsmc018_typ -macro multiplier(dataflow)
+
+### Previous Command Failed
+
+read -format vhdl -technology tsmc018_typ ../multiplier.vhd ../mult_DFarch.vhd
+
+optimize -target tsmc018_typ -macro multiplier
+
+### Previous Command Failed
+
+optimize -target tsmc018_typ -macro
+
+write multiplier.syn.v
+
+exit
+

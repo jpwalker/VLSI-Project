@@ -1,8 +1,0 @@
--- mult_DFarch.vhd
--- Jean P. Walker
--- Architecture file using dataflow for multiplier entity.
-
-architecture dataflow of multiplier is
-begin
-  C(1) <= A(0) and B(0) and (A(1) or B(1));
-  C(0) <= A(0) and B(0);

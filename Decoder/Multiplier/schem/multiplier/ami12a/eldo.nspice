@@ -1,0 +1,103 @@
+* ELDO netlist generated with ICnet by 'jpw33' on Fri Apr 19 2019 at 19:46:15
+
+*
+* Globals.
+*
+.global gnd vdd
+
+*
+* Component pathname : $ADK/parts/nor02ii
+*
+.subckt nor02ii  a0 a1 y
+
+        mp1 n$208 a1 vdd vdd p L=1.2u W=5.4u
+        mn1 n$208 a1 gnd gnd n L=1.2u W=3u
+        mn4 y a0 gnd gnd n L=1.2u W=3u
+        mn2 y n$208 gnd gnd n L=1.2u W=3u
+        mp4 y n$208 n$4 vdd p L=1.2u W=7.8u
+        mp2 n$4 a0 vdd vdd p L=1.2u W=7.8u
+.ends nor02ii
+
+*
+* Component pathname : $ADK/parts/and02
+*
+.subckt and02  y a0 a1
+
+        m_i$674 y n$5 vdd vdd p L=1.2u W=5.4u
+        m_i$675 y n$5 gnd gnd n L=1.2u W=3u
+        m_i$472 n$5 a1 vdd vdd p L=1.2u W=7.2u
+        m_i$471 n$5 a0 vdd vdd p L=1.2u W=7.2u
+        m_i$4 n$5 a0 n$7 gnd n L=1.2u W=6u
+        m_i$5 n$7 a1 gnd gnd n L=1.2u W=6u
+.ends and02
+
+*
+* Component pathname : $ADK/parts/xnor2
+*
+.subckt xnor2  y a0 a1
+
+        m_i$218 n$213 a1 gnd gnd n L=1.2u W=6u
+        m_i$217 n$212 a0 n$213 gnd n L=1.2u W=6u
+        m_i$9 n$212 a1 vdd vdd p L=1.2u W=7.8u
+        m_i$8 n$212 a0 vdd vdd p L=1.2u W=7.8u
+        m_i$7 n$3 n$212 gnd gnd n L=1.2u W=6u
+        m_i$6 y a1 n$3 gnd n L=1.2u W=6u
+        m_i$5 y a0 n$3 gnd n L=1.2u W=6u
+        m_i$4 y a1 n$1 vdd p L=1.2u W=15.6u
+        m_i$3 y n$212 vdd vdd p L=1.2u W=7.8u
+        m_i$2 n$1 a0 vdd vdd p L=1.2u W=15.6u
+.ends xnor2
+
+*
+* MAIN CELL: Component pathname : $HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier
+*
+        x_ix95 nx273 c_15__0 c_15__1 nor02ii
+        x_ix89 nx269 c_14__0 c_14__1 nor02ii
+        x_ix83 nx265 c_13__0 c_13__1 nor02ii
+        x_ix77 nx261 c_12__0 c_12__1 nor02ii
+        x_ix71 nx257 c_11__0 c_11__1 nor02ii
+        x_ix65 nx253 c_10__0 c_10__1 nor02ii
+        x_ix59 nx249 c_9__0 c_9__1 nor02ii
+        x_ix53 nx245 c_8__0 c_8__1 nor02ii
+        x_ix47 nx241 c_7__0 c_7__1 nor02ii
+        x_ix41 nx237 c_6__0 c_6__1 nor02ii
+        x_ix35 nx233 c_5__0 c_5__1 nor02ii
+        x_ix29 nx229 c_4__0 c_4__1 nor02ii
+        x_ix23 nx225 c_3__0 c_3__1 nor02ii
+        x_ix17 nx221 c_2__0 c_2__1 nor02ii
+        x_ix11 nx217 c_1__0 c_1__1 nor02ii
+        x_ix5 nx213 c_0__0 c_0__1 nor02ii
+        x_ix91 c_15__0 b_15__0 a_15__0 and02
+        x_ix85 c_14__0 b_14__0 a_14__0 and02
+        x_ix79 c_13__0 b_13__0 a_13__0 and02
+        x_ix73 c_12__0 b_12__0 a_12__0 and02
+        x_ix67 c_11__0 b_11__0 a_11__0 and02
+        x_ix61 c_10__0 b_10__0 a_10__0 and02
+        x_ix55 c_9__0 b_9__0 a_9__0 and02
+        x_ix49 c_8__0 b_8__0 a_8__0 and02
+        x_ix43 c_7__0 b_7__0 a_7__0 and02
+        x_ix37 c_6__0 b_6__0 a_6__0 and02
+        x_ix31 c_5__0 b_5__0 a_5__0 and02
+        x_ix25 c_4__0 b_4__0 a_4__0 and02
+        x_ix19 c_3__0 b_3__0 a_3__0 and02
+        x_ix13 c_2__0 b_2__0 a_2__0 and02
+        x_ix7 c_1__0 b_1__0 a_1__0 and02
+        x_ix1 c_0__0 b_0__0 a_0__0 and02
+        x_ix274 nx273 a_15__1 b_15__1 xnor2
+        x_ix270 nx269 a_14__1 b_14__1 xnor2
+        x_ix266 nx265 a_13__1 b_13__1 xnor2
+        x_ix262 nx261 a_12__1 b_12__1 xnor2
+        x_ix258 nx257 a_11__1 b_11__1 xnor2
+        x_ix254 nx253 a_10__1 b_10__1 xnor2
+        x_ix250 nx249 a_9__1 b_9__1 xnor2
+        x_ix246 nx245 a_8__1 b_8__1 xnor2
+        x_ix242 nx241 a_7__1 b_7__1 xnor2
+        x_ix238 nx237 a_6__1 b_6__1 xnor2
+        x_ix234 nx233 a_5__1 b_5__1 xnor2
+        x_ix230 nx229 a_4__1 b_4__1 xnor2
+        x_ix226 nx225 a_3__1 b_3__1 xnor2
+        x_ix222 nx221 a_2__1 b_2__1 xnor2
+        x_ix218 nx217 a_1__1 b_1__1 xnor2
+        x_ix214 nx213 a_0__1 b_0__1 xnor2
+*
+.end

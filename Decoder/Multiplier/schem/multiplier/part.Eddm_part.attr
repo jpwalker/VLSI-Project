@@ -1,0 +1,12 @@
+A 5 u Eddm_part 5cba5d78b37d.03.80.eb.2c.48.00.52.d4 2 2 2 0
+V v 1 1 5cba5d78b37d.03.80.eb.2c.48.01.52.d4
+F f 1 "part.part_1"
+V v 2 1 5cba5d7913df.03.80.eb.2c.48.00.52.d4
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/multiplier" 1 mgc_symbol 5cba5d78ae4a.03.80.eb.2c.48.01.52.d4 5cba5d78ae4a.03.80.eb.2c.48.00.52.d4
+R csduv 1 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic" 1 mgc_schematic 5cba5d78c58f.03.80.eb.2c.48.01.52.d4 5cba5d78c58f.03.80.eb.2c.48.00.52.d4
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/multiplier" 1 mgc_symbol 5cba5d78ae4a.03.80.eb.2c.48.01.52.d4 5cba5d78ae4a.03.80.eb.2c.48.00.52.d4

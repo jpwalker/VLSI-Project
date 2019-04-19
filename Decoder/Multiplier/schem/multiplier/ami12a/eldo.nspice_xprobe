@@ -1,0 +1,346 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   GND gnd
+   VDD vdd
+End Globals
+
+Cell pmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell nmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell nor02ii
+   Pin A0 a0
+   Pin A1 a1
+   Pin Y y
+   Net N$208 n$208
+   Net N$4 n$4
+   Net Y y
+   Net A1 a1
+   Net A0 a0
+   Global VDD vdd
+   Global GND gnd
+   Inst MP1 mp1 pmos4
+   Inst MN1 mn1 nmos4
+   Inst MN4 mn4 nmos4
+   Inst MN2 mn2 nmos4
+   Inst MP4 mp4 pmos4
+   Inst MP2 mp2 pmos4
+End Cell
+
+Cell and02
+   Pin Y y
+   Pin A0 a0
+   Pin A1 a1
+   Net N$5 n$5
+   Net N$7 n$7
+   Net A1 a1
+   Net A0 a0
+   Net Y y
+   Global VDD vdd
+   Global GND gnd
+   Inst I$674 m_i$674 pmos4
+   Inst I$675 m_i$675 nmos4
+   Inst I$472 m_i$472 pmos4
+   Inst I$471 m_i$471 pmos4
+   Inst I$4 m_i$4 nmos4
+   Inst I$5 m_i$5 nmos4
+End Cell
+
+Cell xnor2
+   Pin Y y
+   Pin A0 a0
+   Pin A1 a1
+   Net N$212 n$212
+   Net N$213 n$213
+   Net N$3 n$3
+   Net N$1 n$1
+   Net A1 a1
+   Net A0 a0
+   Net Y y
+   Global GND gnd
+   Global VDD vdd
+   Inst I$218 m_i$218 nmos4
+   Inst I$217 m_i$217 nmos4
+   Inst I$9 m_i$9 pmos4
+   Inst I$8 m_i$8 pmos4
+   Inst I$7 m_i$7 nmos4
+   Inst I$6 m_i$6 nmos4
+   Inst I$5 m_i$5 nmos4
+   Inst I$4 m_i$4 pmos4
+   Inst I$3 m_i$3 pmos4
+   Inst I$2 m_i$2 pmos4
+End Cell
+
+Cell #top#
+   Pin A_0__0 a_0__0
+   Pin A_0__1 a_0__1
+   Pin A_1__0 a_1__0
+   Pin A_1__1 a_1__1
+   Pin A_2__0 a_2__0
+   Pin A_2__1 a_2__1
+   Pin A_3__0 a_3__0
+   Pin A_3__1 a_3__1
+   Pin A_4__0 a_4__0
+   Pin A_4__1 a_4__1
+   Pin A_5__0 a_5__0
+   Pin A_5__1 a_5__1
+   Pin A_6__0 a_6__0
+   Pin A_6__1 a_6__1
+   Pin A_7__0 a_7__0
+   Pin A_7__1 a_7__1
+   Pin A_8__0 a_8__0
+   Pin A_8__1 a_8__1
+   Pin A_9__0 a_9__0
+   Pin A_9__1 a_9__1
+   Pin A_10__0 a_10__0
+   Pin A_10__1 a_10__1
+   Pin A_11__0 a_11__0
+   Pin A_11__1 a_11__1
+   Pin A_12__0 a_12__0
+   Pin A_12__1 a_12__1
+   Pin A_13__0 a_13__0
+   Pin A_13__1 a_13__1
+   Pin A_14__0 a_14__0
+   Pin A_14__1 a_14__1
+   Pin A_15__0 a_15__0
+   Pin A_15__1 a_15__1
+   Pin B_0__0 b_0__0
+   Pin B_0__1 b_0__1
+   Pin B_1__0 b_1__0
+   Pin B_1__1 b_1__1
+   Pin B_2__0 b_2__0
+   Pin B_2__1 b_2__1
+   Pin B_3__0 b_3__0
+   Pin B_3__1 b_3__1
+   Pin B_4__0 b_4__0
+   Pin B_4__1 b_4__1
+   Pin B_5__0 b_5__0
+   Pin B_5__1 b_5__1
+   Pin B_6__0 b_6__0
+   Pin B_6__1 b_6__1
+   Pin B_7__0 b_7__0
+   Pin B_7__1 b_7__1
+   Pin B_8__0 b_8__0
+   Pin B_8__1 b_8__1
+   Pin B_9__0 b_9__0
+   Pin B_9__1 b_9__1
+   Pin B_10__0 b_10__0
+   Pin B_10__1 b_10__1
+   Pin B_11__0 b_11__0
+   Pin B_11__1 b_11__1
+   Pin B_12__0 b_12__0
+   Pin B_12__1 b_12__1
+   Pin B_13__0 b_13__0
+   Pin B_13__1 b_13__1
+   Pin B_14__0 b_14__0
+   Pin B_14__1 b_14__1
+   Pin B_15__0 b_15__0
+   Pin B_15__1 b_15__1
+   Pin C_0__0 c_0__0
+   Pin C_0__1 c_0__1
+   Pin C_1__0 c_1__0
+   Pin C_1__1 c_1__1
+   Pin C_2__0 c_2__0
+   Pin C_2__1 c_2__1
+   Pin C_3__0 c_3__0
+   Pin C_3__1 c_3__1
+   Pin C_4__0 c_4__0
+   Pin C_4__1 c_4__1
+   Pin C_5__0 c_5__0
+   Pin C_5__1 c_5__1
+   Pin C_6__0 c_6__0
+   Pin C_6__1 c_6__1
+   Pin C_7__0 c_7__0
+   Pin C_7__1 c_7__1
+   Pin C_8__0 c_8__0
+   Pin C_8__1 c_8__1
+   Pin C_9__0 c_9__0
+   Pin C_9__1 c_9__1
+   Pin C_10__0 c_10__0
+   Pin C_10__1 c_10__1
+   Pin C_11__0 c_11__0
+   Pin C_11__1 c_11__1
+   Pin C_12__0 c_12__0
+   Pin C_12__1 c_12__1
+   Pin C_13__0 c_13__0
+   Pin C_13__1 c_13__1
+   Pin C_14__0 c_14__0
+   Pin C_14__1 c_14__1
+   Pin C_15__0 c_15__0
+   Pin C_15__1 c_15__1
+   Net nx273 nx273
+   Net nx269 nx269
+   Net nx265 nx265
+   Net nx261 nx261
+   Net nx257 nx257
+   Net nx253 nx253
+   Net nx249 nx249
+   Net nx245 nx245
+   Net nx241 nx241
+   Net nx237 nx237
+   Net nx233 nx233
+   Net nx229 nx229
+   Net nx225 nx225
+   Net nx221 nx221
+   Net nx217 nx217
+   Net nx213 nx213
+   Net C_15__1 c_15__1
+   Net C_15__0 c_15__0
+   Net C_14__1 c_14__1
+   Net C_14__0 c_14__0
+   Net C_13__1 c_13__1
+   Net C_13__0 c_13__0
+   Net C_12__1 c_12__1
+   Net C_12__0 c_12__0
+   Net C_11__1 c_11__1
+   Net C_11__0 c_11__0
+   Net C_10__1 c_10__1
+   Net C_10__0 c_10__0
+   Net C_9__1 c_9__1
+   Net C_9__0 c_9__0
+   Net C_8__1 c_8__1
+   Net C_8__0 c_8__0
+   Net C_7__1 c_7__1
+   Net C_7__0 c_7__0
+   Net C_6__1 c_6__1
+   Net C_6__0 c_6__0
+   Net C_5__1 c_5__1
+   Net C_5__0 c_5__0
+   Net C_4__1 c_4__1
+   Net C_4__0 c_4__0
+   Net C_3__1 c_3__1
+   Net C_3__0 c_3__0
+   Net C_2__1 c_2__1
+   Net C_2__0 c_2__0
+   Net C_1__1 c_1__1
+   Net C_1__0 c_1__0
+   Net C_0__1 c_0__1
+   Net C_0__0 c_0__0
+   Net B_15__1 b_15__1
+   Net B_15__0 b_15__0
+   Net B_14__1 b_14__1
+   Net B_14__0 b_14__0
+   Net B_13__1 b_13__1
+   Net B_13__0 b_13__0
+   Net B_12__1 b_12__1
+   Net B_12__0 b_12__0
+   Net B_11__1 b_11__1
+   Net B_11__0 b_11__0
+   Net B_10__1 b_10__1
+   Net B_10__0 b_10__0
+   Net B_9__1 b_9__1
+   Net B_9__0 b_9__0
+   Net B_8__1 b_8__1
+   Net B_8__0 b_8__0
+   Net B_7__1 b_7__1
+   Net B_7__0 b_7__0
+   Net B_6__1 b_6__1
+   Net B_6__0 b_6__0
+   Net B_5__1 b_5__1
+   Net B_5__0 b_5__0
+   Net B_4__1 b_4__1
+   Net B_4__0 b_4__0
+   Net B_3__1 b_3__1
+   Net B_3__0 b_3__0
+   Net B_2__1 b_2__1
+   Net B_2__0 b_2__0
+   Net B_1__1 b_1__1
+   Net B_1__0 b_1__0
+   Net B_0__1 b_0__1
+   Net B_0__0 b_0__0
+   Net A_15__1 a_15__1
+   Net A_15__0 a_15__0
+   Net A_14__1 a_14__1
+   Net A_14__0 a_14__0
+   Net A_13__1 a_13__1
+   Net A_13__0 a_13__0
+   Net A_12__1 a_12__1
+   Net A_12__0 a_12__0
+   Net A_11__1 a_11__1
+   Net A_11__0 a_11__0
+   Net A_10__1 a_10__1
+   Net A_10__0 a_10__0
+   Net A_9__1 a_9__1
+   Net A_9__0 a_9__0
+   Net A_8__1 a_8__1
+   Net A_8__0 a_8__0
+   Net A_7__1 a_7__1
+   Net A_7__0 a_7__0
+   Net A_6__1 a_6__1
+   Net A_6__0 a_6__0
+   Net A_5__1 a_5__1
+   Net A_5__0 a_5__0
+   Net A_4__1 a_4__1
+   Net A_4__0 a_4__0
+   Net A_3__1 a_3__1
+   Net A_3__0 a_3__0
+   Net A_2__1 a_2__1
+   Net A_2__0 a_2__0
+   Net A_1__1 a_1__1
+   Net A_1__0 a_1__0
+   Net A_0__1 a_0__1
+   Net A_0__0 a_0__0
+   Inst ix95 x_ix95 nor02ii
+   Inst ix89 x_ix89 nor02ii
+   Inst ix83 x_ix83 nor02ii
+   Inst ix77 x_ix77 nor02ii
+   Inst ix71 x_ix71 nor02ii
+   Inst ix65 x_ix65 nor02ii
+   Inst ix59 x_ix59 nor02ii
+   Inst ix53 x_ix53 nor02ii
+   Inst ix47 x_ix47 nor02ii
+   Inst ix41 x_ix41 nor02ii
+   Inst ix35 x_ix35 nor02ii
+   Inst ix29 x_ix29 nor02ii
+   Inst ix23 x_ix23 nor02ii
+   Inst ix17 x_ix17 nor02ii
+   Inst ix11 x_ix11 nor02ii
+   Inst ix5 x_ix5 nor02ii
+   Inst ix91 x_ix91 and02
+   Inst ix85 x_ix85 and02
+   Inst ix79 x_ix79 and02
+   Inst ix73 x_ix73 and02
+   Inst ix67 x_ix67 and02
+   Inst ix61 x_ix61 and02
+   Inst ix55 x_ix55 and02
+   Inst ix49 x_ix49 and02
+   Inst ix43 x_ix43 and02
+   Inst ix37 x_ix37 and02
+   Inst ix31 x_ix31 and02
+   Inst ix25 x_ix25 and02
+   Inst ix19 x_ix19 and02
+   Inst ix13 x_ix13 and02
+   Inst ix7 x_ix7 and02
+   Inst ix1 x_ix1 and02
+   Inst ix274 x_ix274 xnor2
+   Inst ix270 x_ix270 xnor2
+   Inst ix266 x_ix266 xnor2
+   Inst ix262 x_ix262 xnor2
+   Inst ix258 x_ix258 xnor2
+   Inst ix254 x_ix254 xnor2
+   Inst ix250 x_ix250 xnor2
+   Inst ix246 x_ix246 xnor2
+   Inst ix242 x_ix242 xnor2
+   Inst ix238 x_ix238 xnor2
+   Inst ix234 x_ix234 xnor2
+   Inst ix230 x_ix230 xnor2
+   Inst ix226 x_ix226 xnor2
+   Inst ix222 x_ix222 xnor2
+   Inst ix218 x_ix218 xnor2
+   Inst ix214 x_ix214 xnor2
+End Cell
+
