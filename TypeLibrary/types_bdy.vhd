@@ -6,8 +6,7 @@ package body types is
   function "*"(a, b : chip) return chip is
     variable ret : chip;
   begin
-    ret(0) := a(0) and b(0);
-    ret(1) := ret(0) and (a(1) xor b(1));
+    ret := a * b;
     return ret;
   end function;
 
@@ -21,11 +20,30 @@ package body types is
     return ret;
   end function;
 
-  --function Chip2Int(a : chip) return chip_int is
-  --begin
-  --end function;
+  function chip_add_chip(a, b : chip; N_bit : positive) return signed is
+    variable a_s, b_s, ret : signed(N_bit - 1 downto 0);
+  begin
+    a_s := to_signed(to_integer(a), N_bit);
+    b_s := to_signed(to_integer(b), N_bit);
+    ret := a_s + b_s;
+    return ret;
+  end function;
 
-  --function Int2Chip(a : chip_int) return chip is
-  --begin
-  --end function;
+  function signed_add_chip(a : signed; b : chip) return signed is
+    constant N_bit : integer := a'length;
+    variable ret, b_s : signed(N_bit - 1 downto 0);
+  begin
+    b_s := to_signed(to_integer(b), N_bit);
+    ret := a + b_s;
+    return ret;
+  end function;
+
+  function chip_add_signed(a : chip; b : signed) return signed is
+    constant N_bit : integer := b'length;
+    variable ret, a_s : signed(N_bit - 1 downto 0);
+  begin
+    a_s := to_signed(to_integer(a), N_bit);
+    ret := a_s + b;
+    return ret;
+  end function;
 end package body;

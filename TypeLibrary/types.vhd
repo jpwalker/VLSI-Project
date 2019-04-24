@@ -2,19 +2,20 @@
 -- Jean P. Walker
 -- Definition of types and subtypes used within the project.
 
+library ieee;
+use ieee.numeric_bit.all;
+
 package types is
   -- Define chip type which uses two bits to store 3 possible integer values.
-  subtype chip is bit_vector(1 downto 0);
-  
-  -- Define chip_val which is an integer limited to -1 through 1.
-  --subtype chip_int is integer range -1 to 1;
+  subtype chip is signed(4 downto 0);
 
-  -- Define type which is an array of chips.  
+  -- Define chip_array which is an array of chips.  
   type chip_array is array(natural range <>) of chip;
   
   -- Define functions on chip.
   function "*"(a, b : chip) return chip;
   function "*"(a, b : chip_array) return chip_array;
-  --function Chip2Int(a : chip) return chip_int;
-  --function Int2Chip(a : chip_int) return chip;
+  function chip_add_chip(a, b : chip; N_bit : positive) return signed;
+  function signed_add_chip(a : signed; b : chip) return signed;
+  function chip_add_signed(a : chip; b : signed) return signed;
 end package;
