@@ -1,0 +1,242 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Eaccu
+Z0 w1556125418
+Z1 DPx4 work 5 types 0 22 IYK:>bQMD>CSC62KL]oOX0
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 11 numeric_bit 0 22 d<O?S;AIQfOzoHU3FDK]23
+Z4 dC:/Modeltech_pe_edu_10.4a/examples/Project
+Z5 8C:\Modeltech_pe_edu_10.4a\examples\Project\accu.vhd
+Z6 FC:\Modeltech_pe_edu_10.4a\examples\Project\accu.vhd
+l0
+L5
+VId6GZ4[U_6BDT[7`]i]Mz0
+!s100 a=H[^PC]ZZO^Pn>9AJLNQ0
+Z7 OP;C;10.4a;61
+32
+Z8 !s110 1556125539
+!i10b 1
+Z9 !s108 1556125539.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Modeltech_pe_edu_10.4a\examples\Project\accu.vhd|
+Z11 !s107 C:\Modeltech_pe_edu_10.4a\examples\Project\accu.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Amodel
+R1
+R2
+R3
+DEx4 work 4 accu 0 22 Id6GZ4[U_6BDT[7`]i]Mz0
+l13
+L12
+VX`l3S8BW3GGHP[AA[egi10
+!s100 UiTbP3>Vmza3mXW9Pn`fI0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eaccu_adder
+w1555702674
+R3
+DPx4 work 5 types 0 22 GnX_mJ@jRX4Yh@jJo43Rk1
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+Z15 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R4
+Z16 8C:/Modeltech_pe_edu_10.4a/examples/Project/accumulator.vhd
+Z17 FC:/Modeltech_pe_edu_10.4a/examples/Project/accumulator.vhd
+l0
+L8
+VVb4=GeRi>TH0<3Fk]b?bB2
+!s100 _Vf<d0jVGFmT9T_mmfXL41
+R7
+32
+!s110 1556123912
+!i10b 1
+!s108 1556123912.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/Project/accumulator.vhd|
+Z19 !s107 C:/Modeltech_pe_edu_10.4a/examples/Project/accumulator.vhd|
+!i113 1
+R12
+R13
+Eadder
+Z20 w1555019230
+R2
+R15
+R4
+Z21 8C:/Modeltech_pe_edu_10.4a/examples/package.vhd
+Z22 FC:/Modeltech_pe_edu_10.4a/examples/package.vhd
+l0
+L12
+VmG^RTQXm78JMob0H1DbNF0
+!s100 B7fm0nE8a0omdV69:6ghZ2
+R7
+32
+Z23 !s110 1555019231
+!i10b 1
+Z24 !s108 1555019231.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/package.vhd|
+Z26 !s107 C:/Modeltech_pe_edu_10.4a/examples/package.vhd|
+!i113 1
+R12
+R13
+Ecounter
+Z27 w1555034203
+R2
+R3
+R4
+R16
+R17
+l0
+L25
+VJ0PdO60A]GQ6U>`42kl1R3
+!s100 FVJWamJTPRC<ZK]j;?e[`0
+R7
+32
+Z28 !s110 1555034208
+!i10b 1
+Z29 !s108 1555034207.000000
+R18
+R19
+!i113 1
+R12
+R13
+Afoo
+R2
+R3
+DEx4 work 7 counter 0 22 J0PdO60A]GQ6U>`42kl1R3
+l36
+L34
+VX`QE:eJWMP]N_a[4@^IXN3
+!s100 0h00c:SA^k6OzHm8gWUlg3
+R7
+32
+R28
+!i10b 1
+R29
+R18
+R19
+!i113 1
+R12
+R13
+Enoc
+Z30 w1554929682
+R14
+R2
+R15
+R4
+Z31 8C:/Modeltech_pe_edu_10.4a/examples/Project/tr.vhd
+Z32 FC:/Modeltech_pe_edu_10.4a/examples/Project/tr.vhd
+l0
+L5
+V@G4B@19iXd=aWd7cO:kiC3
+!s100 ;gXBiO^K_zaL8PO7a[MQj0
+R7
+32
+Z33 !s110 1556123911
+!i10b 1
+Z34 !s108 1556123911.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/Project/tr.vhd|
+Z36 !s107 C:/Modeltech_pe_edu_10.4a/examples/Project/tr.vhd|
+!i113 1
+R12
+R13
+Adataflow
+R14
+R2
+R15
+DEx4 work 3 noc 0 22 @G4B@19iXd=aWd7cO:kiC3
+l54
+L18
+VWdQABb6kbK]NW867a_V320
+!s100 >jTdHf[8kD1k]54`T@7FP3
+R7
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R12
+R13
+Ppackage_sum
+R2
+R15
+R20
+R4
+R21
+R22
+l0
+L3
+VGoZ`;M3=^eaaI98EAI93>3
+!s100 Hzd6Ff;:oJ?Bnf<]DfMJM3
+R7
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R12
+R13
+Ptypes
+R2
+R3
+w1556124604
+R4
+8C:\Users\giris\Desktop\VLSI2_Project\TypeLibrary\types.vhd
+FC:\Users\giris\Desktop\VLSI2_Project\TypeLibrary\types.vhd
+l0
+L8
+VIYK:>bQMD>CSC62KL]oOX0
+!s100 jaSoR9Pm@[GOzZNXGN1Y52
+R7
+32
+b1
+!s110 1556124610
+!i10b 1
+!s108 1556124610.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\giris\Desktop\VLSI2_Project\TypeLibrary\types.vhd|
+!s107 C:\Users\giris\Desktop\VLSI2_Project\TypeLibrary\types.vhd|
+!i113 1
+R12
+R13
+Bbody
+R1
+R2
+R3
+Z37 w1556121133
+Z38 dC:/Users/giris/Desktop/VLSI2_Project/Accumulator
+Z39 8C:/Users/giris/Desktop/VLSI2_Project/TypeLibrary/types_bdy.vhd
+Z40 FC:/Users/giris/Desktop/VLSI2_Project/TypeLibrary/types_bdy.vhd
+l0
+L5
+Z41 VJR9FTAG0l`<;kbE=Z@ONc3
+Z42 !s100 >8oP1Km[aFA;AHaJ_l9<N3
+R7
+32
+Z43 !s110 1556133836
+!i10b 1
+!s108 1556133836.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/giris/Desktop/VLSI2_Project/TypeLibrary/types_bdy.vhd|
+!s107 C:/Users/giris/Desktop/VLSI2_Project/TypeLibrary/types_bdy.vhd|
+!i113 1
+R12
+R13
+Z45 nbody

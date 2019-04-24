@@ -1,0 +1,25 @@
+C:/Modeltech_pe_edu_10.4a/examples/Project/accu.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\examples\Project\accu.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package NUMERIC_BIT
+-- Loading package types
+-- Compiling entity accu
+-- Compiling architecture model of accu
+
+} {} {}} C:/Users/giris/Desktop/VLSI2_Project/TypeLibrary/types_bdy.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\giris\Desktop\VLSI2_Project\TypeLibrary\types_bdy.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package body types
+-- Loading package TEXTIO
+-- Loading package NUMERIC_BIT
+-- Loading package types
+
+} {} {}} C:/Users/giris/Desktop/VLSI2_Project/TypeLibrary/types.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\giris\Desktop\VLSI2_Project\TypeLibrary\types.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package NUMERIC_BIT
+-- Compiling package types
+
+} {} {}}
