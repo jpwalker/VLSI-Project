@@ -7,7 +7,7 @@ use ieee.numeric_bit.all;
 
 package types is
   -- Define chip type which uses two bits to store 3 possible integer values.
-  subtype chip is signed (4 downto 0);
+  subtype chip is signed(4 downto 0);
 
   -- Define chip_array which is an array of chips.  
   type chip_array is array(natural range <>) of chip;

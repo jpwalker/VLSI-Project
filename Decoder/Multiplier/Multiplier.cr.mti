@@ -1,6 +1,8 @@
 /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd {1 {vcom -work Mulitplier -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd
 Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
 -- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package NUMERIC_BIT
 -- Loading package types
 -- Compiling entity multiplier
 
@@ -8,6 +10,8 @@ Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
 Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
 -- Loading package STANDARD
 -- Compiling architecture dataflow of multiplier
+-- Loading package TEXTIO
+-- Loading package NUMERIC_BIT
 -- Loading package types
 -- Loading entity multiplier
 

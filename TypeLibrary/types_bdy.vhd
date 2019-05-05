@@ -2,6 +2,9 @@
 -- Jean P. Walker
 -- Body of functions defined in types.vhd
 
+library ieee;
+use ieee.numeric_bit.all;
+
 package body types is
   function "*"(a, b : chip) return chip is
     variable ret : chip;

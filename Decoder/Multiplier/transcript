@@ -1,0 +1,18 @@
+vcom -work Mulitplier -2002 -explicit /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package NUMERIC_BIT
+# -- Loading package types
+# -- Compiling entity multiplier
+# -- Compiling architecture dataflow of multiplier
+# ** Error: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is jpw33@osl22.njit.edu.
+# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.
+# ** Error: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is jpw33@osl22.njit.edu.
+# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.
+# ** Error: (vdel-134) Unable to remove locked optimized design "_opt2".  Locker is jpw33@osl22.njit.edu.
+# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.
+# ** Error: (vdel-134) Unable to remove locked optimized design "_opt3".  Locker is jpw33@osl23.njit.edu.
+# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.
+# ** Error: (vdel-134) Unable to remove locked optimized design "_opt4".  Locker is jpw33@osl23.njit.edu.
+# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.

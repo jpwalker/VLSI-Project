@@ -1,8 +1,0 @@
--- types_bdy.vhd
--- Jean P. Walker
--- Body of functions defined in types.vhd
-
-package body is
-begin
-  
-end package body;
