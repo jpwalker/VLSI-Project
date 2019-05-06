@@ -1,0 +1,53 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "example")
+(DATE "Tue Apr 16 16:43:22 2019")
+(VENDOR "class")
+(PROGRAM "Synopsys Design Compiler cmos")
+(VERSION "O-2018.06-SP2")
+(DIVIDER /)
+(VOLTAGE 5.00:5.00:5.00)
+(PROCESS "nom_pvt")
+(TEMPERATURE 25.00:25.00:25.00)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "example")
+  (INSTANCE)
+  (DELAY
+    (ABSOLUTE
+    (INTERCONNECT Q1_reg/QN Q2_reg/D (0.000:0.000:0.000))
+    (INTERCONNECT clk Q2_reg/CP (0.000:0.000:0.000))
+    (INTERCONNECT D Q1_reg/D (0.000:0.000:0.000))
+    (INTERCONNECT clk Q1_reg/CP (0.000:0.000:0.000))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "FD1")
+  (INSTANCE Q2_reg)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CP) Q (1.147:1.147:1.147) (1.390:1.390:1.390))
+    (IOPATH (posedge CP) QN (1.590:1.590:1.590) (1.370:1.370:1.370))
+    )
+  )
+  (TIMINGCHECK
+    (SETUP D (posedge CP) (0.800:0.800:0.800))
+    (HOLD D (posedge CP) (0.400:0.400:0.400))
+  )
+)
+(CELL
+  (CELLTYPE "FD1")
+  (INSTANCE Q1_reg)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CP) Q (1.147:1.147:1.147) (1.390:1.390:1.390))
+    (IOPATH (posedge CP) QN (1.793:1.793:1.793) (1.443:1.443:1.443))
+    )
+  )
+  (TIMINGCHECK
+    (SETUP D (posedge CP) (0.800:0.800:0.800))
+    (HOLD D (posedge CP) (0.400:0.400:0.400))
+  )
+)
+)

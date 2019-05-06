@@ -1,0 +1,7 @@
+
+/afs/cad.njit.edu/sw.common/synopsys/vO-2018.06-SP2/Design-Vision/syn/O-2018.06-SP2/libraries/syn/class.db
+
+create_clock [get_ports clk] -period 10 -waveform {0 5}
+set_input_delay -clock clk 2 [get_ports D]
+
+report_analysis_coverage -check_type setup
