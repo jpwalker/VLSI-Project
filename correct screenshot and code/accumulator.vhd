@@ -25,15 +25,16 @@ for i in 15 downto 0 loop
 sum := signed_add_chip(sum, chip_array(i));
 -- it performs the function being called by 
 end loop;
-	IF (CHIP_ARRAY'EVENT) THEN
-	counter := counter+1;
-		IF (counter=16) THEN
-		OUT_CHIP <= sum;
-		counter :=0;
+OUT_CHIP <= sum;
+	--IF (CHIP_ARRAY'LAST_VALUE /= CHIP_ARRAY) THEN
+	--counter := counter+1;
+		--IF (counter=16) THEN
+		--OUT_CHIP <= sum;
+		--counter :=0;
 		--ELSIF (counter=17) THEN
 
-		END IF;
-	END IF;
+		--END IF;
+	--END IF;
 end process accu;
 
 

@@ -9,9 +9,9 @@ use TypeLibrary.Types.all;
 
 package DecoderParts is
   component ChipRegisterSIPO is
-    port (ser_data : in chip;
-	  clk,clr : IN BIT;
-          pal_data : out chip_array(15 downto 0));
+	PORT(clr,clk,en : IN bit;
+			ser_data: IN chip;
+			pal_data: OUT chip_array(15 DOWNTO 0));
   end component;
 
   component Multiplier is
@@ -52,5 +52,10 @@ package DecoderParts is
 	PORT(D_bit :IN BIT;
 		clk:IN bit;
 		Q_bit: OUT BIT_VECTOR(3 DOWNTO 0));
+  END COMPONENT;
+
+  COMPONENT counter_load IS
+	PORT(clk : IN BIT;
+		chip_rdy: OUT bit);
   END COMPONENT;
 end package;

@@ -14,7 +14,7 @@ SIGNAL temp : bit_vector(3 DOWNTO 0);
 BEGIN
 	PROCESS(clk)
 	BEGIN
-	IF (RISING_EDGE(clk)) THEN
+	IF (clk'EVENT AND clk='1') THEN
 	FOR i IN  2 DOWNTO 0 LOOP
 	temp(i+1) <= temp(i);
 	END LOOP;
