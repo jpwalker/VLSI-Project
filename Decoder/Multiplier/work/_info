@@ -12,7 +12,7 @@ Echipmultiplier
 Z1 w1557191073
 Z2 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
 Z3 DPx4 ieee 11 numeric_bit 0 22 dJ7cADG9gSaEJH]d95l]o1
-Z4 DPx11 typelibrary 5 types 0 22 ZJ64YQhJF2oUfK3GQZIfA3
+Z4 DPx11 typelibrary 5 types 0 22 4SP2j_:8c=WD[TJHDKFJL1
 Z5 d/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier
 Z6 8/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/ChipMultiplier.vhd
 Z7 F/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/ChipMultiplier.vhd
@@ -22,9 +22,9 @@ V3S1?4M]5N@;R@Z>:HRh7F1
 !s100 T?@J^>mFV2Wc?IELoGHR71
 Z8 OE;C;10.2c;57
 32
-Z9 !s110 1557203010
+Z9 !s110 1557271382
 !i10b 1
-Z10 !s108 1557203010.125980
+Z10 !s108 1557271382.539618
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/ChipMultiplier.vhd|
 Z12 !s107 /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/ChipMultiplier.vhd|
 !i111 0
@@ -34,11 +34,11 @@ Att
 R2
 R3
 R4
-DEx4 work 14 chipmultiplier 0 22 3S1?4M]5N@;R@Z>:HRh7F1
+Z15 DEx4 work 14 chipmultiplier 0 22 3S1?4M]5N@;R@Z>:HRh7F1
 l17
 L15
-VHn=4^U@EN=o5hMZzBHhMi1
-!s100 Ae;O1XMb>YjFoV^gMSbfS1
+Z16 VHn=4^U@EN=o5hMZzBHhMi1
+Z17 !s100 Ae;O1XMb>YjFoV^gMSbfS1
 R8
 32
 R9
@@ -49,6 +49,74 @@ R12
 !i111 0
 R13
 R14
+Emultiplier
+w1557269540
+R2
+R3
+R4
+R5
+8/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd
+F/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd
+l0
+L8
+VfkCa`IhfcLgPPMWH6Yn?U1
+R8
+32
+R13
+R14
+R9
+!s100 KVb3RJ;?NBXaP?LP9>CIh2
+!i10b 1
+!s108 1557271382.103308
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd|
+!s107 /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd|
+!i111 0
+Adataflow
+Z18 w1557271378
+R2
+R3
+R4
+Z19 DEx4 work 10 multiplier 0 22 fkCa`IhfcLgPPMWH6Yn?U1
+Z20 8/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+Z21 F/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+l17
+L16
+Vh9N>]TP3>_IJ6A;STj0?J0
+R8
+32
+R9
+Z22 !s108 1557271382.217610
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd|
+Z24 !s107 /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd|
+R13
+R14
+!s100 ASdMDfiYnfeiON7nC1N9;0
+!i10b 1
+!i111 0
+Astruct
+R18
+R15
+R19
+R2
+R3
+R4
+DPx4 work 15 multiplierparts 0 22 cE5PNFib9lWJKlFITQag^3
+R20
+R21
+l8
+L7
+VNJE[N7:NmYXZC26F1hXdJ0
+R8
+32
+R9
+R22
+R23
+R24
+R13
+R14
+!s100 <zFcM74F2Mb5a2lL>?zQL3
+!i10b 1
+!i111 0
 Pmultiplierparts
 R2
 R3
@@ -62,12 +130,12 @@ L8
 VcE5PNFib9lWJKlFITQag^3
 R8
 32
+R9
 R13
 R14
 !s100 V?N?g^]l2=@RGg3Pmhj><3
-!s110 1557202975
 !i10b 1
-!s108 1557202975.083692
+!s108 1557271382.435998
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier_parts.vhd|
 !s107 /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier_parts.vhd|
 !i111 0
