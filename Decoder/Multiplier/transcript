@@ -1,18 +1,163 @@
-vcom -work Mulitplier -2002 -explicit /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
-# Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package NUMERIC_BIT
-# -- Loading package types
-# -- Compiling entity multiplier
-# -- Compiling architecture dataflow of multiplier
-# ** Error: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is jpw33@osl22.njit.edu.
-# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.
-# ** Error: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is jpw33@osl22.njit.edu.
-# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.
-# ** Error: (vdel-134) Unable to remove locked optimized design "_opt2".  Locker is jpw33@osl22.njit.edu.
-# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.
-# ** Error: (vdel-134) Unable to remove locked optimized design "_opt3".  Locker is jpw33@osl23.njit.edu.
-# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.
-# ** Error: (vdel-134) Unable to remove locked optimized design "_opt4".  Locker is jpw33@osl23.njit.edu.
-# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.
+# Compile of mult_DFarch.vhd failed with 1 errors.
+# Compile of multiplier.vhd was successful.
+# Compile of mult_DFarch.vhd failed with 1 errors.
+# Compile of mult_DFarch.vhd failed with 1 errors.
+# Compile of mult_DFarch.vhd failed with 1 errors.
+# Compile of multiplier.vhd was successful.
+# Compile of mult_DFarch.vhd failed with 1 errors.
+# Compile of multiplier_parts.vhd failed with 1 errors.
+# Compile of multiplier_parts.vhd was successful.
+# Compile of chip_multiplier.vhd failed with 1 errors.
+# Compile of chip_multiplier.vhd failed with 1 errors.
+# Compile of chip_multiplier.vhd failed with 1 errors.
+# Compile of chip_multiplier.vhd was successful.
+# Compile of multiplier_parts.vhd was successful.
+# Compile of mult_DFarch.vhd failed with 1 errors.
+# Compile of mult_DFarch.vhd was successful with warnings.
+# Compile of mult_DFarch.vhd was successful with warnings.
+# Compile of mult_DFarch.vhd failed with 1 errors.
+# Compile of mult_DFarch.vhd failed with 1 errors.
+# Compile of mult_DFarch.vhd was successful with warnings.
+# Compile of mult_DFarch.vhd was successful.
+vsim work.multiplier(struct)
+# vsim work.multiplier(struct) 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(15)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(14)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(13)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(12)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(11)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(10)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(9)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(8)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(7)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(6)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(5)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(4)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(3)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(2)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(1)/cm : ChipMultiplier" is not bound.
+# ** Warning: [1] /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd(12): (vopt-3473) Component instance "/multiplier/chipmulties(0)/cm : ChipMultiplier" is not bound.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.numeric_bit(body)
+# Loading typelibrary.types(body)
+# Loading work.multiplierparts
+# Loading work.multiplier(struct)#1
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(15) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(14) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(13) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(12) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(11) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(10) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(9) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(8) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(7) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(6) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(5) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(4) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(3) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(2) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(1) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(0) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+quit -sim
+# Compile of multiplier_parts.vhd was successful.
+vsim work.multiplier(struct)
+# vsim work.multiplier(struct) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.numeric_bit(body)
+# Loading typelibrary.types(body)
+# Loading work.multiplierparts
+# Loading work.multiplier(struct)#1
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(15) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(14) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(13) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(12) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(11) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(10) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(9) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(8) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(7) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(6) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(5) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(4) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(3) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(2) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(1) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# ** Warning: (vsim-3473) Component instance "cm : ChipMultiplier" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /multiplier/chipmulties(0) File: /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+# Compile of mult_DFarch.vhd was successful.
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.numeric_bit(body)
+# Loading typelibrary.types(body)
+# Loading work.multiplierparts
+# Loading work.multiplier(struct)#1
+# Loading work.chip_multiplier(tt)#1
+force a(0) -5 0
+force a(0) 5 10
+force a(0) 0 20
+force b(0) 1 0
+force b(0) 0 2
+force b(0) -1 7
+force b(0) 1 10
+force b(0) 0 12
+force b(0) -1 17
+force b(0) 1 20
+force b(0) 0 22
+force b(0) -1 27
+run 20
+run 10
+add wave -position insertpoint sim:/multiplier/chipmulties(0)/*
+# (vish-4014) No objects found matching '/multiplier/chipmulties(0)/*'.
+add wave -position insertpoint sim:/multiplier/chipmulties(0)/cm/*
+restart
+force a(0) -5 0
+force a(0) 5 10
+force a(0) 0 20
+force b(0) 1 0
+force b(0) -1 7
+force b(0) 0 2
+force b(0) 1 10
+force b(0) 0 12
+force b(0) -1 17
+force b(0) 1 20
+force b(0) 0 22
+force b(0) -1 27
+run 30
+# Break key hit 
+quit -sim
