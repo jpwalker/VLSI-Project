@@ -1,50 +1,44 @@
 #
 #
 # /afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/bin/Linux/spectrum 
-# Fri Apr 19 19:32:30 2019
+# Tue May  7 23:10:14 2019
 load_library tsmc018_typ.syn
 
-ls ../../..
+help read
 
-read -format vhd ../../../TypeLibrary
+read -format vhdl /afs/cad/u/j/p/jpw33/VLSI-2/Project/TypeLibrary/types.vhd -work TypeLibrary
 
-### Previous Command Failed
+read -format vhdl /afs/cad/u/j/p/jpw33/VLSI-2/Project/TypeLibrary/types_bdy.vhd -work TypeLibrary
 
-ls ../../../TypeLibrary
+read /afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/ChipMultiplier.vhd -work work
 
-read -format vhdl ../../../TypeLibrary/*.vhd
+read /afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier_parts.vhd -work work
 
-### Previous Command Failed
-
-read -format vhdl ../../../TypeLibrary/types.vhd ../../../TypeLibrary/types_bdy.vhd
-
-read -format vhdl -technology tsmc018 ../multiplier.vhd ../
+read /afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd -work work
 
 ### Previous Command Failed
 
-ls ../
+read /afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd -work work
 
-read -format vhdl -technology tsmc018 ../multiplier.vhd ../mult_DFarch.vhd
+help
+
+optimise
+
+### Previous Command Failed
+
+optimize
+
+write multiplier_syn.v
+
+
 
 help optimize
 
-optimize -target tsmc018 -macro multiplier(dataflow)
+optimize -hierarchy flatten
 
-### Previous Command Failed
+write multiplier_syn.v
 
-optimize -target tsmc018_typ -macro multiplier(dataflow)
 
-### Previous Command Failed
 
-read -format vhdl -technology tsmc018_typ ../multiplier.vhd ../mult_DFarch.vhd
-
-optimize -target tsmc018_typ -macro multiplier
-
-### Previous Command Failed
-
-optimize -target tsmc018_typ -macro
-
-write multiplier.syn.v
-
-exit
+ls
 

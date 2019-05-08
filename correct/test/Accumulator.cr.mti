@@ -1,15 +1,4 @@
-/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/correct/test/chipadder.vhd {1 {vcom -work work -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/correct/test/chipadder.vhd
-Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package NUMERIC_BIT
--- Loading package types
--- Loading package Accumulator
--- Compiling entity ChipAdder
--- Compiling architecture struct of ChipAdder
--- Loading entity Bit9Adder
-
-} {} {}} /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/correct/test/accumulator.vhd {1 {vcom -work work -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/correct/test/accumulator.vhd
+/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/correct/test/accumulator.vhd {1 {vcom -work work -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/correct/test/accumulator.vhd
 Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -20,6 +9,17 @@ Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
 -- Compiling architecture struct of accu
 -- Loading entity Bit9Adder
 -- Loading entity ChipAdder
+
+} {} {}} /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/correct/test/chipadder.vhd {1 {vcom -work work -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/correct/test/chipadder.vhd
+Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package NUMERIC_BIT
+-- Loading package types
+-- Loading package Accumulator
+-- Compiling entity ChipAdder
+-- Compiling architecture struct of ChipAdder
+-- Loading entity Bit9Adder
 
 } {} {}} /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/correct/test/accumulator_parts.vhd {1 {vcom -work work -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/correct/test/accumulator_parts.vhd
 Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013

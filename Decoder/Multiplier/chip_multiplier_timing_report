@@ -1,0 +1,135 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 5
+        -sort_by group
+Design : ChipMultiplier
+Version: O-2018.06-SP2
+Date   : Tue May  7 22:54:12 2019
+****************************************
+
+Operating Conditions: nom_pvt   Library: class
+Wire Load Model Mode: top
+
+  Startpoint: A[3] (input port)
+  Endpoint: C[4] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ChipMultiplier     05x05                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[3] (in)                                0.00       0.00 r
+  U105/Z (IV)                              0.44       0.44 f
+  U75/Z (NR3)                              3.18       3.62 r
+  U56/Z (AO2)                              0.58       4.21 f
+  U55/Z (NR2)                              1.17       5.37 r
+  U54/Z (MUX21L)                           0.44       5.82 f
+  U53/Z (AO7)                              0.62       6.44 r
+  C[4] (out)                               0.00       6.44 r
+  data arrival time                                   6.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: C[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ChipMultiplier     05x05                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[3] (in)                                0.00       0.00 r
+  U105/Z (IV)                              0.44       0.44 f
+  U75/Z (NR3)                              3.18       3.62 r
+  U72/Z (AO6)                              0.38       4.01 f
+  U71/Z (OR2)                              0.93       4.94 f
+  U65/Z (ND4)                              0.71       5.64 r
+  C[2] (out)                               0.00       5.64 r
+  data arrival time                                   5.64
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[1] (input port)
+  Endpoint: C[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ChipMultiplier     05x05                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[1] (in)                                0.00       0.00 r
+  U90/Z (IV)                               0.37       0.37 f
+  U89/Z (NR2)                              2.14       2.51 r
+  U88/Z (AN3)                              1.21       3.72 r
+  U87/Z (IV)                               0.23       3.95 f
+  U85/Z (AO6)                              0.92       4.87 r
+  C[0] (out)                               0.00       4.87 r
+  data arrival time                                   4.87
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: C[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ChipMultiplier     05x05                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[3] (in)                                0.00       0.00 r
+  U105/Z (IV)                              0.44       0.44 f
+  U75/Z (NR3)                              3.18       3.62 r
+  U74/Z (AO3)                              0.55       4.17 f
+  U73/Z (AO7)                              0.62       4.79 r
+  C[1] (out)                               0.00       4.79 r
+  data arrival time                                   4.79
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: C[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ChipMultiplier     05x05                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[3] (in)                                0.00       0.00 r
+  U105/Z (IV)                              0.44       0.44 f
+  U75/Z (NR3)                              3.18       3.62 r
+  U61/Z (ND2)                              0.25       3.87 f
+  U58/Z (AO3)                              0.62       4.49 r
+  C[3] (out)                               0.00       4.49 r
+  data arrival time                                   4.49
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+

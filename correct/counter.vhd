@@ -1,7 +1,3 @@
-LIBRARY IEEE;
-USE IEEE.STD_LOGIC_1164.ALL;
-USE IEEE.NUMERIC_STD.ALL;
-
 ENTITY counter IS
 	PORT(data_pass : IN BIT;
 			msg_rdy : OUT BIT);

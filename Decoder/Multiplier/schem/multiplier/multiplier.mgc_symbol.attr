@@ -1,6 +1,6 @@
-A 5 u mgc_symbol 5cba5d78ae4a.03.80.eb.2c.48.00.52.d4 1 2 1 0
-V v 1 2 5cba5d78ae4a.03.80.eb.2c.48.01.52.d4
+A 5 u mgc_symbol 5cd25535cdff.03.80.eb.2c.48.00.7a.4f 1 2 1 0
+V v 1 2 5cd25535cdff.03.80.eb.2c.48.01.7a.4f
 F f 1 "multiplier.smbl_1"
 F o 0 
 O 1
-R csduv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/part" 1 Eddm_part 5cba5d78b37d.03.80.eb.2c.48.01.52.d4 5cba5d78b37d.03.80.eb.2c.48.00.52.d4
+R csduv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/part" 1 Eddm_part 5cd25535d3c3.03.80.eb.2c.48.01.7a.4f 5cd25535d3c3.03.80.eb.2c.48.00.7a.4f

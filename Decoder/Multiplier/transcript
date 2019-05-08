@@ -1,0 +1,63 @@
+# Compile of ChipMultiplier.vhd failed with 1 errors.
+# Compile of ChipMultiplier.vhd failed with 1 errors.
+# Compile of ChipMultiplier.vhd failed with 1 errors.
+# Compile of ChipMultiplier.vhd was successful.
+# Compile of mult_DFarch.vhd was successful.
+# ** Error: (vdel-11) Could not find work.multiplier(struct).
+# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.
+# ** Error: (vdel-11) Could not find work.multiplier(dataflow).
+# /afs/cad.njit.edu/sw.common/mentor.2012/modelsim/modeltech/linux/vdel failed.
+# Compile of multiplier.vhd was successful.
+# Compile of mult_DFarch.vhd failed with 1 errors.
+# Compile of multiplier_parts.vhd was successful.
+# Compile of ChipMultiplier.vhd was successful.
+# 4 compiles, 1 failed with 1 error. 
+# Compile of mult_DFarch.vhd was successful.
+vsim work.multiplier(struct)
+# vsim work.multiplier(struct) 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.numeric_bit(body)
+# Loading typelibrary.types(body)
+# Loading work.multiplierparts
+# Loading work.multiplier(struct)#1
+# Loading work.chipmultiplier(dataflow)#1
+add wave -position insertpoint sim:/multiplier/*
+mem load -filltype value -filldata 01 -fillradix hexadecimal /multiplier/A(15)
+mem load -filltype value -filldata 03 -fillradix hexadecimal /multiplier/A(14)
+mem load -filltype value -filldata 04 -fillradix hexadecimal /multiplier/A(13)
+mem load -filltype value -filldata 05 -fillradix hexadecimal /multiplier/A(12)
+mem load -filltype value -filldata 1a -fillradix hexadecimal /multiplier/A(11)
+mem load -filltype value -filldata 18 -fillradix hexadecimal /multiplier/A(10)
+mem load -filltype value -filldata 0a -fillradix hexadecimal /multiplier/A(9)
+mem load -filltype value -filldata 01 -fillradix hexadecimal /multiplier/B(15)
+mem load -filltype value -filldata {1f } -fillradix hexadecimal /multiplier/B(14)
+mem load -filltype value -filldata 01 -fillradix hexadecimal /multiplier/B(12)
+mem load -filltype value -filldata 1f -fillradix hexadecimal /multiplier/B(11)
+mem load -filltype value -filldata 01 -fillradix hexadecimal /multiplier/B(9)
+run 10
+# Compile of multiplier.vhd was successful.
+# Compile of mult_DFarch.vhd was successful.
+# Compile of multiplier_parts.vhd was successful.
+# Compile of ChipMultiplier.vhd failed with 1 errors.
+# 4 compiles, 1 failed with 1 error. 
+# Compile of ChipMultiplier.vhd failed with 1 errors.
+# Compile of multiplier.vhd was successful.
+# Compile of mult_DFarch.vhd was successful.
+# Compile of multiplier_parts.vhd was successful.
+# Compile of ChipMultiplier.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.numeric_bit(body)
+# Loading typelibrary.types(body)
+# Loading work.multiplierparts
+# Loading work.multiplier(struct)#1
+# Loading work.chipmultiplier(dataflow)#1
+mem load -filltype value -filldata {00 1f 00 01 1f 00 01} -fillradix hexadecimal /multiplier/B
+mem load -filltype value -filldata {01 03 04 05 1a 18 0a} -fillradix hexadecimal /multiplier/A
+run 10
+quit -sim

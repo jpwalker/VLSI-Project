@@ -1,0 +1,575 @@
+* LVS netlist generated with ICnet by 'jpw33' on Wed May  8 2019 at 02:05:30
+
+*
+* Globals.
+*
+.global GND VDD
+
+*
+* Component pathname : $ADK/parts/nand02
+*
+.subckt nand02  Y A0 A1
+
+        M_I$472 Y A1 VDD VDD p L=1.2u W=7.2u
+        M_I$471 Y A0 VDD VDD p L=1.2u W=7.2u
+        M_I$4 Y A0 N$7 GND n L=1.2u W=6u
+        M_I$5 N$7 A1 GND GND n L=1.2u W=6u
+.ends nand02
+
+*
+* Component pathname : $ADK/parts/oai21
+*
+.subckt oai21  A0 A1 B0 Y
+
+        M_I$5 N$7 B0 GND GND n L=1.2u W=6u
+        M_I$4 Y A1 N$7 GND n L=1.2u W=6u
+        M_I$3 Y A0 N$7 GND n L=1.2u W=6u
+        M_I$12 Y B0 VDD VDD p L=1.2u W=7.2u
+        M_I$2 Y A1 N$9 VDD p L=1.2u W=14.4u
+        M_I$1 N$9 A0 VDD VDD p L=1.2u W=14.4u
+.ends oai21
+
+*
+* Component pathname : $ADK/parts/xnor2
+*
+.subckt xnor2  Y A0 A1
+
+        M_I$218 N$213 A1 GND GND n L=1.2u W=6u
+        M_I$217 N$212 A0 N$213 GND n L=1.2u W=6u
+        M_I$9 N$212 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$8 N$212 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$7 N$3 N$212 GND GND n L=1.2u W=6u
+        M_I$6 Y A1 N$3 GND n L=1.2u W=6u
+        M_I$5 Y A0 N$3 GND n L=1.2u W=6u
+        M_I$4 Y A1 N$1 VDD p L=1.2u W=15.6u
+        M_I$3 Y N$212 VDD VDD p L=1.2u W=7.8u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=15.6u
+.ends xnor2
+
+*
+* Component pathname : $ADK/parts/xor2
+*
+.subckt xor2  Y A0 A1
+
+        M_I$421 Y N$4 GND GND n L=1.2u W=3u
+        M_I$420 Y N$4 VDD VDD p L=1.2u W=5.4u
+        M_I$218 N$213 A1 GND GND n L=1.2u W=6u
+        M_I$217 N$212 A0 N$213 GND n L=1.2u W=6u
+        M_I$9 N$212 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$8 N$212 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$7 N$3 N$212 GND GND n L=1.2u W=6u
+        M_I$6 N$4 A1 N$3 GND n L=1.2u W=6u
+        M_I$5 N$4 A0 N$3 GND n L=1.2u W=6u
+        M_I$4 N$4 A1 N$1 VDD p L=1.2u W=15.6u
+        M_I$3 N$4 N$212 VDD VDD p L=1.2u W=7.8u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=15.6u
+.ends xor2
+
+*
+* Component pathname : $ADK/parts/aoi22
+*
+.subckt aoi22  B1 A0 A1 B0 Y
+
+        M_I$425 Y B0 N$9 GND n L=1.2u W=6u
+        M_I$426 Y B1 N$4 VDD p L=1.2u W=7.8u
+        M_I$12 N$8 A1 GND GND n L=1.2u W=6u
+        M_I$11 Y A0 N$8 GND n L=1.2u W=6u
+        M_I$7 Y B0 N$4 VDD p L=1.2u W=7.8u
+        M_I$6 N$4 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$5 N$4 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$13 N$9 B1 GND GND n L=1.2u W=6u
+.ends aoi22
+
+*
+* Component pathname : $ADK/parts/inv01
+*
+.subckt inv01  A Y
+
+        M_I$411 Y A VDD VDD p L=1.2u W=5.4u
+        M_I$412 Y A GND GND n L=1.2u W=3u
+.ends inv01
+
+*
+* Component pathname : $ADK/parts/mux21
+*
+.subckt mux21  S0 A0 A1 Y
+
+        M_I$5 Y S0 N$10 VDD p L=1.2u W=10.8u
+        M_I$13 N$6 A1 GND GND n L=1.2u W=6u
+        M_I$12 Y S0 N$6 GND n L=1.2u W=6u
+        M_I$17 Y N$7 N$5 VDD p L=1.2u W=10.8u
+        M_I$16 N$5 A1 VDD VDD p L=1.2u W=10.8u
+        M_I$7 N$4 A0 GND GND n L=1.2u W=6u
+        M_I$6 Y N$7 N$4 GND n L=1.2u W=6u
+        M_I$4 N$10 A0 VDD VDD p L=1.2u W=10.8u
+        M_I$3 N$7 S0 GND GND n L=1.2u W=3u
+        M_I$2 N$7 S0 VDD VDD p L=1.2u W=5.4u
+.ends mux21
+
+*
+* Component pathname : $ADK/parts/nor02
+*
+.subckt nor02  A0 A1 Y
+
+        M_I$5 Y A0 GND GND n L=1.2u W=3u
+        M_I$4 Y A1 GND GND n L=1.2u W=3u
+        M_I$3 Y A1 N$1 VDD p L=1.2u W=7.8u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=7.8u
+.ends nor02
+
+*
+* Component pathname : $ADK/parts/aoi32
+*
+.subckt aoi32  A0 A1 A2 B0 B1 Y
+
+        M_I$12 N$8 B1 GND GND n L=1.2u W=6u
+        M_I$11 Y B0 N$8 GND n L=1.2u W=6u
+        M_I$10 N$7 A2 GND GND n L=1.2u W=9u
+        M_I$9 N$6 A1 N$7 GND n L=1.2u W=9u
+        M_I$8 Y A0 N$6 GND n L=1.2u W=9u
+        M_I$6 Y B0 N$14 VDD p L=1.2u W=7.8u
+        M_I$5 Y B1 N$14 VDD p L=1.2u W=7.8u
+        M_I$4 N$14 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$3 N$14 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$2 N$14 A2 VDD VDD p L=1.2u W=7.8u
+.ends aoi32
+
+*
+* Component pathname : $HOME/VLSI-2/Project/correct/test/schem/accu
+*
+.subckt accu  B[0] B[1] B[2] B[3] B[4] B[5] B[6] B[7] B[8] A_9__4 A_10__0
++ A_10__1 A_10__2 A_10__3 A_10__4 A_11__0 A_11__1 A_11__2 A_11__3 A_11__4
++ A_12__0 A_12__1 A_12__2 A_12__3 A_12__4 A_13__0 A_13__1 A_13__2 A_13__3
++ A_13__4 A_14__0 A_14__1 A_14__2 A_14__3 A_14__4 A_15__0 A_15__1 A_15__2
++ A_15__3 A_15__4 A_3__2 A_3__3 A_3__4 A_4__0 A_4__1 A_4__2 A_4__3 A_4__4
++ A_5__0 A_5__1 A_5__2 A_5__3 A_5__4 A_6__0 A_6__1 A_6__2 A_6__3 A_6__4
++ A_7__0 A_7__1 A_7__2 A_7__3 A_7__4 A_8__0 A_8__1 A_8__2 A_8__3 A_8__4
++ A_9__0 A_9__1 A_9__2 A_9__3 A_0__0 A_0__1 A_0__2 A_0__3 A_0__4 A_1__0
++ A_1__1 A_1__2 A_1__3 A_1__4 A_2__0 A_2__1 A_2__2 A_2__3 A_2__4 A_3__0
++ A_3__1
+
+        X_ix1184 nx1183 A_13__4 A_12__4 nand02
+        X_ix43 nx1527 nx1187 nx1191 nx42 oai21
+        X_ix51 nx1527 nx1377 nx1191 nx50 oai21
+        X_ix55 nx1529 nx1377 nx1191 nx54 oai21
+        X_ix1190 A_14__4 A_15__4 nx1191 nx1189 oai21
+        X_ix1182 A_12__4 A_13__4 nx1183 nx1181 oai21
+        X_ix115 nx1367 nx1525 nx1183 nx114 oai21
+        X_ix103 nx1179 nx1523 nx1183 nx102 oai21
+        X_ix111 nx1367 nx1523 nx1183 nx110 oai21
+        X_ix1438 nx1437 nx54 A_12__4 xnor2
+        X_ix235 nx234 nx1435 nx232 xnor2
+        X_ix1433 nx1432 nx234 nx582 xnor2
+        X_ix1442 nx1441 A_13__4 nx114 xnor2
+        X_ix233 nx232 nx1441 nx230 xnor2
+        X_ix1176 nx1175 nx1177 nx1185 xnor2
+        X_ix1166 nx1165 nx1167 nx1175 xnor2
+        X_ix1266 nx1265 nx140 nx138 xnor2
+        X_ix487 nx486 nx216 nx1265 xnor2
+        X_ix1364 nx1363 nx1365 nx1375 xnor2
+        X_ix1360 nx1359 nx1361 nx1363 xnor2
+        X_ix467 nx466 nx224 nx1425 xnor2
+        X_ix231 nx230 nx1445 A_10__4 xnor2
+        X_ix1426 nx1425 nx120 nx118 xnor2
+        X_ix1186 nx1185 nx1187 nx1535 xor2
+        X_ix119 nx118 nx50 nx6 xor2
+        X_ix139 nx138 nx42 nx1535 xor2
+        X_ix1376 nx1375 nx1377 nx1535 xor2
+        X_ix1436 nx1435 nx6 nx1437 xor2
+        X_ix1178 nx1177 nx1179 nx98 xor2
+        X_ix141 nx140 nx102 nx98 xor2
+        X_ix1366 nx1365 nx1367 nx98 xor2
+        X_ix121 nx120 nx110 nx98 xor2
+        X_ix1378 nx42 A_15__4 A_14__4 nx1535 nx1377 aoi22
+        X_ix1368 nx98 A_13__4 A_12__4 nx102 nx1367 aoi22
+        X_ix7 nx1189 nx6 inv01
+        X_ix1534 nx1189 nx1535 inv01
+        X_ix1526 nx1535 nx1527 inv01
+        X_ix1528 nx1535 nx1529 inv01
+        X_ix99 nx1181 nx98 inv01
+        X_ix1524 nx98 nx1525 inv01
+        X_ix1522 nx98 nx1523 inv01
+        X_ix217 nx1175 nx1167 nx1185 nx216 mux21
+        X_ix1362 nx1265 nx216 nx138 nx1361 mux21
+        X_ix225 nx1363 nx1361 nx1375 nx224 mux21
+        X_ix1446 nx1425 nx224 nx118 nx1445 mux21
+        X_ix1192 nx1191 A_15__4 A_14__4 nand02
+        X_ix339 nx1515 nx1151 nx1155 nx338 oai21
+        X_ix347 nx1515 nx1346 nx1155 nx346 oai21
+        X_ix1451 nx1450 A_11__4 nx290 xnor2
+        X_ix583 nx582 nx1448 nx580 xnor2
+        X_ix1339 nx1338 nx1340 nx1342 xnor2
+        X_ix1337 nx1336 nx1338 nx1359 xnor2
+        X_ix1157 nx1156 nx568 nx1336 xnor2
+        X_ix469 nx468 nx458 nx1417 xnor2
+        X_ix1414 nx1413 nx468 nx466 xnor2
+        X_ix1409 nx1408 nx1410 nx1413 xnor2
+        X_ix1459 nx1458 nx576 A_6__4 xnor2
+        X_ix465 nx464 nx350 nx1456 xnor2
+        X_ix581 nx580 nx464 nx1458 xnor2
+        X_ix1343 nx1342 nx1344 nx1349 xnor2
+        X_ix1240 nx1239 nx1241 nx1245 xnor2
+        X_ix1252 nx1251 nx374 nx372 xnor2
+        X_ix489 nx488 nx450 nx1251 xnor2
+        X_ix1246 nx1245 nx488 nx486 xnor2
+        X_ix1138 nx1137 nx1139 nx1147 xnor2
+        X_ix1136 nx1135 nx1137 nx1165 xnor2
+        X_ix1177 nx1176 nx560 nx1135 xnor2
+        X_ix1148 nx1147 nx1149 nx1157 xnor2
+        X_ix1418 nx1417 nx354 nx352 xnor2
+        X_ix1449 nx1448 nx1450 nx300 xor2
+        X_ix1158 nx1157 nx1159 nx274 xor2
+        X_ix1350 nx1349 nx1351 nx274 xor2
+        X_ix373 nx372 nx278 nx274 xor2
+        X_ix353 nx352 nx286 nx274 xor2
+        X_ix1345 nx1344 nx1346 nx1537 xor2
+        X_ix375 nx374 nx338 nx1537 xor2
+        X_ix1150 nx1149 nx1151 nx1537 xor2
+        X_ix355 nx354 nx346 nx300 xor2
+        X_ix1352 nx274 A_11__4 A_10__4 nx278 nx1351 aoi22
+        X_ix1347 nx338 A_9__4 A_8__4 nx1537 nx1346 aoi22
+        X_ix275 nx1161 nx274 inv01
+        X_ix1520 nx274 nx1521 inv01
+        X_ix1518 nx274 nx1519 inv01
+        X_ix477 nx1359 nx476 inv01
+        X_ix1462 nx466 nx1461 inv01
+        X_ix1516 nx1537 nx1517 inv01
+        X_ix301 nx1153 nx300 inv01
+        X_ix1536 nx1153 nx1537 inv01
+        X_ix1335 nx486 nx1334 inv01
+        X_ix497 nx1165 nx496 inv01
+        X_ix1514 nx1537 nx1515 inv01
+        X_ix459 nx1342 nx1340 nx1349 nx458 mux21
+        X_ix1411 nx1336 nx568 nx476 nx1410 mux21
+        X_ix1457 nx1417 nx458 nx352 nx1456 mux21
+        X_ix577 nx1413 nx1410 nx1461 nx576 mux21
+        X_ix569 nx1245 nx1241 nx1334 nx568 mux21
+        X_ix1341 nx1251 nx450 nx372 nx1340 mux21
+        X_ix451 nx1147 nx1139 nx1157 nx450 mux21
+        X_ix1242 nx1135 nx560 nx496 nx1241 mux21
+        X_ix1164 nx1163 A_11__4 A_10__4 nand02
+        X_ix1156 nx1155 A_9__4 A_8__4 nand02
+        X_ix291 nx1351 nx1521 nx1163 nx290 oai21
+        X_ix1162 A_10__4 A_11__4 nx1163 nx1161 oai21
+        X_ix279 nx1159 nx1519 nx1163 nx278 oai21
+        X_ix287 nx1351 nx1519 nx1163 nx286 oai21
+        X_ix351 nx1517 nx1346 nx1155 nx350 oai21
+        X_ix1154 A_8__4 A_9__4 nx1155 nx1153 oai21
+        X_ix1130 nx1129 A_7__4 A_6__4 nand02
+        X_ix1122 nx1121 A_5__4 A_4__4 nand02
+        X_ix641 nx1324 nx1513 nx1129 nx640 oai21
+        X_ix1128 A_6__4 A_7__4 nx1129 nx1127 oai21
+        X_ix629 nx1125 nx1511 nx1129 nx628 oai21
+        X_ix637 nx1324 nx1511 nx1129 nx636 oai21
+        X_ix1120 A_4__4 A_5__4 nx1121 nx1119 oai21
+        X_ix701 nx1509 nx1319 nx1121 nx700 oai21
+        X_ix689 nx1507 nx1117 nx1121 nx688 oai21
+        X_ix697 nx1507 nx1319 nx1121 nx696 oai21
+        X_ix1468 nx1467 A_7__4 nx640 xnor2
+        X_ix827 nx826 nx1465 nx824 xnor2
+        X_ix1281 nx1280 nx826 nx1475 xnor2
+        X_ix1230 nx1229 nx724 nx722 xnor2
+        X_ix1041 nx1040 nx800 nx1229 xnor2
+        X_ix1312 nx1311 nx1313 nx1315 xnor2
+        X_ix1316 nx1315 nx1317 nx1322 xnor2
+        X_ix1104 nx1103 nx1105 nx1113 xnor2
+        X_ix1114 nx1113 nx1115 nx1123 xnor2
+        X_ix815 nx814 nx700 nx1473 xnor2
+        X_ix1145 nx1144 nx808 nx1402 xnor2
+        X_ix1403 nx1402 nx704 nx702 xnor2
+        X_ix1466 nx1465 nx1467 nx650 xor2
+        X_ix1323 nx1322 nx1324 nx624 xor2
+        X_ix723 nx722 nx628 nx624 xor2
+        X_ix1124 nx1123 nx1125 nx624 xor2
+        X_ix703 nx702 nx636 nx624 xor2
+        X_ix725 nx724 nx688 nx1539 xor2
+        X_ix1318 nx1317 nx1319 nx1539 xor2
+        X_ix1116 nx1115 nx1117 nx1539 xor2
+        X_ix825 nx824 nx814 nx822 xor2
+        X_ix705 nx704 nx696 nx650 xor2
+        X_ix1325 nx624 A_7__4 A_6__4 nx628 nx1324 aoi22
+        X_ix1320 nx688 A_5__4 A_4__4 nx1539 nx1319 aoi22
+        X_ix1512 nx624 nx1513 inv01
+        X_ix625 nx1127 nx624 inv01
+        X_ix1510 nx624 nx1511 inv01
+        X_ix651 nx1119 nx650 inv01
+        X_ix1538 nx1119 nx1539 inv01
+        X_ix1506 nx1539 nx1507 inv01
+        X_ix1508 nx1539 nx1509 inv01
+        X_ix1314 nx1229 nx800 nx722 nx1313 mux21
+        X_ix809 nx1315 nx1313 nx1322 nx808 mux21
+        X_ix801 nx1113 nx1105 nx1123 nx800 mux21
+        X_ix1474 nx1402 nx808 nx702 nx1473 mux21
+        X_ix1480 nx1479 nx874 A_0__4 xnor2
+        X_ix1478 nx1477 nx1479 nx1482 xnor2
+        X_ix1476 nx1475 nx1477 nx1485 xnor2
+        X_ix1204 nx1203 nx1205 nx1209 xnor2
+        X_ix1202 nx1201 nx1203 nx1239 xnor2
+        X_ix1216 nx1215 nx944 nx942 xnor2
+        X_ix1043 nx1042 nx1020 nx1215 xnor2
+        X_ix1210 nx1209 nx1042 nx1040 xnor2
+        X_ix1159 nx1158 nx1122 nx1287 xnor2
+        X_ix1280 nx1279 nx1158 nx1156 xnor2
+        X_ix1294 nx1293 nx1295 nx1306 xnor2
+        X_ix1290 nx1289 nx1291 nx1293 xnor2
+        X_ix1288 nx1287 nx1289 nx1311 xnor2
+        X_ix1275 nx1274 nx1489 nx1272 xnor2
+        X_ix1486 nx1485 nx1256 nx1274 xnor2
+        X_ix1143 nx1142 nx1134 nx1394 xnor2
+        X_ix1391 nx1390 nx1142 nx1144 xnor2
+        X_ix1386 nx1385 nx1387 nx1390 xnor2
+        X_ix1384 nx1383 nx1385 nx1408 xnor2
+        X_ix1483 nx1482 A_1__4 nx932 xnor2
+        X_ix1086 nx1085 nx1087 nx1095 xnor2
+        X_ix1076 nx1075 nx1077 nx1085 xnor2
+        X_ix1074 nx1073 nx1075 nx1103 xnor2
+        X_ix1395 nx1394 nx1136 nx1138 xnor2
+        X_ix1096 nx1095 nx1097 nx1541 xor2
+        X_ix943 nx942 nx862 nx1541 xor2
+        X_ix1139 nx1138 nx870 nx822 xor2
+        X_ix1307 nx1306 nx1308 nx1541 xor2
+        X_ix945 nx944 nx920 nx916 xor2
+        X_ix1296 nx1295 nx1297 nx916 xor2
+        X_ix1088 nx1087 nx1089 nx916 xor2
+        X_ix1137 nx1136 nx928 nx916 xor2
+        X_ix1298 nx916 A_1__4 A_0__4 nx920 nx1297 aoi22
+        X_ix1502 nx1541 nx1503 inv01
+        X_ix1504 nx1541 nx1505 inv01
+        X_ix823 nx1099 nx822 inv01
+        X_ix1540 nx1099 nx1541 inv01
+        X_ix1286 nx1040 nx1285 inv01
+        X_ix941 nx1311 nx940 inv01
+        X_ix1493 nx1144 nx1492 inv01
+        X_ix917 nx1091 nx916 inv01
+        X_ix1500 nx916 nx1501 inv01
+        X_ix1498 nx916 nx1499 inv01
+        X_ix1098 nx979 nx854 A_2__3 nx1097 mux21
+        X_ix1123 nx1209 nx1205 nx1285 nx1122 mux21
+        X_ix1292 nx1215 nx1020 nx942 nx1291 mux21
+        X_ix1388 nx1287 nx1122 nx940 nx1387 mux21
+        X_ix1135 nx1293 nx1291 nx1306 nx1134 mux21
+        X_ix1490 nx1394 nx1134 nx1138 nx1489 mux21
+        X_ix1257 nx1383 nx1381 nx1408 nx1256 mux21
+        X_ix1273 nx1390 nx1387 nx1492 nx1272 mux21
+        X_ix1021 nx1085 nx1077 nx1095 nx1020 mux21
+        X_ix1102 nx1101 A_3__4 A_2__4 nand02
+        X_ix1094 nx1093 A_1__4 A_0__4 nand02
+        X_ix863 nx1503 nx1097 nx1101 nx862 oai21
+        X_ix871 nx1503 nx1308 nx1101 nx870 oai21
+        X_ix875 nx1505 nx1308 nx1101 nx874 oai21
+        X_ix1100 A_2__4 A_3__4 nx1101 nx1099 oai21
+        X_ix1092 A_0__4 A_1__4 nx1093 nx1091 oai21
+        X_ix933 nx1297 nx1501 nx1093 nx932 oai21
+        X_ix921 nx1089 nx1499 nx1093 nx920 oai21
+        X_ix929 nx1297 nx1499 nx1093 nx928 oai21
+        X_ix963 nx962 nx854 nx979 xnor2
+        X_ix980 nx979 A_2__3 A_3__3 xnor2
+        X_ix1309 nx862 A_3__4 A_2__4 nx1541 nx1308 aoi22
+        X_ix549 nx735 nx745 nx548 nor02
+        X_ix435 nx737 nx741 nx434 nor02
+        X_ix744 nx743 A_11__0 A_10__0 nand02
+        X_ix740 nx739 A_9__0 A_8__0 nand02
+        X_ix742 A_10__0 A_11__0 nx743 nx741 oai21
+        X_ix738 A_8__0 A_9__0 nx739 nx737 oai21
+        X_ix734 nx733 nx735 nx745 xnor2
+        X_ix1207 nx1206 nx548 nx799 xnor2
+        X_ix736 nx735 nx737 nx741 xnor2
+        X_ix529 nx528 nx434 nx805 xnor2
+        X_ix800 nx799 nx528 nx526 xnor2
+        X_ix814 nx813 A_10__1 A_11__1 xnor2
+        X_ix812 nx811 nx743 nx813 xnor2
+        X_ix808 nx807 nx739 nx809 xnor2
+        X_ix806 nx805 nx807 nx811 xnor2
+        X_ix810 nx809 A_8__1 A_9__1 xnor2
+        X_ix904 nx903 nx905 nx909 xnor2
+        X_ix902 nx901 nx903 nx911 xnor2
+        X_ix910 nx909 A_8__2 A_9__2 xnor2
+        X_ix890 nx889 nx891 nx893 xnor2
+        X_ix519 nx518 nx438 nx901 xnor2
+        X_ix894 nx893 nx518 nx516 xnor2
+        X_ix393 nx392 nx264 nx1035 xnor2
+        X_ix1036 nx1035 A_10__3 A_11__3 xnor2
+        X_ix912 nx911 nx913 nx917 xnor2
+        X_ix918 nx917 A_10__2 A_11__2 xnor2
+        X_ix1014 nx1013 nx1015 nx1019 xnor2
+        X_ix1012 nx1011 nx1013 nx1037 xnor2
+        X_ix1006 nx1005 nx1007 nx1011 xnor2
+        X_ix1028 nx1027 A_8__3 A_9__3 xnor2
+        X_ix395 nx394 nx330 nx1027 xnor2
+        X_ix1020 nx1019 nx394 nx392 xnor2
+        X_ix900 nx434 nx899 inv01
+        X_ix251 nx813 nx250 inv01
+        X_ix317 nx809 nx316 inv01
+        X_ix1026 A_8__2 nx1025 inv01
+        X_ix553 nx891 nx552 inv01
+        X_ix403 nx911 nx402 inv01
+        X_ix1034 A_10__2 nx1033 inv01
+        X_ix443 nx1015 nx442 inv01
+        X_ix914 A_11__0 A_10__0 nx250 A_10__1 A_11__1 nx913 aoi32
+        X_ix906 A_9__0 A_8__0 nx316 A_8__1 A_9__1 nx905 aoi32
+        X_ix892 nx799 nx548 nx526 nx891 mux21
+        X_ix439 nx805 nx899 nx811 nx438 mux21
+        X_ix331 nx909 nx905 nx1025 nx330 mux21
+        X_ix1008 nx893 nx552 nx516 nx1007 mux21
+        X_ix1016 nx901 nx438 nx402 nx1015 mux21
+        X_ix1160 nx1035 nx264 A_10__3 nx1159 mux21
+        X_ix265 nx917 nx913 nx1033 nx264 mux21
+        X_ix561 nx1011 nx1007 nx1037 nx560 mux21
+        X_ix1152 nx1027 nx330 A_8__3 nx1151 mux21
+        X_ix1140 nx1019 nx442 nx392 nx1139 mux21
+        X_ix780 nx779 A_2__1 A_3__1 xnor2
+        X_ix778 nx777 nx721 nx779 xnor2
+        X_ix774 nx773 nx717 nx775 xnor2
+        X_ix772 nx771 nx773 nx777 xnor2
+        X_ix776 nx775 A_0__1 A_1__1 xnor2
+        X_ix1179 nx1178 nx1114 nx1073 xnor2
+        X_ix1068 nx1067 nx1178 nx1176 xnor2
+        X_ix1297 B[1] nx1228 nx759 xnor2
+        X_ix1293 B[3] nx1236 nx947 xnor2
+        X_ix1287 B[6] nx1248 nx1279 xnor2
+        X_ix1283 B[8] nx1432 nx1280 xnor2
+        X_ix965 nx964 nx906 nx971 xnor2
+        X_ix964 nx963 nx964 nx962 xnor2
+        X_ix972 nx971 A_0__3 A_1__3 xnor2
+        X_ix950 nx949 nx951 nx955 xnor2
+        X_ix948 nx947 nx949 nx1005 xnor2
+        X_ix958 nx957 nx959 nx963 xnor2
+        X_ix956 nx955 nx957 nx981 xnor2
+        X_ix850 nx849 nx851 nx855 xnor2
+        X_ix848 nx847 nx849 nx857 xnor2
+        X_ix856 nx855 A_0__2 A_1__2 xnor2
+        X_ix836 nx835 nx837 nx839 xnor2
+        X_ix834 nx833 nx835 nx889 xnor2
+        X_ix858 nx857 nx859 nx863 xnor2
+        X_ix864 nx863 A_2__2 A_3__2 xnor2
+        X_ix1073 nx1072 nx1008 nx847 xnor2
+        X_ix840 nx839 nx1072 nx1070 xnor2
+        X_ix1303 B[0] nx711 nx733 xor2
+        X_ix1295 B[2] nx831 nx833 xor2
+        X_ix1291 B[4] nx1063 nx1067 xor2
+        X_ix1289 B[5] nx1195 nx1201 xor2
+        X_ix1285 B[7] nx1381 nx1383 xor2
+        X_ix973 nx857 nx972 inv01
+        X_ix860 A_3__0 A_2__0 nx840 A_2__1 A_3__1 nx859 aoi32
+        X_ix852 A_1__0 A_0__0 nx892 A_0__1 A_1__1 nx851 aoi32
+        X_ix838 nx765 nx1102 nx1080 nx837 mux21
+        X_ix1009 nx771 nx845 nx777 nx1008 mux21
+        X_ix1206 nx1073 nx1114 nx1050 nx1205 mux21
+        X_ix1196 nx1067 nx1240 nx1176 nx1195 mux21
+        X_ix1064 nx947 nx1236 nx1186 nx1063 mux21
+        X_ix1382 nx1279 nx1248 nx1156 nx1381 mux21
+        X_ix1249 nx1201 nx1195 nx1239 nx1248 mux21
+        X_ix1237 nx833 nx831 nx889 nx1236 mux21
+        X_ix832 nx759 nx1228 nx1206 nx831 mux21
+        X_ix1090 nx971 nx906 A_0__3 nx1089 mux21
+        X_ix1115 nx955 nx951 nx981 nx1114 mux21
+        X_ix1078 nx963 nx1012 nx962 nx1077 mux21
+        X_ix907 nx855 nx851 nx969 nx906 mux21
+        X_ix952 nx839 nx1106 nx1070 nx951 mux21
+        X_ix855 nx863 nx859 nx977 nx854 mux21
+        X_ix960 nx847 nx1008 nx972 nx959 mux21
+        X_ix1103 nx713 nx723 nx1102 nor02
+        X_ix1005 nx715 nx719 nx1004 nor02
+        X_ix1229 nx711 nx733 nx1228 nor02
+        X_ix722 nx721 A_3__0 A_2__0 nand02
+        X_ix718 nx717 A_1__0 A_0__0 nand02
+        X_ix720 A_2__0 A_3__0 nx721 nx719 oai21
+        X_ix716 A_0__0 A_1__0 nx717 nx715 oai21
+        X_ix712 nx711 nx713 nx723 xnor2
+        X_ix714 nx713 nx715 nx719 xnor2
+        X_ix1209 nx1208 nx1102 nx765 xnor2
+        X_ix760 nx759 nx1208 nx1206 xnor2
+        X_ix1083 nx1082 nx1004 nx771 xnor2
+        X_ix766 nx765 nx1082 nx1080 xnor2
+        X_ix846 nx1004 nx845 inv01
+        X_ix841 nx779 nx840 inv01
+        X_ix893 nx775 nx892 inv01
+        X_ix1051 nx1103 nx1050 inv01
+        X_ix1241 nx1063 nx1240 inv01
+        X_ix1187 nx1005 nx1186 inv01
+        X_ix1013 nx959 nx1012 inv01
+        X_ix970 A_0__2 nx969 inv01
+        X_ix1107 nx837 nx1106 inv01
+        X_ix978 A_2__2 nx977 inv01
+        X_ix996 nx995 A_4__3 A_5__3 xnor2
+        X_ix743 nx742 nx614 nx1003 xnor2
+        X_ix1004 nx1003 A_6__3 A_7__3 xnor2
+        X_ix982 nx981 nx983 nx987 xnor2
+        X_ix882 nx881 nx883 nx887 xnor2
+        X_ix888 nx887 A_6__2 A_7__2 xnor2
+        X_ix794 nx793 A_6__1 A_7__1 xnor2
+        X_ix790 nx789 A_4__1 A_5__1 xnor2
+        X_ix792 nx791 nx731 nx793 xnor2
+        X_ix788 nx787 nx727 nx789 xnor2
+        X_ix786 nx785 nx787 nx791 xnor2
+        X_ix724 nx723 nx725 nx729 xnor2
+        X_ix1081 nx1080 nx784 nx785 xnor2
+        X_ix934 nx933 A_12__2 A_13__2 xnor2
+        X_ix928 nx927 nx929 nx933 xnor2
+        X_ix926 nx925 nx927 nx935 xnor2
+        X_ix517 nx516 nx204 nx925 xnor2
+        X_ix161 nx160 nx88 nx1051 xnor2
+        X_ix1044 nx1043 nx160 nx158 xnor2
+        X_ix1052 nx1051 A_12__3 A_13__3 xnor2
+        X_ix159 nx158 nx34 nx1059 xnor2
+        X_ix1060 nx1059 A_14__3 A_15__3 xnor2
+        X_ix1038 nx1037 nx1039 nx1043 xnor2
+        X_ix936 nx935 nx937 nx941 xnor2
+        X_ix942 nx941 A_14__2 A_15__2 xnor2
+        X_ix828 nx827 A_14__1 A_15__1 xnor2
+        X_ix824 nx823 A_12__1 A_13__1 xnor2
+        X_ix826 nx825 nx753 nx827 xnor2
+        X_ix822 nx821 nx749 nx823 xnor2
+        X_ix820 nx819 nx821 nx825 xnor2
+        X_ix746 nx745 nx747 nx751 xnor2
+        X_ix527 nx526 nx200 nx819 xnor2
+        X_ix938 A_15__0 A_14__0 nx20 A_14__1 A_15__1 nx937 aoi32
+        X_ix930 A_13__0 A_12__0 nx74 A_12__1 A_13__1 nx929 aoi32
+        X_ix681 nx879 nx875 nx993 nx680 mux21
+        X_ix984 nx871 nx788 nx752 nx983 mux21
+        X_ix1118 nx995 nx680 A_4__3 nx1117 mux21
+        X_ix1126 nx1003 nx614 A_6__3 nx1125 mux21
+        X_ix1106 nx987 nx792 nx742 nx1105 mux21
+        X_ix615 nx887 nx883 nx1001 nx614 mux21
+        X_ix789 nx785 nx869 nx791 nx788 mux21
+        X_ix89 nx933 nx929 nx1049 nx88 mux21
+        X_ix1040 nx925 nx204 nx168 nx1039 mux21
+        X_ix1180 nx1051 nx88 A_12__3 nx1179 mux21
+        X_ix1188 nx1059 nx34 A_14__3 nx1187 mux21
+        X_ix1168 nx1043 nx208 nx158 nx1167 mux21
+        X_ix35 nx941 nx937 nx1057 nx34 mux21
+        X_ix205 nx819 nx923 nx825 nx204 mux21
+        X_ix785 nx725 nx729 nx784 nor02
+        X_ix201 nx747 nx751 nx200 nor02
+        X_ix732 nx731 A_7__0 A_6__0 nand02
+        X_ix728 nx727 A_5__0 A_4__0 nand02
+        X_ix754 nx753 A_15__0 A_14__0 nand02
+        X_ix750 nx749 A_13__0 A_12__0 nand02
+        X_ix730 A_6__0 A_7__0 nx731 nx729 oai21
+        X_ix726 A_4__0 A_5__0 nx727 nx725 oai21
+        X_ix752 A_14__0 A_15__0 nx753 nx751 oai21
+        X_ix748 A_12__0 A_13__0 nx749 nx747 oai21
+        X_ix880 nx879 A_4__2 A_5__2 xnor2
+        X_ix874 nx873 nx875 nx879 xnor2
+        X_ix872 nx871 nx873 nx881 xnor2
+        X_ix1071 nx1070 nx788 nx871 xnor2
+        X_ix745 nx744 nx680 nx995 xnor2
+        X_ix988 nx987 nx744 nx742 xnor2
+        X_ix994 A_4__2 nx993 inv01
+        X_ix753 nx881 nx752 inv01
+        X_ix793 nx983 nx792 inv01
+        X_ix1002 A_6__2 nx1001 inv01
+        X_ix601 nx793 nx600 inv01
+        X_ix667 nx789 nx666 inv01
+        X_ix870 nx784 nx869 inv01
+        X_ix1050 A_12__2 nx1049 inv01
+        X_ix169 nx935 nx168 inv01
+        X_ix209 nx1039 nx208 inv01
+        X_ix1058 A_14__2 nx1057 inv01
+        X_ix21 nx827 nx20 inv01
+        X_ix75 nx823 nx74 inv01
+        X_ix924 nx200 nx923 inv01
+        X_ix884 A_7__0 A_6__0 nx600 A_6__1 A_7__1 nx883 aoi32
+        X_ix876 A_5__0 A_4__0 nx666 A_4__1 A_5__1 nx875 aoi32
+.ends accu
+

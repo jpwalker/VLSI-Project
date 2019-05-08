@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 5cd271db4220.03.80.eb.2c.4c.00.35.ae 1 2 1 0
+V v 1 1 5cd271db4220.03.80.eb.2c.4c.01.35.ae
+F f 1 "sdl.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/afs/cad/u/j/p/jpw33/VLSI-2/Project/correct/test/schem/accu/accusim" 1 Eddm_design_viewpoint 5cd271db3ac6.03.80.eb.2c.4c.01.35.ae 5cd271db3ac6.03.80.eb.2c.4c.00.35.ae
