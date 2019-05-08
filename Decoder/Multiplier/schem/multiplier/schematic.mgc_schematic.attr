@@ -1,14 +1,58 @@
-A 5 u mgc_schematic 5cba5d78c58f.03.80.eb.2c.48.00.52.d4 3 2 1 0
-V v 1 1 5cba5d78c58f.03.80.eb.2c.48.01.52.d4
+A 5 u mgc_schematic 5cd25535e314.03.80.eb.2c.48.00.7a.4f 34 2 16 0
+V v 32 1 5cd255482ed0.03.80.eb.2c.48.00.7a.4f
 F o 0 ""
-V v 2 1 5cba5d79184d.03.80.eb.2c.48.00.52.d4
+V v 33 1 5cd25568b6f4.03.80.eb.2c.48.00.79.1c
 F o 0 ""
-V v 3 1 5cba5dec90ad.03.80.eb.2c.48.00.51.da
+V v 34 1 5cd255849578.03.80.eb.2c.48.00.79.1c
 F o 0 ""
-O 3
-R cspuv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet1" 2 mgc_sheet 5cba5dec8fb8.03.80.eb.2c.48.00.51.da 5cba5d78cec3.03.80.eb.2c.48.00.52.d4
-O 2
-R cspuv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet1" 1 mgc_sheet 5cba5d78cec3.03.80.eb.2c.48.01.52.d4 5cba5d78cec3.03.80.eb.2c.48.00.52.d4
-O 1
-R cspuv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet1" 1 mgc_sheet 5cba5d78cec3.03.80.eb.2c.48.01.52.d4 5cba5d78cec3.03.80.eb.2c.48.00.52.d4
-P "eddm__refer_state" "eddm__refer_floating"
+O 34
+R cspuv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet1" 2 mgc_sheet 5cd25568b595.03.80.eb.2c.48.00.79.1c 5cd25535efac.03.80.eb.2c.48.00.7a.4f
+R cspuv 1 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet2" 2 mgc_sheet 5cd25584944b.03.80.eb.2c.48.00.79.1c 5cd2553665dc.03.80.eb.2c.48.00.7a.4f
+R cspuv 2 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet3" 1 mgc_sheet 5cd255376e00.03.80.eb.2c.48.01.7a.4f 5cd255376e00.03.80.eb.2c.48.00.7a.4f
+R cspuv 3 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet4" 1 mgc_sheet 5cd255384da0.03.80.eb.2c.48.01.7a.4f 5cd255384da0.03.80.eb.2c.48.00.7a.4f
+R cspuv 4 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet5" 1 mgc_sheet 5cd25538af4e.03.80.eb.2c.48.01.7a.4f 5cd25538af4e.03.80.eb.2c.48.00.7a.4f
+R cspuv 5 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet6" 1 mgc_sheet 5cd255390e10.03.80.eb.2c.48.01.7a.4f 5cd255390e10.03.80.eb.2c.48.00.7a.4f
+R cspuv 6 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet7" 1 mgc_sheet 5cd25539ead3.03.80.eb.2c.48.00.7a.4f 5cd25539ead2.03.80.eb.2c.48.00.7a.4f
+R cspuv 7 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet8" 1 mgc_sheet 5cd2553abde2.03.80.eb.2c.48.01.7a.4f 5cd2553abde2.03.80.eb.2c.48.00.7a.4f
+R cspuv 8 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet9" 1 mgc_sheet 5cd2553c33cd.03.80.eb.2c.48.01.7a.4f 5cd2553c33cd.03.80.eb.2c.48.00.7a.4f
+R cspuv 9 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet10" 1 mgc_sheet 5cd2553d09cc.03.80.eb.2c.48.01.7a.4f 5cd2553d09cc.03.80.eb.2c.48.00.7a.4f
+R cspuv 10 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet11" 1 mgc_sheet 5cd2553dcdeb.03.80.eb.2c.48.01.7a.4f 5cd2553dcdeb.03.80.eb.2c.48.00.7a.4f
+R cspuv 11 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet12" 1 mgc_sheet 5cd2553fa281.03.80.eb.2c.48.01.7a.4f 5cd2553fa281.03.80.eb.2c.48.00.7a.4f
+R cspuv 12 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet13" 1 mgc_sheet 5cd25542e1da.03.80.eb.2c.48.01.7a.4f 5cd25542e1da.03.80.eb.2c.48.00.7a.4f
+R cspuv 13 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet14" 1 mgc_sheet 5cd255448293.03.80.eb.2c.48.00.7a.4f 5cd255448292.03.80.eb.2c.48.00.7a.4f
+R cspuv 14 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet15" 1 mgc_sheet 5cd25545600d.03.80.eb.2c.48.01.7a.4f 5cd25545600d.03.80.eb.2c.48.00.7a.4f
+R cspuv 15 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet16" 1 mgc_sheet 5cd25547bcdc.03.80.eb.2c.48.01.7a.4f 5cd25547bcdc.03.80.eb.2c.48.00.7a.4f
+O 33
+R cspuv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet1" 2 mgc_sheet 5cd25568b595.03.80.eb.2c.48.00.79.1c 5cd25535efac.03.80.eb.2c.48.00.7a.4f
+R cspuv 1 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet2" 1 mgc_sheet 5cd2553665dc.03.80.eb.2c.48.01.7a.4f 5cd2553665dc.03.80.eb.2c.48.00.7a.4f
+R cspuv 2 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet3" 1 mgc_sheet 5cd255376e00.03.80.eb.2c.48.01.7a.4f 5cd255376e00.03.80.eb.2c.48.00.7a.4f
+R cspuv 3 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet4" 1 mgc_sheet 5cd255384da0.03.80.eb.2c.48.01.7a.4f 5cd255384da0.03.80.eb.2c.48.00.7a.4f
+R cspuv 4 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet5" 1 mgc_sheet 5cd25538af4e.03.80.eb.2c.48.01.7a.4f 5cd25538af4e.03.80.eb.2c.48.00.7a.4f
+R cspuv 5 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet6" 1 mgc_sheet 5cd255390e10.03.80.eb.2c.48.01.7a.4f 5cd255390e10.03.80.eb.2c.48.00.7a.4f
+R cspuv 6 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet7" 1 mgc_sheet 5cd25539ead3.03.80.eb.2c.48.00.7a.4f 5cd25539ead2.03.80.eb.2c.48.00.7a.4f
+R cspuv 7 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet8" 1 mgc_sheet 5cd2553abde2.03.80.eb.2c.48.01.7a.4f 5cd2553abde2.03.80.eb.2c.48.00.7a.4f
+R cspuv 8 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet9" 1 mgc_sheet 5cd2553c33cd.03.80.eb.2c.48.01.7a.4f 5cd2553c33cd.03.80.eb.2c.48.00.7a.4f
+R cspuv 9 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet10" 1 mgc_sheet 5cd2553d09cc.03.80.eb.2c.48.01.7a.4f 5cd2553d09cc.03.80.eb.2c.48.00.7a.4f
+R cspuv 10 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet11" 1 mgc_sheet 5cd2553dcdeb.03.80.eb.2c.48.01.7a.4f 5cd2553dcdeb.03.80.eb.2c.48.00.7a.4f
+R cspuv 11 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet12" 1 mgc_sheet 5cd2553fa281.03.80.eb.2c.48.01.7a.4f 5cd2553fa281.03.80.eb.2c.48.00.7a.4f
+R cspuv 12 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet13" 1 mgc_sheet 5cd25542e1da.03.80.eb.2c.48.01.7a.4f 5cd25542e1da.03.80.eb.2c.48.00.7a.4f
+R cspuv 13 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet14" 1 mgc_sheet 5cd255448293.03.80.eb.2c.48.00.7a.4f 5cd255448292.03.80.eb.2c.48.00.7a.4f
+R cspuv 14 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet15" 1 mgc_sheet 5cd25545600d.03.80.eb.2c.48.01.7a.4f 5cd25545600d.03.80.eb.2c.48.00.7a.4f
+R cspuv 15 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet16" 1 mgc_sheet 5cd25547bcdc.03.80.eb.2c.48.01.7a.4f 5cd25547bcdc.03.80.eb.2c.48.00.7a.4f
+O 32
+R cspuv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet1" 1 mgc_sheet 5cd25535efac.03.80.eb.2c.48.01.7a.4f 5cd25535efac.03.80.eb.2c.48.00.7a.4f
+R cspuv 1 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet2" 1 mgc_sheet 5cd2553665dc.03.80.eb.2c.48.01.7a.4f 5cd2553665dc.03.80.eb.2c.48.00.7a.4f
+R cspuv 2 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet3" 1 mgc_sheet 5cd255376e00.03.80.eb.2c.48.01.7a.4f 5cd255376e00.03.80.eb.2c.48.00.7a.4f
+R cspuv 3 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet4" 1 mgc_sheet 5cd255384da0.03.80.eb.2c.48.01.7a.4f 5cd255384da0.03.80.eb.2c.48.00.7a.4f
+R cspuv 4 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet5" 1 mgc_sheet 5cd25538af4e.03.80.eb.2c.48.01.7a.4f 5cd25538af4e.03.80.eb.2c.48.00.7a.4f
+R cspuv 5 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet6" 1 mgc_sheet 5cd255390e10.03.80.eb.2c.48.01.7a.4f 5cd255390e10.03.80.eb.2c.48.00.7a.4f
+R cspuv 6 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet7" 1 mgc_sheet 5cd25539ead3.03.80.eb.2c.48.00.7a.4f 5cd25539ead2.03.80.eb.2c.48.00.7a.4f
+R cspuv 7 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet8" 1 mgc_sheet 5cd2553abde2.03.80.eb.2c.48.01.7a.4f 5cd2553abde2.03.80.eb.2c.48.00.7a.4f
+R cspuv 8 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet9" 1 mgc_sheet 5cd2553c33cd.03.80.eb.2c.48.01.7a.4f 5cd2553c33cd.03.80.eb.2c.48.00.7a.4f
+R cspuv 9 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet10" 1 mgc_sheet 5cd2553d09cc.03.80.eb.2c.48.01.7a.4f 5cd2553d09cc.03.80.eb.2c.48.00.7a.4f
+R cspuv 10 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet11" 1 mgc_sheet 5cd2553dcdeb.03.80.eb.2c.48.01.7a.4f 5cd2553dcdeb.03.80.eb.2c.48.00.7a.4f
+R cspuv 11 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet12" 1 mgc_sheet 5cd2553fa281.03.80.eb.2c.48.01.7a.4f 5cd2553fa281.03.80.eb.2c.48.00.7a.4f
+R cspuv 12 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet13" 1 mgc_sheet 5cd25542e1da.03.80.eb.2c.48.01.7a.4f 5cd25542e1da.03.80.eb.2c.48.00.7a.4f
+R cspuv 13 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet14" 1 mgc_sheet 5cd255448293.03.80.eb.2c.48.00.7a.4f 5cd255448292.03.80.eb.2c.48.00.7a.4f
+R cspuv 14 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet15" 1 mgc_sheet 5cd25545600d.03.80.eb.2c.48.01.7a.4f 5cd25545600d.03.80.eb.2c.48.00.7a.4f
+R cspuv 15 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic/sheet16" 1 mgc_sheet 5cd25547bcdc.03.80.eb.2c.48.01.7a.4f 5cd25547bcdc.03.80.eb.2c.48.00.7a.4f

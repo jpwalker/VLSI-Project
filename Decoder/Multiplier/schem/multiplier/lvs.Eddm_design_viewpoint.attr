@@ -1,0 +1,25 @@
+A 5 u Eddm_design_viewpoint 5cd2556eaee5.03.80.eb.2c.48.00.79.1c 2 2 4 0
+V v 1 4 5cd2556eaee5.03.80.eb.2c.48.01.79.1c
+F f 1 "lvs.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 5cd2556ed539.03.80.eb.2c.48.00.79.1c
+F f 2 "lvs.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/part" 2 Eddm_part 5cd255364ab4.03.80.eb.2c.48.00.7a.4f 5cd25535d3c3.03.80.eb.2c.48.00.7a.4f
+R cspuv 1 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/multiplier" 1 mgc_symbol 5cd25535cdff.03.80.eb.2c.48.01.7a.4f 5cd25535cdff.03.80.eb.2c.48.00.7a.4f
+R cspuv 2 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic" 1 mgc_schematic 5cd25535e314.03.80.eb.2c.48.01.7a.4f 5cd25535e314.03.80.eb.2c.48.00.7a.4f
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 3 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/lvs" 1 Eddm_ba_mgr 5cd2556eb2a2.03.80.eb.2c.48.01.79.1c 5cd2556eb2a2.03.80.eb.2c.48.00.79.1c
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/part" 2 Eddm_part 5cd255364ab4.03.80.eb.2c.48.00.7a.4f 5cd25535d3c3.03.80.eb.2c.48.00.7a.4f
+R cspuv 1 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/multiplier" 1 mgc_symbol 5cd25535cdff.03.80.eb.2c.48.01.7a.4f 5cd25535cdff.03.80.eb.2c.48.00.7a.4f
+R cspuv 2 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic" 1 mgc_schematic 5cd25535e314.03.80.eb.2c.48.01.7a.4f 5cd25535e314.03.80.eb.2c.48.00.7a.4f
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 3 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/lvs" 1 Eddm_ba_mgr 5cd2556eb2a2.03.80.eb.2c.48.01.79.1c 5cd2556eb2a2.03.80.eb.2c.48.00.79.1c

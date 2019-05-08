@@ -1,16 +1,19 @@
-/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd {0 {vcom -work Mulitplier -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd
-Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
-** Error: (vcom-19) Failed to access library 'Mulitplier' at "Mulitplier".
-No such file or directory. (errno = ENOENT)
-
-} {3.0 4.0} {}} /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/ChipMultiplier.vhd {1 {vcom -work work -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/ChipMultiplier.vhd
+/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/ChipMultiplier.vhd {1 {vcom -work work -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/ChipMultiplier.vhd
 Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package NUMERIC_BIT
 -- Loading package types
 -- Compiling entity ChipMultiplier
--- Compiling architecture TT of ChipMultiplier
+-- Compiling architecture dataflow of ChipMultiplier
+
+} {} {}} /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd {1 {vcom -work work -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd
+Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package NUMERIC_BIT
+-- Loading package types
+-- Compiling entity multiplier
 
 } {} {}} /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier_parts.vhd {1 {vcom -work work -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier_parts.vhd
 Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
@@ -20,9 +23,15 @@ Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
 -- Loading package types
 -- Compiling package MultiplierParts
 
-} {} {}} /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd {0 {vcom -work Mulitplier -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
+} {} {}} /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd {1 {vcom -work work -2002 -explicit -vopt /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd
 Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
-** Error: (vcom-19) Failed to access library 'Mulitplier' at "Mulitplier".
-No such file or directory. (errno = ENOENT)
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package NUMERIC_BIT
+-- Loading package types
+-- Loading package MultiplierParts
+-- Compiling architecture struct of multiplier
+-- Loading entity multiplier
+-- Loading entity ChipMultiplier
 
-} {3.0 4.0} {}}
+} {} {}}
