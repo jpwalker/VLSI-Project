@@ -1,0 +1,241 @@
+/afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/bin/Linux/spectrum 
+-------------------------------------------------
+LeonardoSpectrum Level 3 - 2011a.4 (Release Production Release, compiled May 26 2011 at 11:43:50)
+Copyright 1990-2010 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2010 Compuware Corporation
+
+Checking Security ...
+
+   *** Welcome to Interactive LeonardoSpectrum Level 3 Version 2011a.4 ***
+
+News :
+  * Enter "help" to get an overview of all commands
+  * Enter <command> -help  to get usage of each command
+
+Session history will be logged to file '/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/leospec.his'
+Reading library file `/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/synthesis/tsmc018_typ.syn`...
+Library version = v3.1 Release : Patch (a) : (Aug 26, 2005)
+Delays assume: Process=typical Temp=  0.0 C  Voltage=1.80 V  
+Info: setting encoding to auto
+Info, Command 'load_library' finished successfully
+  "read" -- read a file and create designs from it
+usage : "read" <file_name(s)> 
+   [-format <string>]      -- input format : vhdl|verilog|edif|syn|tcl|xnf|xdb|sdf
+   [-dont_elaborate]       -- only analyze, don't elaborate, design (hdl's only)
+   [-design <string>]      -- specify top-level design name to be read
+   [-architecture <string>]-- root architecture name (VHDL only)
+   [-work <string>]        -- specify library where design should be stored
+   [-parameters <list>]|[-generics <list>]-- root generics (parameters) : {generic=value generic=value}
+   [-technology <string>]  -- specify a target technology to guide analysis
+-- Reading file /afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/data/standard.vhd for unit standard
+-- Loading package standard into library std
+-- Reading vhdl file /afs/cad/u/j/p/jpw33/VLSI-2/Project/TypeLibrary/types.vhd into library TypeLibrary
+-- Reading file /afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/data/numeric_bit.vhd for unit numeric_bit
+-- Loading package NUMERIC_BIT into library ieee
+-- Loading package types into library TypeLibrary
+Info: "/afs/cad/u/j/p/jpw33/VLSI-2/Project/TypeLibrary/types.vhd" Nothing to synthesize
+-- Reading vhdl file /afs/cad/u/j/p/jpw33/VLSI-2/Project/TypeLibrary/types_bdy.vhd into library TypeLibrary
+Info: "/afs/cad/u/j/p/jpw33/VLSI-2/Project/TypeLibrary/types_bdy.vhd" Nothing to synthesize
+-- Reading vhdl file /afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/ChipMultiplier.vhd into library work
+-- Loading entity ChipMultiplier into library work
+-- Loading architecture dataflow of ChipMultiplier into library work
+-- Compiling root entity ChipMultiplier(dataflow)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier_parts.vhd into library work
+-- Loading package MultiplierParts into library work
+Info: "/afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier_parts.vhd" Nothing to synthesize
+-- Reading vhdl file /afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd into library work
+-- Loading entity multiplier into library work
+"/afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/multiplier.vhd",line 11: Error, root entity 'multiplier' has no architecture.
+-- Reading vhdl file /afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/mult_DFarch.vhd into library work
+-- Loading architecture struct of multiplier into library work
+-- Compiling root entity multiplier(struct)
+Info, Command 'read' finished successfully
+  "PULLDN" aliased to "PULLDOWN"
+  "add_rename_rule" -- add a renaming rule to a ruleset
+  "al" aliased to "list_attributes"
+  "alias" -- defines alternative command for a (set of) command(s)
+  "all_clocks" -- list all clocks
+  "all_inouts" -- list all the inout bidir ports
+  "all_inputs" -- list all the input ports
+  "all_outputs" -- list all the output ports
+  "all_registers" -- list all the registers
+  "all_selected" -- list the selected objects
+  "analyse" aliased to "analyze"
+  "analyze" -- read an hdl file into an hdl library, without elaboration
+  "apply_rename_rules" -- change names of objects, using renaming rules
+  "apply_rename_rules_record" -- change names of objects, using renaming rules
+  "arrival_time" aliased to "ARRIVAL_TIME"
+  "balance_loads" -- resolve load violations in a design, across the hierarchy
+  "blackbox" aliased to "BLACKBOX"
+  "bubble_tristates" -- bubble tristates to appropiate level of hierarchy
+  "buffer_sig" aliased to "BUFFER_SIG"
+  "clean_all" -- remove all objects in database
+  "clique_design" -- Perform block based placement on the current design
+  "clique_design" -- Perform block based placement on the current design
+  "clock_cycle" aliased to "CLOCK_CYCLE"
+  "clock_offset" aliased to "CLOCK_OFFSET"
+  "connect" -- connects net with port or portinst
+  "connect_path" -- connect a timing path on an instance through ports
+  "connect_timing_arc" aliased to "CONNECT_TIMING_ARC"
+  "connect_to_port" -- create an probe point port, and connect the net or pin to it
+  "copy" -- copy object(s)
+  "create" -- create an object
+  "create_rename_ruleset" -- create a ruleset for object renaming
+  "create_wlm" -- calculate and print out wireload model for present design
+  "create_wrapper" -- creates wrapper for a design
+  "dc" aliased to "present_design"
+  "decompose_luts" -- decompose Look-Up Tables (LUTs) into AND/OR gates
+  "disconnect" -- removes connection between net and port or portinst
+  "disconnect_path" -- disconnect a timing path on an instance through ports
+  "disconnect_timing_arc" aliased to "DISCONNECT_TIMING_ARC"
+  "dl" aliased to "list_design"
+  "do_ip" -- process Ip files
+  "dont_touch" aliased to "DONT_TOUCH"
+  "elaborate" -- elaborates analyzed HDL design units creating design(s)
+  "exemplar_eval" -- command to open a client socket
+  "file_line_search" -- list object(s) that were read in from RTL source code
+  "find" -- find object(s)
+  "find_inputs" -- list all input ports that fan out to sequential elements driven by a clock
+  "find_outputs" -- list all output ports that fan out from sequential elements driven by a clock
+  "generate_timespec" -- create TIMESPEC info from user constraints; Xilinx only
+  "global_remove_attribute" aliased to "remove_attribute -net -global"
+  "global_set_attribute" aliased to "set_attribute -net -global"
+  "group" -- group a list of instances into one instance of a new view
+  "h" aliased to "history"
+  "help" -- help on commands, aliases and variables
+  "implement_in_pterm" aliased to "IMPLEMENT_IN_PTERM"
+  "input_drive" aliased to "INPUT_DRIVE"
+  "input_max_fanout" aliased to "INPUT_MAX_FANOUT"
+  "input_max_load" aliased to "INPUT_MAX_LOAD"
+  "link_library" -- link target libraries
+  "list_attributes" -- list attributes on any object
+  "list_connection" -- list connected objects to the specified object(s)
+  "list_design" -- return list of objects in a design (libraries in the root, cells in a library, views in a cell, etc)
+  "list_multicycle_paths" -- list_multicycle_paths
+  "list_technologies" -- list all technology libraries used in a design
+  "load_library" -- load a technology library
+  "load_modgen" -- read a module generator description from file
+  "load_wireload" -- load a wire load file
+  "lut_function" -- Display the luts function
+  "max_trans_fall" aliased to "MAX_TRANS_FALL"
+  "max_trans_rise" aliased to "MAX_TRANS_RISE"
+  "modgen_read" aliased to "load_modgen"
+  "modgen_resolve" aliased to "resolve_modgen"
+  "monet_flatten" -- Does a first order ungrouping for monet netlists
+  "move" -- move object(s)
+  "move_record" -- move object(s)
+  "nobuff" aliased to "NOBUFF"
+  "noopt" aliased to "NOOPT"
+  "optimize" -- optimize and map a design to a target technology
+  "optimize_timing" -- perform extensive timing optimization on a design
+  "output_fanout" aliased to "OUTPUT_FANOUT"
+  "output_load" aliased to "OUTPUT_LOAD"
+  "pack_clbs" -- pack Look-Up Tables (LUTs) into CLBs. Xi4 only.
+  "pad" aliased to "PAD"
+  "pd" aliased to "present_design"
+  "pin_number" aliased to "PIN_NUMBER"
+  "pre_optimize" -- do constant propagation and other pre-optimization on a design
+  "present_design" -- print or change the present design
+  "preserve_signal" aliased to "PRESERVE_SIGNAL"
+  "pulldn" aliased to "PULLDOWN"
+  "pulldown" aliased to "PULLDOWN"
+  "pullup" aliased to "PULLUP"
+  "pulse_width" aliased to "PULSE_WIDTH"
+  "puts_log" -- puts a string to stdout & log file
+  "quit" aliased to "exit"
+  "read" -- read a file and create designs from it
+  "read_constraints" -- read in a constraint file
+  "read_constraints_list" -- read in multiple constraint files
+  "recompose_flex" -- recompose LUTs form Post PnR
+  "remove" -- remove object(s)
+  "remove_attribute" -- remove an attribute from object(s)
+  "remove_clock" -- remove the clock information on an object(s)
+  "remove_rename_ruleset" -- remove a ruleset for object renaming
+  "rename_numeric_ports" -- change conflicting bus port names
+  "rename_port" -- change port names (bussed vs scalar)
+  "report_area" -- report the accumulated area of the present design
+  "report_constraints" -- list User constraints on any object
+  "report_delay" -- report critical paths
+  "report_library" -- report library information example: wire load models, etc.
+  "report_net" -- report all nets in a design
+  "report_rename_rules" -- report loaded rename ruleset info
+  "report_tech_cell" -- report all technology cells in a library
+  "report_wire_tables" -- report wire tables in the library
+  "required_time" aliased to "REQUIRED_TIME"
+  "resolve_modgen" -- resolve all operator calls in present design (fill with logic). Please do not use this command (it is not needed)
+  "restore_project_script" -- restore_project_script
+  "run_modgen_and_dissolve" -- resolve operators and auto dissolve hierachical design using set limits
+  "run_opt" aliased to "optimize"
+  "save_project_script" -- save_project_script
+  "sc" aliased to "source"
+  "select" -- edit a file in the gui, if a line number is sent in, only one file can be listed
+  "select" -- Execute an individual FlowPage, or perform a Read or Run Flow
+  "select" -- select object(s) in the gui
+  "set_attribute" -- create/set an attribute on object(s)
+  "set_clock" -- set the clock information on an object(s)
+  "set_multicycle_path" -- set_multicycle_path
+  "show_var_settings" -- Display all variable settings made in the session
+  "source_constraints" aliased to "read_constraints"
+  "sweep" aliased to "pre_optimize"
+  "switch_library" -- switch source library to target library
+  "synthesize" aliased to "elaborate"
+  "test_cell" -- test the library cell
+  "test_library" -- test all cells in library
+  "unalias" -- remove an alias
+  "undont_touch" aliased to "UNDONT_TOUCH"
+  "unfold" -- duplicate views that are used more than once (folded) in the design hierarchy
+  "ungroup" -- flatten out hierarchy
+  "unimplement_in_pterm" aliased to "UNIMPLEMENT_IN_PTERM"
+  "uniquify" aliased to "unfold"
+  "unmap" -- flatten out technology cells in the design downto primitives
+  "unnoopt" aliased to "UNNOOPT"
+  "view_schematic" -- display a schematic view of the current design's cell (default), or of the specified design
+  "warp_vhdl" aliased to "uplevel #0 set vhdl_write_use_packages "\"library IEEE, WORK; use IEEE.STD_LOGIC_1164.ALL;\nuse WORK.EXEMPLAR_GATES.ALL;\nlibrary cypress;\nuse cypress.lpmpkg.all;\"""
+  "write" -- write a design to a file
+  "xmplr_exec" -- A watered down version of exec supporting non blocking read
+  "xmplr_socket_client" -- coomand to open a client socket
+unknown command "optimise"
+Info: The target technology was not selected, tsmc018_typ was automatically selected for you.
+NO wire table is found
+-- Optimizing netlist .work.ChipMultiplier.dataflow
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Optimizing netlist .work.multiplier.struct
+-- Automatic IO buffer insertion...
+WARNING: cannot do IO mapping. Library has no plain input IO buffer
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+-- Writing file multiplier_syn.v
+Info, Command 'write' finished successfully
+  "optimize" -- optimize and map a design to a target technology
+usage : "optimize" [<design>]
+   [-target <string>]      -- specify the target technology library for this design
+   [-io_target <string>]   -- specify the target IO cell library if separate from target technology
+   [-single_level]         -- perform optimization only at the top level of hierarchy
+   [-flatten]              -- obsolete - new format is "-hierarchy flatten"
+   [-hierarchy <string>]   -- hierarchy handling: auto|preserve|flatten
+   [-effort <string>]      -- optimization effort : remap|quick|standard
+   [-chip]|[-macro]         -- add IO buffers (chip)(default) to this design, or not (macro)
+   [-area]|[-delay]|[-auto]  -- optimize to obtain minimum delay, area or to automatically find the best result(default)
+   [-pass <list>]|[-nopass <list>]-- explicitly run a pass (pass) or explicitly avoid a pass(nopass)
+   [-boundary]             -- do boundary optimization
+Info: The target technology was not selected, tsmc018_typ was automatically selected for you.
+NO wire table is found
+-- Optimizing netlist .work.multiplier.struct
+-- Automatic IO buffer insertion...
+WARNING: cannot do IO mapping. Library has no plain input IO buffer
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+-- Writing file multiplier_syn.v
+Info, Command 'write' finished successfully

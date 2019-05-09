@@ -1,0 +1,12 @@
+A 5 u Eddm_design_viewpoint 5cd255c34f04.03.80.eb.2c.48.00.7c.e5 1 2 3 0
+V v 1 4 5cd255c34f04.03.80.eb.2c.48.01.7c.e5
+F f 1 "layout.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/part" 2 Eddm_part 5cd255364ab4.03.80.eb.2c.48.00.7a.4f 5cd25535d3c3.03.80.eb.2c.48.00.7a.4f
+R cspuv 1 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/multiplier" 1 mgc_symbol 5cd25535cdff.03.80.eb.2c.48.01.7a.4f 5cd25535cdff.03.80.eb.2c.48.00.7a.4f
+R cspuv 2 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/schematic" 1 mgc_schematic 5cd25535e314.03.80.eb.2c.48.01.7a.4f 5cd25535e314.03.80.eb.2c.48.00.7a.4f
+P "eddm__refer_state" "eddm__refer_floating"
