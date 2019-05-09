@@ -1,0 +1,285 @@
+
+COMPACTOR run at 00:43:02 on 05/09/19.
+
+
+Area to be Compacted (Entire Chip) :
+  lower-left  x =          3.0
+  lower-left  y =          0.0
+  upper-right x =       1053.0
+  upper-right y =        885.0
+
+Compaction Axis :
+  X-Axis =          3.0
+  Y-Axis =          0.0
+
+Compaction Parameters :
+  Compact VERTICALLY
+  Compact to Lower-Left
+  Insert Jogs    : NO
+  Jog Power      : NO
+  Corner Spacing : EUCLIDEAN
+  ViolationsOnly : NO
+  Offset Vias    : NO
+  Slide Wires    : NO
+  Same Net Rules : YES
+  Wires Crossing Compaction Area Border : Fixed
+  External Cells : Movement Is Unrestricted
+  External Rows  : Keep Corners Clear
+  Compact To Pins/Blockages w/o Inst Overlap
+  Reduce Tromboning
+
+// Compacting Selected Objects only.
+
+
+=====================================================================================
+Spacing Rules 
+=====================================================================================
+       ICLayer              -->        ICLayer              =      Spacing  Connected 
+
+   33: METAL5               -->    33: METAL5               =        4.000       TRUE 
+   33: METAL5               -->   164: METAL5_BLKG          =        4.000       TRUE 
+   33: METAL5               -->    31: METAL4               =                   FALSE 
+   33: METAL5               -->   163: METAL4_BLKG          =                   FALSE 
+   33: METAL5               -->    62: METAL3               =                   FALSE 
+   33: METAL5               -->   162: METAL3_BLKG          =                   FALSE 
+   33: METAL5               -->    51: METAL2               =                   FALSE 
+   33: METAL5               -->   151: METAL2_BLKG          =                   FALSE 
+   33: METAL5               -->    49: METAL1               =                   FALSE 
+   33: METAL5               -->   149: METAL1_BLKG          =                   FALSE 
+   33: METAL5               -->    50: VIA                  =                   FALSE 
+   33: METAL5               -->    61: VIA2                 =                   FALSE 
+   33: METAL5               -->    30: VIA3                 =                   FALSE 
+   33: METAL5               -->    32: VIA4                 =        5.000       TRUE 
+   33: METAL5               -->    36: VIA5                 =        5.000      FALSE 
+   33: METAL5               -->    37: METAL6               =                   FALSE 
+   33: METAL5               -->    10: METAL4.PORT          =                   FALSE 
+   33: METAL5               -->     3: METAL2.PORT          =                   FALSE 
+  164: METAL5_BLKG          -->   164: METAL5_BLKG          =        4.000       TRUE 
+  164: METAL5_BLKG          -->    31: METAL4               =                   FALSE 
+  164: METAL5_BLKG          -->   163: METAL4_BLKG          =                   FALSE 
+  164: METAL5_BLKG          -->    62: METAL3               =                   FALSE 
+  164: METAL5_BLKG          -->   162: METAL3_BLKG          =                   FALSE 
+  164: METAL5_BLKG          -->    51: METAL2               =                   FALSE 
+  164: METAL5_BLKG          -->   151: METAL2_BLKG          =                   FALSE 
+  164: METAL5_BLKG          -->    49: METAL1               =                   FALSE 
+  164: METAL5_BLKG          -->   149: METAL1_BLKG          =                   FALSE 
+  164: METAL5_BLKG          -->    50: VIA                  =                   FALSE 
+  164: METAL5_BLKG          -->    61: VIA2                 =                   FALSE 
+  164: METAL5_BLKG          -->    30: VIA3                 =                   FALSE 
+  164: METAL5_BLKG          -->    32: VIA4                 =        5.000       TRUE 
+  164: METAL5_BLKG          -->    36: VIA5                 =        5.000      FALSE 
+  164: METAL5_BLKG          -->    37: METAL6               =                   FALSE 
+  164: METAL5_BLKG          -->    10: METAL4.PORT          =                   FALSE 
+  164: METAL5_BLKG          -->     3: METAL2.PORT          =                   FALSE 
+   31: METAL4               -->    31: METAL4               =        4.000       TRUE 
+   31: METAL4               -->   163: METAL4_BLKG          =        4.000       TRUE 
+   31: METAL4               -->    62: METAL3               =                   FALSE 
+   31: METAL4               -->   162: METAL3_BLKG          =                   FALSE 
+   31: METAL4               -->    51: METAL2               =                   FALSE 
+   31: METAL4               -->   151: METAL2_BLKG          =                   FALSE 
+   31: METAL4               -->    49: METAL1               =                   FALSE 
+   31: METAL4               -->   149: METAL1_BLKG          =                   FALSE 
+   31: METAL4               -->    50: VIA                  =                   FALSE 
+   31: METAL4               -->    61: VIA2                 =                   FALSE 
+   31: METAL4               -->    30: VIA3                 =        5.000       TRUE 
+   31: METAL4               -->    32: VIA4                 =        5.000       TRUE 
+   31: METAL4               -->    36: VIA5                 =                   FALSE 
+   31: METAL4               -->    37: METAL6               =                   FALSE 
+   31: METAL4               -->    10: METAL4.PORT          =        4.000      FALSE 
+   31: METAL4               -->     3: METAL2.PORT          =                   FALSE 
+  163: METAL4_BLKG          -->   163: METAL4_BLKG          =        4.000       TRUE 
+  163: METAL4_BLKG          -->    62: METAL3               =                   FALSE 
+  163: METAL4_BLKG          -->   162: METAL3_BLKG          =                   FALSE 
+  163: METAL4_BLKG          -->    51: METAL2               =                   FALSE 
+  163: METAL4_BLKG          -->   151: METAL2_BLKG          =                   FALSE 
+  163: METAL4_BLKG          -->    49: METAL1               =                   FALSE 
+  163: METAL4_BLKG          -->   149: METAL1_BLKG          =                   FALSE 
+  163: METAL4_BLKG          -->    50: VIA                  =                   FALSE 
+  163: METAL4_BLKG          -->    61: VIA2                 =                   FALSE 
+  163: METAL4_BLKG          -->    30: VIA3                 =        5.000       TRUE 
+  163: METAL4_BLKG          -->    32: VIA4                 =        5.000       TRUE 
+  163: METAL4_BLKG          -->    36: VIA5                 =                   FALSE 
+  163: METAL4_BLKG          -->    37: METAL6               =                   FALSE 
+  163: METAL4_BLKG          -->    10: METAL4.PORT          =        4.000      FALSE 
+  163: METAL4_BLKG          -->     3: METAL2.PORT          =                   FALSE 
+   62: METAL3               -->    62: METAL3               =        4.000       TRUE 
+   62: METAL3               -->   162: METAL3_BLKG          =        4.000       TRUE 
+   62: METAL3               -->    51: METAL2               =                   FALSE 
+   62: METAL3               -->   151: METAL2_BLKG          =                   FALSE 
+   62: METAL3               -->    49: METAL1               =                   FALSE 
+   62: METAL3               -->   149: METAL1_BLKG          =                   FALSE 
+   62: METAL3               -->    50: VIA                  =                   FALSE 
+   62: METAL3               -->    61: VIA2                 =        5.000       TRUE 
+   62: METAL3               -->    30: VIA3                 =        5.000       TRUE 
+   62: METAL3               -->    32: VIA4                 =                   FALSE 
+   62: METAL3               -->    36: VIA5                 =                   FALSE 
+   62: METAL3               -->    37: METAL6               =                   FALSE 
+   62: METAL3               -->    10: METAL4.PORT          =                   FALSE 
+   62: METAL3               -->     3: METAL2.PORT          =                   FALSE 
+  162: METAL3_BLKG          -->   162: METAL3_BLKG          =        4.000       TRUE 
+  162: METAL3_BLKG          -->    51: METAL2               =                   FALSE 
+  162: METAL3_BLKG          -->   151: METAL2_BLKG          =                   FALSE 
+  162: METAL3_BLKG          -->    49: METAL1               =                   FALSE 
+  162: METAL3_BLKG          -->   149: METAL1_BLKG          =                   FALSE 
+  162: METAL3_BLKG          -->    50: VIA                  =                   FALSE 
+  162: METAL3_BLKG          -->    61: VIA2                 =        5.000       TRUE 
+  162: METAL3_BLKG          -->    30: VIA3                 =        5.000       TRUE 
+  162: METAL3_BLKG          -->    32: VIA4                 =                   FALSE 
+  162: METAL3_BLKG          -->    36: VIA5                 =                   FALSE 
+  162: METAL3_BLKG          -->    37: METAL6               =                   FALSE 
+  162: METAL3_BLKG          -->    10: METAL4.PORT          =                   FALSE 
+  162: METAL3_BLKG          -->     3: METAL2.PORT          =                   FALSE 
+   51: METAL2               -->    51: METAL2               =        4.000       TRUE 
+   51: METAL2               -->   151: METAL2_BLKG          =        4.000       TRUE 
+   51: METAL2               -->    49: METAL1               =                   FALSE 
+   51: METAL2               -->   149: METAL1_BLKG          =                   FALSE 
+   51: METAL2               -->    50: VIA                  =        5.000       TRUE 
+   51: METAL2               -->    61: VIA2                 =        5.000       TRUE 
+   51: METAL2               -->    30: VIA3                 =                   FALSE 
+   51: METAL2               -->    32: VIA4                 =                   FALSE 
+   51: METAL2               -->    36: VIA5                 =                   FALSE 
+   51: METAL2               -->    37: METAL6               =                   FALSE 
+   51: METAL2               -->    10: METAL4.PORT          =                   FALSE 
+   51: METAL2               -->     3: METAL2.PORT          =        4.000      FALSE 
+  151: METAL2_BLKG          -->   151: METAL2_BLKG          =        4.000       TRUE 
+  151: METAL2_BLKG          -->    49: METAL1               =                   FALSE 
+  151: METAL2_BLKG          -->   149: METAL1_BLKG          =                   FALSE 
+  151: METAL2_BLKG          -->    50: VIA                  =        5.000       TRUE 
+  151: METAL2_BLKG          -->    61: VIA2                 =        5.000       TRUE 
+  151: METAL2_BLKG          -->    30: VIA3                 =                   FALSE 
+  151: METAL2_BLKG          -->    32: VIA4                 =                   FALSE 
+  151: METAL2_BLKG          -->    36: VIA5                 =                   FALSE 
+  151: METAL2_BLKG          -->    37: METAL6               =                   FALSE 
+  151: METAL2_BLKG          -->    10: METAL4.PORT          =                   FALSE 
+  151: METAL2_BLKG          -->     3: METAL2.PORT          =        4.000      FALSE 
+   49: METAL1               -->    49: METAL1               =        3.000       TRUE 
+   49: METAL1               -->   149: METAL1_BLKG          =        3.000       TRUE 
+   49: METAL1               -->    50: VIA                  =        4.000       TRUE 
+   49: METAL1               -->    61: VIA2                 =                   FALSE 
+   49: METAL1               -->    30: VIA3                 =                   FALSE 
+   49: METAL1               -->    32: VIA4                 =                   FALSE 
+   49: METAL1               -->    36: VIA5                 =                   FALSE 
+   49: METAL1               -->    37: METAL6               =                   FALSE 
+   49: METAL1               -->    10: METAL4.PORT          =                   FALSE 
+   49: METAL1               -->     3: METAL2.PORT          =                   FALSE 
+  149: METAL1_BLKG          -->   149: METAL1_BLKG          =        3.000       TRUE 
+  149: METAL1_BLKG          -->    50: VIA                  =        4.000       TRUE 
+  149: METAL1_BLKG          -->    61: VIA2                 =                   FALSE 
+  149: METAL1_BLKG          -->    30: VIA3                 =                   FALSE 
+  149: METAL1_BLKG          -->    32: VIA4                 =                   FALSE 
+  149: METAL1_BLKG          -->    36: VIA5                 =                   FALSE 
+  149: METAL1_BLKG          -->    37: METAL6               =                   FALSE 
+  149: METAL1_BLKG          -->    10: METAL4.PORT          =                   FALSE 
+  149: METAL1_BLKG          -->     3: METAL2.PORT          =                   FALSE 
+   50: VIA                  -->    50: VIA                  =        3.000       TRUE 
+   50: VIA                  -->    61: VIA2                 =        5.000       TRUE 
+   50: VIA                  -->    30: VIA3                 =                   FALSE 
+   50: VIA                  -->    32: VIA4                 =                   FALSE 
+   50: VIA                  -->    36: VIA5                 =                   FALSE 
+   50: VIA                  -->    37: METAL6               =                   FALSE 
+   50: VIA                  -->    10: METAL4.PORT          =                   FALSE 
+   50: VIA                  -->     3: METAL2.PORT          =        4.000      FALSE 
+   61: VIA2                 -->    61: VIA2                 =        3.000       TRUE 
+   61: VIA2                 -->    30: VIA3                 =        5.000       TRUE 
+   61: VIA2                 -->    32: VIA4                 =                   FALSE 
+   61: VIA2                 -->    36: VIA5                 =                   FALSE 
+   61: VIA2                 -->    37: METAL6               =                   FALSE 
+   61: VIA2                 -->    10: METAL4.PORT          =                   FALSE 
+   61: VIA2                 -->     3: METAL2.PORT          =        4.000      FALSE 
+   30: VIA3                 -->    30: VIA3                 =        3.000       TRUE 
+   30: VIA3                 -->    32: VIA4                 =        5.000       TRUE 
+   30: VIA3                 -->    36: VIA5                 =                   FALSE 
+   30: VIA3                 -->    37: METAL6               =                   FALSE 
+   30: VIA3                 -->    10: METAL4.PORT          =        4.000      FALSE 
+   30: VIA3                 -->     3: METAL2.PORT          =                   FALSE 
+   32: VIA4                 -->    32: VIA4                 =        3.000       TRUE 
+   32: VIA4                 -->    36: VIA5                 =        5.000      FALSE 
+   32: VIA4                 -->    37: METAL6               =                   FALSE 
+   32: VIA4                 -->    10: METAL4.PORT          =        4.000      FALSE 
+   32: VIA4                 -->     3: METAL2.PORT          =                   FALSE 
+   36: VIA5                 -->    36: VIA5                 =        4.000       TRUE 
+   36: VIA5                 -->    37: METAL6               =        7.000       TRUE 
+   36: VIA5                 -->    10: METAL4.PORT          =                    TRUE 
+   36: VIA5                 -->     3: METAL2.PORT          =                    TRUE 
+   37: METAL6               -->    37: METAL6               =        5.000       TRUE 
+   37: METAL6               -->    10: METAL4.PORT          =                    TRUE 
+   37: METAL6               -->     3: METAL2.PORT          =                    TRUE 
+   10: METAL4.PORT          -->    10: METAL4.PORT          =                    TRUE 
+   10: METAL4.PORT          -->     3: METAL2.PORT          =                    TRUE 
+    3: METAL2.PORT          -->     3: METAL2.PORT          =                    TRUE 
+=====================================================================================
+
+
+Clock : 00:43:02   CPU :            0
+
+NODE-COUNT =         3289
+  attr_record_size       =           64
+  f_row_record_size      =           64
+  f_inst_record_size     =           16
+  sqz_net_record_size    =           48
+  node_record_size       =          168
+  edge_record_size       =           32
+  sqz_bin_record_size    =           16
+
+  node_count       =         3289
+  net_count        =           93
+  f_row_count      =            9
+  f_inst_count     =           80
+  edge_count       =            0
+  allocated_edges  =            0
+  attr_count       =            8
+  bin_count        =         9211
+
+SORTED_COUNT =         3289
+NODE_COUNT   =         3289
+
+Propagate Count after Solve =            7
+Node Count after Solve      =         3289
+Maximum Recursion Depth     =            3
+Straightening time          =            0
+
+Clock : 00:43:54   CPU :            1
+
+  node_count       =         3289
+  net_count        =           93
+  f_row_count      =            9
+  f_inst_count     =           80
+  edge_count       =          168
+  allocated_edges  =          107
+  attr_count       =            8
+  bin_count        =         9211
+
+Total Number of Nodes in Graph =         3289
+Calls to Check_for_Constraints =        46314
+Calls to Propagate             =            7
+Optimization Passes            =            1
+Over-Constraint count          =            0
+Number of Redundant edges      =          152
+
+Initial Chip Dimensions : 
+  X = 976.00  Y = 885.00  Area = 863760.08
+Final Chip Dimensions : 
+  X = 976.00  Y = 839.00  Area = 818864.08  (5.20 % improved area)
+
+TOTAL RUNTIME :            1 seconds.
+   initialize :            0 seconds.   (  0.00 %)
+   desn rules :            0 seconds.   (  0.00 %)
+   load       :            0 seconds.   (  0.00 %)
+   extraction :            0 seconds.   (  0.00 %)
+   adjust1    :            0 seconds.   (  0.00 %)
+   sort       :            0 seconds.   (  0.00 %)
+   build      :            1 seconds.   (100.00 %)
+   compress   :            0 seconds.   (  0.00 %)
+   solve      :            0 seconds.   (  0.00 %)
+   crit path  :            0 seconds.   (  0.00 %)
+   jog insert :            0 seconds.   (  0.00 %)
+   space ios  :            0 seconds.   (  0.00 %)
+   optimize   :            0 seconds.   (  0.00 %)
+   moving     :            0 seconds.   (  0.00 %)
+   adjust2    :            0 seconds.   (  0.00 %)
+   update     :            0 seconds.   (  0.00 %)
+   misc       :            0 seconds.   (  0.00 %)
+
+
+COMPACTOR exited at 00:43:54 on 05/09/19.
+

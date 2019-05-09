@@ -1,6 +1,0 @@
-A 5 u mgc_symbol 5cd271672fa8.03.80.eb.2c.4c.00.33.69 1 2 1 0
-V v 1 2 5cd271672fa9.03.80.eb.2c.4c.00.33.69
-F f 1 "accu.smbl_1"
-F o 0 
-O 1
-R csduv 0 "$HOME/VLSI-2/Project/correct/test/schem/accu/part" 1 Eddm_part 5cd27167339c.03.80.eb.2c.4c.01.33.69 5cd27167339c.03.80.eb.2c.4c.00.33.69

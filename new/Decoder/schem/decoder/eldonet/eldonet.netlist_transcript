@@ -1,0 +1,1486 @@
+//  IC Station Netlister  v9.0_9.0 (v9.0h)  Thu Aug 4 09:27:06 PDT 2011
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -lvs -o /afs/cad/u/j/p/jpw33/VLSI-2/Project/new/Decoder/schem/decoder/decoder.src.net -check -preserve_case -spice_top_sub /afs/cad/u/j/p/jpw33/VLSI-2/Project/new/Decoder/schem/decoder/eldonet
+
+// **** Reading <$MGC_WD/decoder/eldonet> for LVS netlist ****
+
+// Checking 35 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// Parsing file '/afs/cad/sw.common/mentor.2012/adk3_1/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf' succeeded.
+// Parsing file '/afs/cad/sw.common/mentor.2012/adk3_1/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf' succeeded.
+Processing [$HOME/VLSI-2/Project/new/Decoder/schem/decoder] [decoder/decoder] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix516'
+Processing [$ADK/parts/buf02] [buf02/buf02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix518'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix530'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix532'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix544'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix546'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix558'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix560'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix498'
+Processing [$ADK/parts/inv01] [inv01/inv01] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix494'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix500'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix510'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix512'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix508'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix514'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix524'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix526'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix522'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix528'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix538'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix540'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix536'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix542'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix534'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix552'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix554'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix550'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix556'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix548'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix566'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix568'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix564'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix570'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix562'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix460'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix462'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix488'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix490'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix502'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix504'
+Processing [$HOME/VLSI-2/Project/new/Decoder/schem/sipo] [sipo/sipo] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_8__1'
+Processing [$ADK/parts/latch] [latch/latch] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_13__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_12__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_13__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_12__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_14__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_11__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_10__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2273'
+Processing [$ADK/parts/nand02] [nand02/nand02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2282'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2279'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2285'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2288'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2252'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2249'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2270'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2267'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2240'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2237'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2234'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2231'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2264'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2261'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2258'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2255'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2246'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2243'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_15__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_15__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_15__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_15__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_15__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_14__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_14__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_13__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_12__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_14__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_11__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_10__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_9__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix635'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix633'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix639'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix637'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2301'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2299'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2297'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2295'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2305'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2303'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix641'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2359'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix643'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix619'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix617'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2355'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2353'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix631'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix629'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2357'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2331'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix611'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix609'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix607'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix605'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix627'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix625'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix623'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix621'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix615'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix613'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2276'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2120'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2117'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2114'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2111'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2108'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2105'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2210'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2207'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_4__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_3__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_5__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_2__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_1__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_0__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_0__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_2__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_1__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_3__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_2__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_1__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_3__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_0__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_13__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_12__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_14__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_11__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_10__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix3'
+Processing [$ADK/parts/nor02ii] [nor02ii/nor02ii] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix297'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix101'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix495'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix515'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix513'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix511'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix509'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix395'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix531'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix529'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix527'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix525'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix523'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix521'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2325'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2323'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2317'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2315'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2313'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2311'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2309'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2307'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix591'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix589'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2009'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix1968'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2066'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2096'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2093'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2090'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2087'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2028'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_13__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_12__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2168'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2165'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2162'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2159'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2192'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2189'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2186'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2183'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2180'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2177'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2228'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2225'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2222'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2219'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2216'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2213'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_7__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_6__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_5__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_4__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_9__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_8__3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_9__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_8__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_7__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_6__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_11__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_10__2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_11__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_10__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_9__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_8__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2351'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2349'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2347'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2345'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix567'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix565'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix587'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix585'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix583'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix581'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix563'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix561'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix559'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix557'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix579'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix577'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix575'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix573'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix571'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix569'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix603'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix601'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix599'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix597'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix595'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix593'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2174'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2171'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2204'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2201'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2198'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2195'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_6__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_5__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_4__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_9__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_8__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_0__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_1__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_5__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_4__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_3__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_2__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_7__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_6__1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix517'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2138'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2135'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2132'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2129'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2126'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2123'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2047'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2156'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2153'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2150'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2147'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2144'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2141'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix1990'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2072'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2069'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2084'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2081'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2078'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2075'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2102'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2099'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_0__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_1__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_5__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_4__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_3__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_2__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_7__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_6__4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/lat_temp_reg_7__0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2363'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2361'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2343'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2341'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix543'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix541'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix539'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix537'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix535'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix533'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix493'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2319'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2293'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2321'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix555'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix553'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix551'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix549'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix547'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix545'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2339'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2337'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2335'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix2333'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix199'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix499'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix497'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix507'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix505'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix503'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix501'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/recev_0_reg/ix519'
+Processing [$HOME/VLSI-2/Project/new/Decoder/schem/counter_chip] [counter_chip/counter_chip] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_31__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_30__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_15__u1'
+Processing [$ADK/parts/latchr] [latchr/latchr] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_13__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_14__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_12__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_9__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_11__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_10__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_8__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_28__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_29__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_31__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_30__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix95'
+Processing [$ADK/parts/aoi22] [aoi22/aoi22] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix285'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2493'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_15__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2485'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_13__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2483'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_14__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_12__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2489'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_9__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2491'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_11__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2487'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_10__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_8__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_27__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_28__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_29__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_31__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_30__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_15__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_13__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_14__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_12__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_9__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_11__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_10__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_8__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_27__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_28__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_29__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix139'
+Processing [$ADK/parts/nor02] [nor02/nor02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2441'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix101'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix291'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2411'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2426'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2334'
+Processing [$ADK/parts/nand04] [nand04/nand04] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix363'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix357'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2324'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2435'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix157'
+Processing [$ADK/parts/nor03] [nor03/nor03] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix119'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2289'
+Processing [$ADK/parts/nand03] [nand03/nand03] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2293'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2300'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2304'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2423'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2430'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2326'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2312'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2419'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix159'
+Processing [$ADK/parts/xnor2] [xnor2/xnor2] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix143'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix151'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix105'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix121'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix113'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix295'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix311'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix303'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix133'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_5__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2481'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_2__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2477'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_3__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2455'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2465'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_0__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_1__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix69'
+Processing [$ADK/parts/and04] [and04/and04] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_chip_rdy_u1'
+Processing [$ADK/parts/latchs_ni] [latchs_ni/latchs_ni] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_chip_rdy_u2'
+Processing [$ADK/parts/inv02] [inv02/inv02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_7__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_6__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_5__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_chip_rdy_u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_3__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_4__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_2__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_0__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_1__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_7__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_6__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_5__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_3__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_4__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_2__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_0__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_1__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2247'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix405'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix377'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2234'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2241'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2258'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2445'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix53'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2438'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2276'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2447'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2262'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2266'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix347'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix71'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix63'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2251'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix35'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix47'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix23'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix11'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_7__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2475'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2463'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2461'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2459'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2457'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2453'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2479'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_4__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_6__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_26__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_25__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_24__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_17__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_16__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_19__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_18__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_23__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_22__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_21__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_20__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_26__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_27__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_25__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_24__u1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix257'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix171'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix209'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix247'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2495'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_17__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_16__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2499'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_19__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2497'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_18__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2505'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_23__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2503'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_22__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2501'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_21__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_20__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2509'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_26__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2511'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2507'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_25__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_24__u2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_17__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_16__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_19__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_18__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_23__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_22__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_21__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/lat_msg_20__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix177'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix215'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix253'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix341'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix335'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2354'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2380'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2409'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix195'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2278'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix233'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2383'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix271'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix329'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2342'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2348'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2374'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2368'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2403'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2395'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2336'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2362'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix323'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix2391'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix181'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix197'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix189'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix235'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix227'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix219'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix265'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr_ld/ix273'
+Processing [$HOME/VLSI-2/Project/new/Decoder/schem/ChipMultiplier] [ChipMultiplier/ChipMultiplier] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix574'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix179'
+Processing [$ADK/parts/oai22] [oai22/oai22] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix139'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix219'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix109'
+Processing [$ADK/parts/aoi221] [aoi221/aoi221] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix592'
+Processing [$ADK/parts/aoi33] [aoi33/aoi33] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix546'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix23'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix552'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix99'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix586'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix165'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix223'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix598'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix33'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix588'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix559'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix19'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix606'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix612'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix614'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix616'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix618'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix620'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix622'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix624'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix626'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix628'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix630'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix632'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix504'
+Processing [$ADK/parts/oai21] [oai21/oai21] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix580'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix600'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix509'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix47'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix536'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix540'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix512'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix518'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix75'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix53'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix554'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix185'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix131'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix153'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix199'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix520'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix37'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix55'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix31'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix91'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix550'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix563'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix79'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix567'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix119'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix203'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix11'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix13'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix41'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix584'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix502'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix507'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix514'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix516'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix532'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix538'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix543'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix557'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix15'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix561'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix527'
+Processing [$ADK/parts/aoi32] [aoi32/aoi32] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix571'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix29'
+Processing [$ADK/parts/aoi21] [aoi21/aoi21] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix141'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix578'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix233'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix189'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/mult1_chipmulties_14_cm/ix69'
+Processing [$ADK/parts/oai32] [oai32/oai32] [schematic]
+Processing [$HOME/VLSI-2/Project/new/Decoder/schem/Bit9Adder] [Bit9Adder/Bit9Adder] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix243'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix252'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix254'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix263'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix265'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix193'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix199'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix49'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix53'
+Processing [$ADK/parts/mux21] [mux21/mux21] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix57'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix61'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix65'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix69'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix73'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix205'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix216'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix227'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix238'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix249'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix260'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix95'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix89'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix190'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix87'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix196'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix85'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix202'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix39'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix83'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix213'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix33'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix81'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix224'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix27'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix79'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix235'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix21'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix77'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix246'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix15'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix75'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix257'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix9'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix187'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix45'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix208'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix210'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix219'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix221'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix230'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix232'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/acc1_lvl1_7_ca_B9A/ix241'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix464'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix492'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix506'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix520'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix468'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix470'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix466'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix472'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix496'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix427'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix432'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix434'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix436'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix482'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix484'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix480'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix486'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix478'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix47'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix41'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix11'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix63'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix417'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix429'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix474'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix476'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix71'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/dlat1_lat_user_data_0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/dlat1_lat_user_data_1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/dlat1_lat_user_data_2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/dlat1_lat_user_data_3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/sipo1_reg_temp_0'
+Processing [$ADK/parts/dff] [dff/dff] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr1_reg_curr_state_1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/sipo1_reg_temp_1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/sipo1_reg_temp_2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/sipo1_reg_temp_3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ctr1_reg_curr_state_0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix17'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix79'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix407'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix9'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix35'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix421'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix410'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix412'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix414'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix423'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix425'
+Primitive [$ADK/parts/adk_symbols/nmos4] [MG_STD/nmos3] [SPICE=PRIM] (NCF entry line: 8 file: $ADK/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf)
+Primitive [$ADK/parts/adk_symbols/pmos4] [MG_STD/pmos3] [SPICE=PRIM] (NCF entry line: 8 file: $ADK/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf)
+
+**** Writing <$MGC_WD/decoder/eldonet> netlist for LVS ****
+
+Number of cells: 31
+Number of primitive instances: 15732
+
+Done...
+// Registration file '/afs/cad/sw.common/mentor.2012/adk3_1/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf' closed.
+// Registration file '/afs/cad/sw.common/mentor.2012/adk3_1/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf' closed.

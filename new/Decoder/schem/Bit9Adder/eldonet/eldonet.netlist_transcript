@@ -1,0 +1,144 @@
+//  IC Station Netlister  v9.0_9.0 (v9.0h)  Thu Aug 4 09:27:06 PDT 2011
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -lvs -o /afs/cad/u/j/p/jpw33/VLSI-2/Project/new/Decoder/schem/Bit9Adder/Bit9Adder.src.net -check -preserve_case -spice_top_sub /afs/cad/u/j/p/jpw33/VLSI-2/Project/new/Decoder/schem/Bit9Adder/eldonet
+
+// **** Reading <$MGC_WD/Bit9Adder/eldonet> for LVS netlist ****
+
+// Checking 7 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// Parsing file '/afs/cad/sw.common/mentor.2012/adk3_1/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf' succeeded.
+// Parsing file '/afs/cad/sw.common/mentor.2012/adk3_1/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf' succeeded.
+Processing [$HOME/VLSI-2/Project/new/Decoder/schem/Bit9Adder] [Bit9Adder/Bit9Adder] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix243'
+Processing [$ADK/parts/inv01] [inv01/inv01] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix252'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix254'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix263'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix265'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix193'
+Processing [$ADK/parts/nand02] [nand02/nand02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix199'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix49'
+Processing [$ADK/parts/oai21] [oai21/oai21] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix53'
+Processing [$ADK/parts/mux21] [mux21/mux21] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix57'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix61'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix65'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix69'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix73'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix205'
+Processing [$ADK/parts/aoi22] [aoi22/aoi22] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix216'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix227'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix238'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix249'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix260'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix95'
+Processing [$ADK/parts/xnor2] [xnor2/xnor2] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix89'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix190'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix87'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix196'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix85'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix202'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix39'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix83'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix213'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix33'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix81'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix224'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix27'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix79'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix235'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix21'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix77'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix246'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix15'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix75'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix257'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix9'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix187'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix45'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix208'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix210'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix219'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix221'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix230'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix232'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix241'
+Primitive [$ADK/parts/adk_symbols/nmos4] [MG_STD/nmos3] [SPICE=PRIM] (NCF entry line: 8 file: $ADK/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf)
+Primitive [$ADK/parts/adk_symbols/pmos4] [MG_STD/pmos3] [SPICE=PRIM] (NCF entry line: 8 file: $ADK/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf)
+
+**** Writing <$MGC_WD/Bit9Adder/eldonet> netlist for LVS ****
+
+Number of cells: 9
+Number of primitive instances: 380
+
+Done...
+// Registration file '/afs/cad/sw.common/mentor.2012/adk3_1/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf' closed.
+// Registration file '/afs/cad/sw.common/mentor.2012/adk3_1/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf' closed.

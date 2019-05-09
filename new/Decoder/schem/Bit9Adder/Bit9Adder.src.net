@@ -1,0 +1,150 @@
+* LVS netlist generated with ICnet by 'jpw33' on Thu May  9 2019 at 00:15:05
+
+*
+* Globals.
+*
+.global GND VDD
+
+*
+* Component pathname : $ADK/parts/inv01
+*
+.subckt inv01  A Y
+
+        M_I$411 Y A VDD VDD p L=1.2u W=5.4u
+        M_I$412 Y A GND GND n L=1.2u W=3u
+.ends inv01
+
+*
+* Component pathname : $ADK/parts/xnor2
+*
+.subckt xnor2  Y A0 A1
+
+        M_I$218 N$213 A1 GND GND n L=1.2u W=6u
+        M_I$217 N$212 A0 N$213 GND n L=1.2u W=6u
+        M_I$9 N$212 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$8 N$212 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$7 N$3 N$212 GND GND n L=1.2u W=6u
+        M_I$6 Y A1 N$3 GND n L=1.2u W=6u
+        M_I$5 Y A0 N$3 GND n L=1.2u W=6u
+        M_I$4 Y A1 N$1 VDD p L=1.2u W=15.6u
+        M_I$3 Y N$212 VDD VDD p L=1.2u W=7.8u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=15.6u
+.ends xnor2
+
+*
+* Component pathname : $ADK/parts/aoi22
+*
+.subckt aoi22  B1 A0 A1 B0 Y
+
+        M_I$425 Y B0 N$9 GND n L=1.2u W=6u
+        M_I$426 Y B1 N$4 VDD p L=1.2u W=7.8u
+        M_I$12 N$8 A1 GND GND n L=1.2u W=6u
+        M_I$11 Y A0 N$8 GND n L=1.2u W=6u
+        M_I$7 Y B0 N$4 VDD p L=1.2u W=7.8u
+        M_I$6 N$4 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$5 N$4 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$13 N$9 B1 GND GND n L=1.2u W=6u
+.ends aoi22
+
+*
+* Component pathname : $ADK/parts/mux21
+*
+.subckt mux21  S0 A0 A1 Y
+
+        M_I$5 Y S0 N$10 VDD p L=1.2u W=10.8u
+        M_I$13 N$6 A1 GND GND n L=1.2u W=6u
+        M_I$12 Y S0 N$6 GND n L=1.2u W=6u
+        M_I$17 Y N$7 N$5 VDD p L=1.2u W=10.8u
+        M_I$16 N$5 A1 VDD VDD p L=1.2u W=10.8u
+        M_I$7 N$4 A0 GND GND n L=1.2u W=6u
+        M_I$6 Y N$7 N$4 GND n L=1.2u W=6u
+        M_I$4 N$10 A0 VDD VDD p L=1.2u W=10.8u
+        M_I$3 N$7 S0 GND GND n L=1.2u W=3u
+        M_I$2 N$7 S0 VDD VDD p L=1.2u W=5.4u
+.ends mux21
+
+*
+* Component pathname : $ADK/parts/oai21
+*
+.subckt oai21  A0 A1 B0 Y
+
+        M_I$5 N$7 B0 GND GND n L=1.2u W=6u
+        M_I$4 Y A1 N$7 GND n L=1.2u W=6u
+        M_I$3 Y A0 N$7 GND n L=1.2u W=6u
+        M_I$12 Y B0 VDD VDD p L=1.2u W=7.2u
+        M_I$2 Y A1 N$9 VDD p L=1.2u W=14.4u
+        M_I$1 N$9 A0 VDD VDD p L=1.2u W=14.4u
+.ends oai21
+
+*
+* Component pathname : $ADK/parts/nand02
+*
+.subckt nand02  Y A0 A1
+
+        M_I$472 Y A1 VDD VDD p L=1.2u W=7.2u
+        M_I$471 Y A0 VDD VDD p L=1.2u W=7.2u
+        M_I$4 Y A0 N$7 GND n L=1.2u W=6u
+        M_I$5 N$7 A1 GND GND n L=1.2u W=6u
+.ends nand02
+
+*
+* Component pathname : $HOME/VLSI-2/Project/new/Decoder/schem/Bit9Adder
+*
+.subckt Bit9Adder  A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] B[0] B[1]
++ B[2] B[3] B[4] B[5] B[6] B[7] B[8] C[0] C[1] C[2] C[3] C[4] C[5] C[6]
++ C[7] C[8]
+
+        X_ix241 B[4] nx240 inv01
+        X_ix232 A[4] nx231 inv01
+        X_ix230 B[3] nx229 inv01
+        X_ix221 A[3] nx220 inv01
+        X_ix219 B[2] nx218 inv01
+        X_ix210 A[2] nx209 inv01
+        X_ix208 B[1] nx207 inv01
+        X_ix45 nx192 nx44 inv01
+        X_ix187 A[0] nx186 inv01
+        X_ix9 nx8 A[6] nx262 xnor2
+        X_ix257 nx256 A[8] B[8] xnor2
+        X_ix75 C[8] nx256 nx72 xnor2
+        X_ix15 nx14 A[5] nx251 xnor2
+        X_ix246 nx245 A[7] B[7] xnor2
+        X_ix77 C[7] nx245 nx68 xnor2
+        X_ix21 nx20 A[4] nx240 xnor2
+        X_ix235 nx234 A[6] B[6] xnor2
+        X_ix79 C[6] nx234 nx64 xnor2
+        X_ix27 nx26 A[3] nx229 xnor2
+        X_ix224 nx223 A[5] B[5] xnor2
+        X_ix81 C[5] nx223 nx60 xnor2
+        X_ix33 nx32 A[2] nx218 xnor2
+        X_ix213 nx212 A[4] B[4] xnor2
+        X_ix83 C[4] nx212 nx56 xnor2
+        X_ix39 nx38 A[1] nx207 xnor2
+        X_ix202 nx201 A[3] B[3] xnor2
+        X_ix85 C[3] nx201 nx52 xnor2
+        X_ix196 nx195 A[2] B[2] xnor2
+        X_ix87 C[2] nx195 nx48 xnor2
+        X_ix190 nx189 A[1] B[1] xnor2
+        X_ix89 C[1] nx189 nx44 xnor2
+        X_ix95 C[0] B[0] nx186 xnor2
+        X_ix260 nx8 A[6] B[6] nx64 nx259 aoi22
+        X_ix249 nx14 A[5] B[5] nx60 nx248 aoi22
+        X_ix238 nx20 A[4] B[4] nx56 nx237 aoi22
+        X_ix227 nx26 A[3] B[3] nx52 nx226 aoi22
+        X_ix216 nx32 A[2] B[2] nx48 nx215 aoi22
+        X_ix205 nx38 A[1] B[1] nx44 nx204 aoi22
+        X_ix73 nx245 nx259 nx264 nx72 mux21
+        X_ix69 nx234 nx248 nx253 nx68 mux21
+        X_ix65 nx223 nx237 nx242 nx64 mux21
+        X_ix61 nx212 nx226 nx231 nx60 mux21
+        X_ix57 nx201 nx215 nx220 nx56 mux21
+        X_ix53 nx195 nx204 nx209 nx52 mux21
+        X_ix49 nx192 nx189 nx198 nx48 oai21
+        X_ix199 nx198 A[1] B[1] nand02
+        X_ix193 nx192 B[0] A[0] nand02
+        X_ix265 A[7] nx264 inv01
+        X_ix263 B[6] nx262 inv01
+        X_ix254 A[6] nx253 inv01
+        X_ix252 B[5] nx251 inv01
+        X_ix243 A[5] nx242 inv01
+.ends Bit9Adder
+

@@ -1,0 +1,12 @@
+A 5 u Eddm_part 5cd3a78d60bf.03.80.eb.2c.49.00.54.94 2 2 2 0
+V v 1 1 5cd3a78d60bf.03.80.eb.2c.49.01.54.94
+F f 1 "part.part_1"
+V v 2 1 5cd3a78db118.03.80.eb.2c.49.00.54.94
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/VLSI-2/Project/new/Decoder/schem/sipo/sipo" 1 mgc_symbol 5cd3a78d5ca0.03.80.eb.2c.49.01.54.94 5cd3a78d5ca0.03.80.eb.2c.49.00.54.94
+R csduv 1 "$HOME/VLSI-2/Project/new/Decoder/schem/sipo/schematic" 1 mgc_schematic 5cd3a78d6d65.03.80.eb.2c.49.01.54.94 5cd3a78d6d65.03.80.eb.2c.49.00.54.94
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/VLSI-2/Project/new/Decoder/schem/sipo/sipo" 1 mgc_symbol 5cd3a78d5ca0.03.80.eb.2c.49.01.54.94 5cd3a78d5ca0.03.80.eb.2c.49.00.54.94

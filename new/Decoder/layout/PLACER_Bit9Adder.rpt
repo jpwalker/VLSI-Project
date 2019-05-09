@@ -1,0 +1,35 @@
+
+STANDARD CELL PLACER run at 00:25:14 on 05/09/19.
+
+
+$autoplace_standard_cells(@init_n_improve, @bal, 0, 0.000000) 
+
+
+Bipartition pass  1 of 10, average nets cut:   5, cuts performed:  1 
+Bipartition pass  2 of 10, average nets cut:   5, cuts performed:  1 
+Bipartition pass  3 of 10, average nets cut:   6, cuts performed:  2 
+Bipartition pass  4 of 10, average nets cut:   5, cuts performed:  2 
+Bipartition pass  5 of 10, average nets cut:   1, cuts performed:  4 
+Bipartition pass  6 of 10, average nets cut:   0, cuts performed:  2 
+Bipartition pass  7 of 10, average nets cut:   0, cuts performed:  3 
+Bipartition pass  8 of 10, average nets cut:   0, cuts performed:  2 
+Bipartition pass  9 of 10, average nets cut:   0, cuts performed:  1 
+Bipartition pass 10 of 10, average nets cut:   0, cuts performed:  1 
+
+Initial placement: CPU seconds: 0, Wall Core_clock seconds: 1
+
+Iteration:     0, wire length: 2494  (T= 1.35) 
+Iteration:    80, wire length: 2238  (T= 0.95) 
+Iteration:   100, wire length: 2194  (T= 0.95)
+Iteration:   160, wire length: 2186  (T= 0.67) 
+Iteration:   200, wire length: 2186  (T= 0.67)
+Iteration:   300, wire length: 2181  (T= 0.48)
+Iteration:   340, wire length: 2181  (T= 0.24) 
+Iteration:   400, wire length: 2177  (T= 0.24)
+Iteration:   440, wire length: 2177  (T= 0.17) 
+Iteration:   480, wire length: 2177  (T= 0.00) 
+Iteration:   500, wire length: 2177  (T= 0.00)
+
+Final iteration: 520, wire length: 2157  (T= 0.00) 
+
+Detailed placement: CPU seconds: 0, Wall Core_clock seconds: 0

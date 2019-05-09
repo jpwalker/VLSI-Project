@@ -1,0 +1,191 @@
+/afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/bin/Linux/spectrum 
+-------------------------------------------------
+LeonardoSpectrum Level 3 - 2011a.4 (Release Production Release, compiled May 26 2011 at 11:43:50)
+Copyright 1990-2010 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2010 Compuware Corporation
+
+Checking Security ...
+
+   *** Welcome to Interactive LeonardoSpectrum Level 3 Version 2011a.4 ***
+
+News :
+  * Enter "help" to get an overview of all commands
+  * Enter <command> -help  to get usage of each command
+
+Session history will be logged to file '/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/leospec.his'
+Reading library file `/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/tsmc018_typ.syn`...
+Library version = v3.1 Release : Patch (a) : (Aug 26, 2005)
+Delays assume: Process=typical Temp=  0.0 C  Voltage=1.80 V  
+Info: setting encoding to auto
+Info, Command 'load_library' finished successfully
+-- Reading file /afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/data/standard.vhd for unit standard
+-- Loading package standard into library std
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../types.vhd into library TypeLibrary
+-- Reading file /afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/data/numeric_bit.vhd for unit numeric_bit
+-- Loading package NUMERIC_BIT into library ieee
+-- Loading package types into library TypeLibrary
+Info: "../types.vhd" Nothing to synthesize
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../types_bdy.vhd into library TypeLibrary
+Info: "../types_bdy.vhd" Nothing to synthesize
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../sipo.vhd into library work
+-- Reading file /afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/data/std_1164.vhd for unit std_logic_1164
+-- Loading package std_logic_1164 into library ieee
+-- Loading entity sipo into library work
+-- Loading architecture shift of sipo into library work
+-- Compiling root entity sipo(shift)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../sipo.vhd",line 20: Warning, clr should be declared on the sensitivity list of the process.
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../sipo.vhd",line 24: Warning, temp_reg should be declared on the sensitivity list of the process.
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../sipo.vhd",line 26: Warning, ser_data should be declared on the sensitivity list of the process.
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../sipo.vhd",line 14: Warning, temp_reg is not always assigned. Storage may be needed..
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../comparator.vhd into library work
+-- Loading entity comparator_1 into library work
+-- Loading architecture beyond of comparator_1 into library work
+-- Loading architecture below of comparator_1 into library work
+-- Compiling root entity comparator_1(beyond)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../comparator.vhd",line 16: Warning, tri_val should be declared on the sensitivity list of the process.
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../comparator.vhd into library work
+-- Loading entity comparator_1 into library work
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../comparator.vhd",line 5: Warning, replacing comparator_1 in HDL library work.
+-- Loading architecture beyond of comparator_1 into library work
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../comparator.vhd",line 11: Warning, replacing beyond of entity comparator_1.
+-- Loading architecture below of comparator_1 into library work
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../comparator.vhd",line 25: Warning, replacing below of entity comparator_1.
+-- Compiling root entity comparator_1(below)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../comparator.vhd",line 30: Warning, tri_val should be declared on the sensitivity list of the process.
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../counter_load.vhd into library work
+-- Reading file /afs/cad/sw.common/mentor.2012/leonardo_spectrum_2011a/data/numeric_std.vhd for unit NUMERIC_STD
+-- Loading package NUMERIC_STD into library ieee
+-- Loading entity counter_chip into library work
+-- Loading architecture count of counter_chip into library work
+-- Compiling root entity counter_chip(count)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../counter_load.vhd",line 14: Warning, initial value for msg is ignored for synthesis.
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../counter_load.vhd",line 8: Warning, chip_rdy is not always assigned. Storage may be needed..
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../counter.vhd into library work
+-- Loading entity counter into library work
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../counter.vhd",line 7: Info, Enumerated type states with 4 elements encoded as binary.
+Encodings for states values
+        value    states[1-0]
+============================
+            '0'  00
+            '1'  01
+            '2'  10
+            '3'  11
+
+-- Loading architecture proc of counter into library work
+-- Compiling root entity counter(proc)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../D_latch.vhd into library work
+-- Loading entity D_latch into library work
+-- Loading architecture bhav of D_latch into library work
+-- Compiling root entity D_latch(bhav)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../D_latch.vhd",line 10: Warning, user_data is not always assigned. Storage may be needed..
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../sipo_bit.vhd into library work
+-- Loading entity sipo_bit into library work
+-- Loading architecture behav of sipo_bit into library work
+-- Compiling root entity sipo_bit(behav)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../accumulator_parts.vhd into library work
+-- Loading package Accumulator into library work
+Info: "../accumulator_parts.vhd" Nothing to synthesize
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../bit9adder.vhd into library work
+-- Loading entity Bit9Adder into library work
+-- Loading architecture DF of Bit9Adder into library work
+-- Compiling root entity Bit9Adder(DF)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../chipadder.vhd into library work
+-- Loading entity ChipAdder into library work
+-- Loading architecture struct of ChipAdder into library work
+-- Compiling root entity ChipAdder(struct)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../accumulator.vhd into library work
+-- Loading entity accu into library work
+-- Loading architecture struct of accu into library work
+-- Compiling root entity accu(struct)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../ChipMultiplier.vhd into library work
+-- Loading entity ChipMultiplier into library work
+-- Loading architecture dataflow of ChipMultiplier into library work
+-- Compiling root entity ChipMultiplier(dataflow)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../multiplier_parts.vhd into library work
+-- Loading package MultiplierParts into library work
+Info: "../multiplier_parts.vhd" Nothing to synthesize
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../multiplier.vhd into library work
+-- Loading entity multiplier into library work
+-- Loading architecture struct of multiplier into library work
+-- Compiling root entity multiplier(struct)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder_parts.vhd into library work
+-- Loading package DecoderParts into library work
+Info: "../decoder_parts.vhd" Nothing to synthesize
+-- Reading vhdl file /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd into library work
+-- Loading entity decoder into library work
+-- Loading architecture decoding of decoder into library work
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd",line 15: Warning, signal clr is never assigned a value.
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd",line 18: Warning, signal code2mul is never used.
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd",line 18: Warning, signal code2mul is never assigned a value.
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd",line 19: Warning, signal reg2com is never used.
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd",line 19: Warning, signal reg2com is never assigned a value.
+-- Compiling root entity decoder(decoding)
+Info, Command 'read' finished successfully
+Info: The target technology was not selected, tsmc018_typ was automatically selected for you.
+Info, Instances dissolved by autodissolve in View .work.accu.struct
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../accumulator.vhd", line 21: lvl1_0_ca (ChipAdder)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../accumulator.vhd", line 21: lvl1_1_ca (ChipAdder)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../accumulator.vhd", line 21: lvl1_2_ca (ChipAdder)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../accumulator.vhd", line 21: lvl1_3_ca (ChipAdder)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../accumulator.vhd", line 21: lvl1_4_ca (ChipAdder)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../accumulator.vhd", line 21: lvl1_5_ca (ChipAdder)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../accumulator.vhd", line 21: lvl1_6_ca (ChipAdder)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../accumulator.vhd", line 21: lvl1_7_ca (ChipAdder)
+Info, Instances dissolved by autodissolve in View .work.decoder.decoding
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd", line 43: mult1 (multiplier)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd", line 44: acc1 (accu)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd", line 46: comp1 (comparator_1)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd", line 47: comp2 (comparator_1)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd", line 49: ctr1 (counter)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd", line 50: sipo1 (sipo_bit)
+"/afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/syn/../decoder.vhd", line 51: dlat1 (D_latch)
+NO wire table is found
+-- Optimizing netlist .work.sipo.shift
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+Re-checking DRC after adjustments
+-- Optimizing netlist .work.counter_chip.count
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+Re-checking DRC after adjustments
+-- Optimizing netlist .work.ChipMultiplier.dataflow
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+Re-checking DRC after adjustments
+-- Optimizing netlist .work.Bit9Adder.DF
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Optimizing netlist .work.decoder.decoding
+-- Automatic IO buffer insertion...
+WARNING: cannot do IO mapping. Library has no plain input IO buffer
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+Re-checking DRC after adjustments
+-- Final Design Rule Check..
+Re-checking DRC after adjustments
+Re-checking DRC after adjustments
+Info, Command 'optimize' finished successfully
+-- Writing file decoder_syn.v
+Info, Command 'write' finished successfully

@@ -1,0 +1,268 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         /afs/cad/u/j/p/jpw33/VLSI-2/Project/new/Decoder/layout/lvs.rep
+LAYOUT NAME:              $HOME/VLSI-2/Project/new/Decoder/layout/Bit9Adder
+SOURCE NAME:              $HOME/VLSI-2/Project/new/Decoder/schem/Bit9Adder/layout
+RULE FILE:                /afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules
+LVS MODE:                 Direct
+ICGRAPH CONFIGURATION:    Correct By Construction (CBC)
+CREATION TIME:            Thu May  9 00:36:40 2019
+CURRENT DIRECTORY:        /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/layout
+USER NAME:                jpw33
+
+
+**************************************************************************************************************
+                               OVERALL COMPARISON RESULTS
+**************************************************************************************************************
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+  Warning:  Components with non-identical power or ground pins.
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             29        27    *
+
+ Nets:              72        70    *
+
+ Instances:          6         0    *    aoi22 (7 pins): gnd vdd a0 b0 b1 a1 y
+                     0         6    *    aoi22 (5 pins): y b0 a1 a0 b1
+                    14         0    *    inv01 (4 pins): gnd vdd y a
+                     0        14    *    INV01 (2 pins): y a
+                     6         0    *    mux21 (6 pins): gnd vdd y s0 a1 a0
+                     0         6    *    mux21 (4 pins): y a1 a0 s0
+                     2         0    *    nand02 (5 pins): gnd vdd a1 a0 y
+                     0         2    *    NAND02 (3 pins): a1 a0 y
+                     1         0    *    oai21 (6 pins): gnd vdd a0 a1 y b0
+                     0         1    *    oai21 (4 pins): y b0 a1 a0
+                    23         0    *    xnor2 (5 pins): gnd vdd a0 y a1
+                     0        23    *    xnor2 (3 pins): a1 a0 y
+                ------    ------
+ Total Inst:        52        52
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             27        27
+
+ Nets:              70        70
+
+ Instances:          6         6         aoi22 (5 pins): y b0 a1 a0 b1
+                    14        14         inv01 (2 pins): y a
+                     6         6         mux21 (4 pins): y a1 a0 s0
+                     2         2         nand02 (3 pins): a1 a0 y
+                     1         1         oai21 (4 pins): y b0 a1 a0
+                    23        23         xnor2 (3 pins): a1 a0 y
+                ------    ------
+ Total Inst:        52        52
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            phy_comp element comp
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   LVS PIN NAME PROPERTY                  phy_pin
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "GND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS EDDM PROCESS M                     NO
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+
+   // Filter
+
+   LVS FILTER  sch_filter_direct_open  OPEN SOURCE DIRECT
+   LVS FILTER  sch_filter_direct_short  SHORT SOURCE DIRECT
+   LVS FILTER  sch_filter_mask_open  OPEN SOURCE MASK
+   LVS FILTER  sch_filter_mask_short  SHORT SOURCE MASK
+   LVS FILTER  lay_filter_direct_open  OPEN LAYOUT DIRECT
+   LVS FILTER  lay_filter_direct_short  SHORT LAYOUT DIRECT
+   LVS FILTER  v  OPEN
+   LVS FILTER  i  OPEN
+   LVS FILTER  e  OPEN
+   LVS FILTER  f  OPEN
+   LVS FILTER  g  OPEN
+
+   // Trace Property
+
+   // TRACE PROPERTY  mn  instpar(w) width w 0
+   // TRACE PROPERTY  mp  instpar(w) width w 0
+   // TRACE PROPERTY  me  instpar(w) width w 0
+   // TRACE PROPERTY  md  instpar(w) width w 0
+   // TRACE PROPERTY  mn  instpar(l) length l 0
+   // TRACE PROPERTY  mp  instpar(l) length l 0
+   // TRACE PROPERTY  me  instpar(l) length l 0
+   // TRACE PROPERTY  md  instpar(l) length l 0
+   // TRACE PROPERTY  r  instpar(r) resistance r 0
+   // TRACE PROPERTY  c  instpar(c) capacitance c 0
+   // TRACE PROPERTY  d  instpar(a) area a 0
+   // TRACE PROPERTY  d  instpar(p) perimeter p 0
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:              27         27            0            0
+
+   Nets:               70         70            0            0
+
+   Instances:           6          6            0            0    aoi22(ami12)
+                       14         14            0            0    inv01(ami12)
+                        6          6            0            0    mux21(ami12)
+                        2          2            0            0    nand02(ami12)
+                        1          1            0            0    oai21(ami12)
+                       23         23            0            0    xnor2(ami12)
+                  -------    -------    ---------    ---------
+   Total Inst:         52         52            0            0
+
+
+o Statistics:
+
+   2 layout nets were reduced to passthrough nets and deleted.
+
+
+o Component types with non-identical power or ground pins:
+
+      (Component types that have different power or ground pins in the
+       layout and source are listed below. Layout pins missing in the source and
+       source pins missing in the layout are ignored by the comparison algorithm).
+
+   Layout Pin Name       Source Pin Name         Component Type
+   ---------------       -----------------       --------------
+
+   GND                   ** missing pin **       aoi22
+   VDD                   ** missing pin **       aoi22
+   GND                   ** missing pin **       inv01
+   VDD                   ** missing pin **       inv01
+   GND                   ** missing pin **       mux21
+   VDD                   ** missing pin **       mux21
+   GND                   ** missing pin **       nand02
+   VDD                   ** missing pin **       nand02
+   GND                   ** missing pin **       oai21
+   VDD                   ** missing pin **       oai21
+   GND                   ** missing pin **       xnor2
+   VDD                   ** missing pin **       xnor2
+
+
+o Layout Names That Are Missing In The Source:
+
+   Ports:        VDD GND
+   Nets:         VDD GND
+
+
+o Initial Correspondence Points:
+
+   Ports:        C[4] C[0] C[1] C[2] C[3] C[5] C[6] C[7] C[8] B[0] A[0] B[1] A[1] B[2] A[2] B[3]
+                 A[3] B[4] A[4] B[5] A[5] B[6] A[6] B[7] A[7] B[8] A[8]
+   Nets:         nx8 nx262 nx256 nx72 nx14 nx251 nx245 nx68 nx20 nx240 nx234 nx64 nx26 nx229
+                 nx223 nx60 nx32 nx218 nx212 nx56 nx38 nx207 nx201 nx52 nx195 nx48 nx189 nx44
+                 nx186 nx259 nx248 nx237 nx226 nx215 nx204 nx264 nx253 nx242 nx231 nx220 nx209
+                 nx192 nx198
+   Instances:    ix9 ix257 ix75 ix15 ix246 ix77 ix21 ix235 ix79 ix27 ix224 ix81 ix33 ix213 ix83
+                 ix39 ix202 ix85 ix196 ix87 ix190 ix89 ix95 ix260 ix249 ix238 ix227 ix216 ix205
+                 ix73 ix69 ix65 ix61 ix57 ix53 ix49 ix199 ix193 ix241 ix232 ix230 ix221 ix219
+                 ix210 ix208 ix45 ix187 ix265 ix263 ix254
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

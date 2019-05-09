@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1557380666 1557380666
+lvs_ExtOutFile RUNDIR /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/layout
+lvs_ExtOutFile RULES_FILE /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/layout/_tsmc018.calibre.rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/schem/ChipMultiplier/ChipMultiplier.src.net
+lvs_ExtOutFile EXTRACTION_REPORT ChipMultiplier.lvs.report.ext

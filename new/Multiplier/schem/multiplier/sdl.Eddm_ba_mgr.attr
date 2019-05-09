@@ -1,6 +1,0 @@
-A 5 u Eddm_ba_mgr 5cd255c324c8.03.80.eb.2c.48.00.7c.e5 1 2 1 0
-V v 1 1 5cd255c324c8.03.80.eb.2c.48.01.7c.e5
-F f 1 "sdl.ba_1"
-O 1
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R cspuv 0 "/afs/cad/u/j/p/jpw33/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/accusim" 1 Eddm_design_viewpoint 5cd255c31aae.03.80.eb.2c.48.01.7c.e5 5cd255c31aae.03.80.eb.2c.48.00.7c.e5

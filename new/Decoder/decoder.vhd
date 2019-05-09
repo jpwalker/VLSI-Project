@@ -26,13 +26,13 @@ CONSTANT tri_val_neg : SIGNED (8 DOWNTO 0):= "111110001";
 CONSTANT period : TIME :=10 ns;
 
 	FOR recev_0_reg : ChipRegisterSIPO USE ENTITY work.sipo(shift);
-	FOR mult1 : Multiplier USE ENTITY work.multiplier(dataflow);
-	FOR acc1 : ChipArrayAdder USE ENTITY work.accu(model);
+	FOR mult1 : Multiplier USE ENTITY work.multiplier(struct);
+	FOR acc1 : ChipArrayAdder USE ENTITY work.accu(struct);
 	FOR comp1 : Comparator USE ENTITY work.comparator_1(below);
 	FOR comp2 : Comparator USE ENTITY work.comparator_1(beyond);
 	--FOR res_reg : SignedRegisterPIPO USE ENTITY work.reg_9bit(bhv);
 	FOR dlat1 : PacketLatchSIPO USE ENTITY work.D_latch(bhav);
-	FOR ctr1 : Counter USE ENTITY work.counter(count);
+	FOR ctr1 : Counter USE ENTITY work.counter(proc);
 	FOR sipo1 : sipo_bit USE ENTITY work.sipo_bit(behav);
 	FOR ctr_ld : counter_load USE ENTITY work.counter_chip(count);
 BEGIN
@@ -41,12 +41,12 @@ recev_0_reg : ChipRegisterSIPO PORT MAP(ser_data=>decode_in,pal_data=>reg2mul,en
 ctr_ld : counter_load PORT MAP(clk => clk, chip_rdy => ctr2reg);
 --code_0_reg :  ChipRegisterSIPO PORT MAP(ser_data=>user0_code,pal_data=>code2mul,clk=>clk,clr=>clr);
 mult1 : Multiplier PORT MAP(reg2mul,user0_code,mul2acc);
-acc1 : ChipArrayAdder PORT MAP(mul2acc,acc2reg);
+acc1 : ChipArrayAdder PORT MAP(mul2acc, acc2reg);
 --res_reg : SignedRegisterPIPO PORT MAP(D_reg9=>acc2reg, Q_reg9=>reg2com,clk=>ctr2reg,clr=>clr);--clk,clr
 comp1 : Comparator PORT MAP(acc2reg,tri_val_neg,com12or);
 comp2 : Comparator PORT MAP(acc2reg,tri_val_pos,com22or);
 or2ctr <= com12or OR com22or;
-ctr1 : Counter PORT MAP(or2ctr,ctr2user);
+ctr1 : Counter PORT MAP(or2ctr, ctr2user);
 sipo1 : sipo_bit PORT MAP(Q_bit=>sipo2dl,D_bit=>com22or,clk=>or2ctr);
 dlat1 : PacketLatchSIPO PORT MAP(user_data=>dlat2user,sympol=>sipo2dl,en=>ctr2user);
 user_rec(4)<=ctr2user;

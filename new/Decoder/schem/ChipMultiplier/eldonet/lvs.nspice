@@ -1,0 +1,295 @@
+* LVS netlist generated with ICnet by 'jpw33' on Thu May  9 2019 at 01:44:00
+
+*
+* Globals.
+*
+.global GND VDD
+
+*
+* Component pathname : $ADK/parts/nand02
+*
+.subckt nand02  Y A0 A1
+
+        M_I$472 Y A1 VDD VDD p L=1.2u W=7.2u
+        M_I$471 Y A0 VDD VDD p L=1.2u W=7.2u
+        M_I$4 Y A0 N$7 GND n L=1.2u W=6u
+        M_I$5 N$7 A1 GND GND n L=1.2u W=6u
+.ends nand02
+
+*
+* Component pathname : $ADK/parts/oai21
+*
+.subckt oai21  A0 A1 B0 Y
+
+        M_I$5 N$7 B0 GND GND n L=1.2u W=6u
+        M_I$4 Y A1 N$7 GND n L=1.2u W=6u
+        M_I$3 Y A0 N$7 GND n L=1.2u W=6u
+        M_I$12 Y B0 VDD VDD p L=1.2u W=7.2u
+        M_I$2 Y A1 N$9 VDD p L=1.2u W=14.4u
+        M_I$1 N$9 A0 VDD VDD p L=1.2u W=14.4u
+.ends oai21
+
+*
+* Component pathname : $ADK/parts/inv01
+*
+.subckt inv01  A Y
+
+        M_I$411 Y A VDD VDD p L=1.2u W=5.4u
+        M_I$412 Y A GND GND n L=1.2u W=3u
+.ends inv01
+
+*
+* Component pathname : $ADK/parts/aoi33
+*
+.subckt aoi33  B2 A0 A1 A2 B0 B1 Y
+
+        M_I$426 Y B0 N$223 VDD p L=1.2u W=7.8u
+        M_I$425 N$219 B2 GND GND n L=1.2u W=9u
+        M_I$12 N$8 B1 N$219 GND n L=1.2u W=9u
+        M_I$11 Y B0 N$8 GND n L=1.2u W=9u
+        M_I$10 N$7 A2 GND GND n L=1.2u W=9u
+        M_I$9 N$6 A1 N$7 GND n L=1.2u W=9u
+        M_I$8 Y A0 N$6 GND n L=1.2u W=9u
+        M_I$6 Y B2 N$223 VDD p L=1.2u W=7.8u
+        M_I$5 Y B1 N$223 VDD p L=1.2u W=7.8u
+        M_I$4 N$223 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$3 N$223 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$2 N$223 A2 VDD VDD p L=1.2u W=7.8u
+.ends aoi33
+
+*
+* Component pathname : $ADK/parts/aoi221
+*
+.subckt aoi221  A0 A1 B0 B1 C0 Y
+
+        M_I$13 Y C0 GND GND n L=1.2u W=6u
+        M_I$12 N$8 B1 GND GND n L=1.2u W=9u
+        M_I$11 Y B0 N$8 GND n L=1.2u W=9u
+        M_I$9 N$6 A1 GND GND n L=1.2u W=9u
+        M_I$8 Y A0 N$6 GND n L=1.2u W=9u
+        M_I$7 Y C0 N$4 VDD p L=1.2u W=14.4u
+        M_I$6 N$4 B0 N$14 VDD p L=1.2u W=14.4u
+        M_I$5 N$4 B1 N$14 VDD p L=1.2u W=14.4u
+        M_I$3 N$14 A1 VDD VDD p L=1.2u W=14.4u
+        M_I$2 N$14 A0 VDD VDD p L=1.2u W=14.4u
+.ends aoi221
+
+*
+* Component pathname : $ADK/parts/nor03
+*
+.subckt nor03  A2 A0 A1 Y
+
+        M_I$213 Y A0 GND GND n L=1.2u W=3.6u
+        M_I$211 Y A2 N$211 VDD p L=1.2u W=16.2u
+        M_I$5 Y A1 GND GND n L=1.2u W=3.6u
+        M_I$4 Y A2 GND GND n L=1.2u W=3.6u
+        M_I$3 N$211 A1 N$1 VDD p L=1.2u W=16.2u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=16.2u
+.ends nor03
+
+*
+* Component pathname : $ADK/parts/xnor2
+*
+.subckt xnor2  Y A0 A1
+
+        M_I$218 N$213 A1 GND GND n L=1.2u W=6u
+        M_I$217 N$212 A0 N$213 GND n L=1.2u W=6u
+        M_I$9 N$212 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$8 N$212 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$7 N$3 N$212 GND GND n L=1.2u W=6u
+        M_I$6 Y A1 N$3 GND n L=1.2u W=6u
+        M_I$5 Y A0 N$3 GND n L=1.2u W=6u
+        M_I$4 Y A1 N$1 VDD p L=1.2u W=15.6u
+        M_I$3 Y N$212 VDD VDD p L=1.2u W=7.8u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=15.6u
+.ends xnor2
+
+*
+* Component pathname : $ADK/parts/oai22
+*
+.subckt oai22  B1 A0 A1 B0 Y
+
+        M_I$267 N$7 B1 GND GND n L=1.2u W=6u
+        M_I$265 Y B1 N$414 VDD p L=1.2u W=14.4u
+        M_I$5 N$7 B0 GND GND n L=1.2u W=6u
+        M_I$4 Y A1 N$7 GND n L=1.2u W=6u
+        M_I$3 Y A0 N$7 GND n L=1.2u W=6u
+        M_I$12 N$414 B0 VDD VDD p L=1.2u W=14.4u
+        M_I$2 Y A1 N$9 VDD p L=1.2u W=14.4u
+        M_I$1 N$9 A0 VDD VDD p L=1.2u W=14.4u
+.ends oai22
+
+*
+* Component pathname : $ADK/parts/aoi22
+*
+.subckt aoi22  B1 A0 A1 B0 Y
+
+        M_I$425 Y B0 N$9 GND n L=1.2u W=6u
+        M_I$426 Y B1 N$4 VDD p L=1.2u W=7.8u
+        M_I$12 N$8 A1 GND GND n L=1.2u W=6u
+        M_I$11 Y A0 N$8 GND n L=1.2u W=6u
+        M_I$7 Y B0 N$4 VDD p L=1.2u W=7.8u
+        M_I$6 N$4 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$5 N$4 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$13 N$9 B1 GND GND n L=1.2u W=6u
+.ends aoi22
+
+*
+* Component pathname : $ADK/parts/nand03
+*
+.subckt nand03  A1 Y A0 A2
+
+        M_I$10 Y A2 VDD VDD p L=1.2u W=9u
+        M_I$9 Y A0 N$4 GND n L=1.2u W=9u
+        M_I$8 N$5 A2 GND GND n L=1.2u W=9u
+        M_I$7 N$4 A1 N$5 GND n L=1.2u W=9u
+        M_I$3 Y A1 VDD VDD p L=1.2u W=9u
+        M_I$2 Y A0 VDD VDD p L=1.2u W=9u
+.ends nand03
+
+*
+* Component pathname : $ADK/parts/nor02
+*
+.subckt nor02  A0 A1 Y
+
+        M_I$5 Y A0 GND GND n L=1.2u W=3u
+        M_I$4 Y A1 GND GND n L=1.2u W=3u
+        M_I$3 Y A1 N$1 VDD p L=1.2u W=7.8u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=7.8u
+.ends nor02
+
+*
+* Component pathname : $ADK/parts/oai32
+*
+.subckt oai32  A2 B1 A0 A1 B0 Y
+
+        M_I$471 Y A2 N$415 VDD p L=1.2u W=21.6u
+        M_I$470 Y A2 N$7 GND n L=1.2u W=9u
+        M_I$267 N$7 B1 GND GND n L=1.2u W=9u
+        M_I$265 Y B1 N$414 VDD p L=1.2u W=14.4u
+        M_I$5 N$7 B0 GND GND n L=1.2u W=9u
+        M_I$4 Y A1 N$7 GND n L=1.2u W=9u
+        M_I$3 Y A0 N$7 GND n L=1.2u W=9u
+        M_I$12 N$414 B0 VDD VDD p L=1.2u W=14.4u
+        M_I$2 N$415 A1 N$9 VDD p L=1.2u W=21.6u
+        M_I$1 N$9 A0 VDD VDD p L=1.2u W=21.6u
+.ends oai32
+
+*
+* Component pathname : $ADK/parts/aoi21
+*
+.subckt aoi21  A0 A1 B0 Y
+
+        M_I$12 N$8 A1 GND GND n L=1.2u W=6u
+        M_I$11 Y A0 N$8 GND n L=1.2u W=6u
+        M_I$7 Y B0 N$4 VDD p L=1.2u W=7.8u
+        M_I$6 N$4 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$5 N$4 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$13 Y B0 GND GND n L=1.2u W=3u
+.ends aoi21
+
+*
+* Component pathname : $ADK/parts/aoi32
+*
+.subckt aoi32  A0 A1 A2 B0 B1 Y
+
+        M_I$12 N$8 B1 GND GND n L=1.2u W=6u
+        M_I$11 Y B0 N$8 GND n L=1.2u W=6u
+        M_I$10 N$7 A2 GND GND n L=1.2u W=9u
+        M_I$9 N$6 A1 N$7 GND n L=1.2u W=9u
+        M_I$8 Y A0 N$6 GND n L=1.2u W=9u
+        M_I$6 Y B0 N$14 VDD p L=1.2u W=7.8u
+        M_I$5 Y B1 N$14 VDD p L=1.2u W=7.8u
+        M_I$4 N$14 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$3 N$14 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$2 N$14 A2 VDD VDD p L=1.2u W=7.8u
+.ends aoi32
+
+*
+* Component pathname : $HOME/VLSI-2/Project/new/Decoder/schem/ChipMultiplier
+*
+.subckt ChipMultiplier  A[0] A[1] A[2] A[3] A[4] B[0] B[1] B[2] B[3] B[4]
++ C[0] C[1] C[2] C[3] C[4]
+
+        X_ix47 nx46 nx629 nx625 nand02
+        X_ix509 nx508 nx32 nx36 nand02
+        X_ix3 nx2 nx607 nx613 nand02
+        X_ix600 nx188 nx537 B[1] nx599 oai21
+        X_ix580 nx152 nx138 nx531 nx579 oai21
+        X_ix504 nx2 nx621 B[0] nx503 oai21
+        X_ix632 A[1] nx633 inv01
+        X_ix630 nx501 nx631 inv01
+        X_ix628 nx501 nx629 inv01
+        X_ix626 nx515 nx627 inv01
+        X_ix588 nx130 nx619 nx501 nx633 nx164 nx78 nx587 aoi33
+        X_ix33 nx511 nx633 nx517 nx621 nx519 nx32 aoi221
+        X_ix598 nx597 nx623 nx625 nand02
+        X_ix223 nx222 nx597 nx531 nand02
+        X_ix165 nx164 nx556 nx615 nand02
+        X_ix586 nx585 B[1] nx506 nand02
+        X_ix99 nx98 nx556 nx558 nand02
+        X_ix552 nx551 nx553 nx98 nand02
+        X_ix23 nx22 nx617 nx513 nand02
+        X_ix546 nx545 nx22 nx90 nand02
+        X_ix538 nx54 nx537 inv01
+        X_ix532 B[4] nx531 inv01
+        X_ix516 A[1] nx515 inv01
+        X_ix514 A[4] nx513 inv01
+        X_ix507 A[3] nx506 inv01
+        X_ix502 A[0] nx501 inv01
+        X_ix584 nx621 nx629 nx625 nx583 nor03
+        X_ix41 nx508 nx501 nx503 C[0] nor03
+        X_ix13 nx12 B[2] B[1] xnor2
+        X_ix11 nx10 B[3] B[4] xnor2
+        X_ix592 nx222 nx198 nx619 nx202 nx218 nx78 nx591 aoi33
+        X_ix109 nx545 nx549 nx551 nx560 nx562 C[2] aoi221
+        X_ix219 nx2 nx615 nx585 B[1] nx218 oai22
+        X_ix139 nx506 nx583 nx585 B[1] nx138 oai22
+        X_ix179 nx587 nx577 nx579 nx531 nx178 oai22
+        X_ix574 nx130 nx558 nx617 nx78 nx573 aoi22
+        X_ix520 nx12 nx519 nx10 nx14 nand03
+        X_ix199 B[1] nx513 nx198 nor02
+        X_ix153 nx607 nx629 nx152 nor02
+        X_ix131 nx558 nx619 nx130 nor02
+        X_ix185 nx566 nx570 C[3] nor02
+        X_ix554 nx629 nx625 nx553 nor02
+        X_ix53 B[1] nx46 nx52 nor02
+        X_ix75 nx503 nx526 C[1] nor02
+        X_ix518 nx607 nx613 nx517 nor02
+        X_ix512 nx617 nx513 nx511 nor02
+        X_ix540 nx539 nx28 nx30 nand02
+        X_ix536 nx535 B[1] nx629 nand02
+        X_ix624 nx515 nx625 inv01
+        X_ix622 nx556 nx623 inv01
+        X_ix620 nx556 nx621 inv01
+        X_ix618 nx506 nx619 inv01
+        X_ix616 nx506 nx617 inv01
+        X_ix614 nx513 nx615 inv01
+        X_ix612 nx513 nx613 inv01
+        X_ix606 nx619 nx607 inv01
+        X_ix19 nx519 nx18 inv01
+        X_ix559 B[1] nx558 inv01
+        X_ix557 A[2] nx556 inv01
+        X_ix543 nx28 nx542 inv01
+        X_ix203 nx625 nx202 nx629 B[4] nand03
+        X_ix119 nx621 nx118 B[4] nx617 nand03
+        X_ix567 B[0] nx566 nx118 nx18 nand03
+        X_ix79 nx633 nx78 nx501 nx556 nand03
+        X_ix563 B[0] nx562 nx32 nx78 nand03
+        X_ix550 B[4] nx549 nx2 nx46 nand03
+        X_ix91 nx613 nx90 nx607 B[4] nand03
+        X_ix31 nx613 nx30 nx607 nx633 nand03
+        X_ix55 nx513 nx54 nx617 nx531 nand03
+        X_ix37 nx513 nx36 nx617 nx625 nand03
+        X_ix69 nx539 nx542 nx535 nx537 nx633 nx68 oai32
+        X_ix189 nx631 nx627 nx22 nx188 aoi21
+        X_ix233 nx591 nx599 nx566 C[4] aoi21
+        X_ix578 nx556 nx46 nx613 nx577 aoi21
+        X_ix141 nx607 nx613 nx573 nx140 aoi21
+        X_ix29 nx517 nx621 nx519 nx28 aoi21
+        X_ix571 B[4] nx633 nx140 nx30 nx178 nx570 aoi32
+        X_ix527 nx52 nx54 nx28 nx46 nx68 nx526 aoi32
+        X_ix561 nx560 B[1] nx621 xnor2
+        X_ix15 nx14 B[3] B[2] xnor2
+.ends ChipMultiplier
+

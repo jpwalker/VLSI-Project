@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/layout
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 1 0 0}
+lvs_LvsOutFile LVS_REPORT ChipMultiplier.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/schem/ChipMultiplier/ChipMultiplier.src.net
+lvs_LvsOutFile RULES_FILE /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/layout/_tsmc018.calibre.rules_
+lvs_LvsRunTimes 1557380666 1557380666

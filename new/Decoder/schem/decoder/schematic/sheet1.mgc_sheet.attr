@@ -1,0 +1,28 @@
+A 5 u mgc_sheet 5cd3a78f4170.03.80.eb.2c.49.00.54.94 1 2 21 0
+V v 1 3 5cd3a78f4171.03.80.eb.2c.49.00.54.94
+F f 1 "sheet1.ssht_1"
+F f 1 "sheet1.sgfx_1"
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/schematic" 1 mgc_schematic 5cd3a78f36a7.03.80.eb.2c.49.01.54.94 5cd3a78f36a7.03.80.eb.2c.49.00.54.94
+R csduv 1 "$MGC_IC_GENERIC_LIB/offpag.out/part" 1 Eddm_part 5bc454e33000.0d.00.02.ed.d4.00.00.00 3890e8888efb.03.86.56.31.70.04.3a.eb
+R csduv 2 "$MGC_IC_GENERIC_LIB/offpag.out/offpag.out" 1 mgc_symbol 5e8fb82cd000.0d.00.02.ed.d4.00.00.00 3890e8888efc.03.86.56.31.70.00.3a.eb
+R csduv 3 "$MGC_IC_GENERIC_LIB/rip/part" 1 Eddm_part 5f94d2b7f000.0d.00.02.e4.17.00.00.00 3890e8888ef7.03.86.56.31.70.03.3a.eb
+R csduv 4 "$MGC_IC_GENERIC_LIB/rip/1X1" 1 mgc_symbol 6021b4b18000.0d.00.03.97.39.00.00.00 3890e8888ef7.03.86.56.31.70.04.3a.eb
+R csduv 5 "$MGC_IC_GENERIC_LIB/offpag.in/part" 1 Eddm_part 5bc451019000.0d.00.02.ed.d4.00.00.00 3890e8888efc.03.86.56.31.70.02.3a.eb
+R csduv 6 "$MGC_IC_GENERIC_LIB/offpag.in/offpag.in" 1 mgc_symbol 5e8fb81f8000.0d.00.02.ed.d4.00.00.00 3890e8888efc.03.86.56.31.70.03.3a.eb
+R csduv 7 "$ADK/parts/buf02/part" 1 Eddm_part 411be775e8a2.03.93.22.46.d8.00.14.dc 43349f1b0f75.03.93.22.46.d8.00.02.fa
+R csduv 8 "$ADK/parts/buf02/buf02" 1 mgc_symbol 37c5a9f31e2c.03.93.22.21.a7.00.2d.3e 43349f1b0f74.03.93.22.46.d8.05.02.fa
+R csduv 9 "$ADK/technology/ic/symbols/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.05.02.fa
+R csduv 10 "$ADK/technology/ic/symbols/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.06.02.fa
+R csduv 11 "$ADK/parts/inv01/part" 1 Eddm_part 411d0b78f3c4.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.05.02.fa
+R csduv 12 "$ADK/parts/inv01/inv01" 1 mgc_symbol 37c5aadeee9e.03.93.22.21.a7.00.2d.3e 43349f1b0f6b.03.93.22.46.d8.02.02.fa
+R csduv 13 "$HOME/VLSI-2/Project/new/Decoder/schem/sipo/part" 2 Eddm_part 5cd3a78db118.03.80.eb.2c.49.00.54.94 5cd3a78d60bf.03.80.eb.2c.49.00.54.94
+R csduv 14 "$HOME/VLSI-2/Project/new/Decoder/schem/sipo/sipo" 1 mgc_symbol 5cd3a78d5ca0.03.80.eb.2c.49.01.54.94 5cd3a78d5ca0.03.80.eb.2c.49.00.54.94
+R csduv 15 "$HOME/VLSI-2/Project/new/Decoder/schem/counter_chip/part" 2 Eddm_part 5cd3a78c2568.03.80.eb.2c.49.00.54.94 5cd3a78bca2c.03.80.eb.2c.49.00.54.94
+R csduv 16 "$HOME/VLSI-2/Project/new/Decoder/schem/counter_chip/counter_chip" 1 mgc_symbol 5cd3a78bc80e.03.80.eb.2c.49.01.54.94 5cd3a78bc80e.03.80.eb.2c.49.00.54.94
+R csduv 17 "$HOME/VLSI-2/Project/new/Decoder/schem/ChipMultiplier/part" 2 Eddm_part 5cd3a789d0f0.03.80.eb.2c.49.00.54.94 5cd3a78909ad.03.80.eb.2c.49.00.54.94
+R csduv 18 "$HOME/VLSI-2/Project/new/Decoder/schem/ChipMultiplier/ChipMultiplier" 1 mgc_symbol 5cd3a789078c.03.80.eb.2c.49.01.54.94 5cd3a789078c.03.80.eb.2c.49.00.54.94
+R csduv 19 "$HOME/VLSI-2/Project/new/Decoder/schem/Bit9Adder/part" 2 Eddm_part 5cd3a7871d62.03.80.eb.2c.49.00.54.94 5cd3a7861873.03.80.eb.2c.49.00.54.94
+R csduv 20 "$HOME/VLSI-2/Project/new/Decoder/schem/Bit9Adder/Bit9Adder" 1 mgc_symbol 5cd3a7861661.03.80.eb.2c.49.01.54.94 5cd3a7861661.03.80.eb.2c.49.00.54.94

@@ -1,0 +1,23 @@
+# leo script for decoder
+load_library tsmc018_typ.syn
+read -format vhdl -work TypeLibrary ../types.vhd
+read -format vhdl -work TypeLibrary ../types_bdy.vhd
+read -format vhdl -work work ../sipo.vhd
+read -format vhdl -architecture beyond -work work ../comparator.vhd
+read -format vhdl -architecture below -work work ../comparator.vhd
+read -format vhdl -work work ../counter_load.vhd
+read -format vhdl -work work ../counter.vhd
+read -format vhdl -work work ../D_latch.vhd
+read -format vhdl -work work ../sipo_bit.vhd
+read -format vhdl -work work ../accumulator_parts.vhd
+read -format vhdl -work work ../bit9adder.vhd
+read -format vhdl -work work ../chipadder.vhd
+read -format vhdl -work work ../accumulator.vhd
+read -format vhdl -work work ../ChipMultiplier.vhd
+read -format vhdl -work work ../multiplier_parts.vhd
+read -format vhdl -work work ../multiplier.vhd
+read -format vhdl -work work ../decoder_parts.vhd
+read -format vhdl -work work ../decoder.vhd
+optimize -delay
+write -downto tsmc018_typ -design .work.decoder.decoding decoder_syn.v
+exit

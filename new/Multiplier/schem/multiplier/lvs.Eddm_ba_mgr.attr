@@ -1,6 +1,0 @@
-A 5 u Eddm_ba_mgr 5cd2556eb2a2.03.80.eb.2c.48.00.79.1c 1 2 1 0
-V v 1 1 5cd2556eb2a2.03.80.eb.2c.48.01.79.1c
-F f 1 "lvs.ba_1"
-O 1
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R cspuv 0 "$HOME/VLSI-2/Project/Decoder/Multiplier/schem/multiplier/lvs" 1 Eddm_design_viewpoint 5cd2556eaee5.03.80.eb.2c.48.01.79.1c 5cd2556eaee5.03.80.eb.2c.48.00.79.1c

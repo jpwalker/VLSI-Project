@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5cd3a7891503.03.80.eb.2c.49.00.54.94 10 2 1 0
+V v 8 1 5cd3ba58686b.03.80.eb.2c.49.00.52.d0
+F o 0 ""
+V v 9 1 5cd3ba5c8afe.03.80.eb.2c.49.00.52.d0
+F o 0 ""
+V v 10 1 5cd3be0e89cb.03.80.eb.2c.49.00.0d.5f
+F o 0 ""
+O 10
+R cspuv 0 "$HOME/VLSI-2/Project/new/Decoder/schem/ChipMultiplier/schematic/sheet1" 9 mgc_sheet 5cd3be0e60c7.03.80.eb.2c.49.00.0d.5f 5cd3a7891bd1.03.80.eb.2c.49.00.54.94
+O 9
+R cspuv 0 "$HOME/VLSI-2/Project/new/Decoder/schem/ChipMultiplier/schematic/sheet1" 8 mgc_sheet 5cd3ba5c89f0.03.80.eb.2c.49.00.52.d0 5cd3a7891bd1.03.80.eb.2c.49.00.54.94
+O 8
+R cspuv 0 "$HOME/VLSI-2/Project/new/Decoder/schem/ChipMultiplier/schematic/sheet1" 7 mgc_sheet 5cd3ba586751.03.80.eb.2c.49.00.52.d0 5cd3a7891bd1.03.80.eb.2c.49.00.54.94

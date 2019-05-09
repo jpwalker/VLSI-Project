@@ -21,8 +21,8 @@ package DecoderParts is
   end component;
 
   component ChipArrayAdder is
-	Port (CHIP_ARRAY : IN chip_array(15 downto 0);
-	OUT_CHIP : OUT signed (8 downto 0));
+	Port (A : IN chip_array(15 downto 0);
+        B : OUT signed(8 downto 0));
   end component;
 
   component Comparator is
@@ -44,7 +44,7 @@ package DecoderParts is
   end component;
 
   component Counter is
-	PORT(data_pass : IN BIT;
+	PORT(count : IN BIT;
 		msg_rdy : OUT BIT);
   end component;
 

@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/ChipMultiplier.dv
+dv_start matched
+dv_cell {ChipMultiplier} {ChipMultiplier} matched
+dv_obj_count -transformed_nets {96 96} -transformed_inst {132 132} -transformed_port {0 0}
+dv_end

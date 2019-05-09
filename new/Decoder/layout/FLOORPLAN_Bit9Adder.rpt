@@ -1,0 +1,80 @@
+
+//  Track spacing:
+//  1 X-track = 8000 grids = 8 microns.
+//  1 Y-track = 8000 grids = 8 microns.
+
+//  Site-type-specific data (mic):
+//  Maximum site type = 2
+//  Tp#   Insts   TotWd  UnplWd    Xdim    Rows     LoY     HiY   Class
+//   1     52     2720    2720       0       4       0     120     INT
+//   2     29      232     232    3120       4     -25      25     EXT
+//  All    81
+
+//  Gaps between internal zone and external rows (mic):
+//  Left = 108.0, Right = 108.0, Top = 0.0, Bottom = 0.0
+
+//  Row/dimension constraints:
+//   Minimum # of rows = 0
+//   Minimum x dimension, mic = 64.0
+//   Minimum y dimension, mic = 0.0
+//   Max chip width, mic = 3.0
+//   Max chip height, mic = 3.0
+
+//  Internal zone parameters:
+//   Total internal (cell + macro + chan) area, mic^2 = 413440.1
+//   Internal (std. cell + chan) area, mic^2 = 413440.1
+//   Total large macro area, mic^2 = 0.0
+//   Number of internal rows = 4
+//   Internal routing/cell area ratio = 27// % (auto-computed)
+//   Avg. instance height, mic = 120.0
+//   Avg. channel height, mic = 32.0
+//   Avg. row height rounded to tracks, mic = 152.0
+//   Total connections (pins - nets) = 224
+//   Internal zone area, mic^2 = 447488.0
+//   Internal zone width, mic = 736.0
+//   Internal zone height, mic = 608.0
+//   Aspect ratio = 1.44
+//   Specified lower aspect ratio = 0.5
+//   Specified upper aspect ratio = 1.5
+
+//  External zone parameters:
+//   External area (cell only), mic^2 = 11600.0
+//   External row widths (mic):
+//   Left, Right = 608.0, Top, Bottom = 952.0
+//   Generate all four external rows.
+
+//  Row bounds (mic):
+//   External rows:
+//   Row      Stp  Occup     LoX     HiX     LoY     HiY    OrgX    OrgY
+//  Bottom     2       0      88    1040       0      56      88      25
+//  Left       2       0       0      56      88     696      31      88
+//  Right      2       0    1072    1128      88     696    1097      88
+//  Top        2       0      88    1040     728     784      88     753
+//   1         1       0     200     936     104     224     200     104
+//   2         1       0     200     936     256     376     200     256
+//   3         1       0     200     936     408     528     200     408
+//   4         1       0     200     936     560     680     200     560
+
+//  Overall chip dimensions:
+//   Chip X-dimension, mic: 1128.0
+//   Chip Y-dimension, mic: 784.0
+
+//  Preplacement info:
+//   Row = 1, site type =  1:
+//   Row = 2, site type =  1:
+//   Row = 3, site type =  1:
+//   Row = 4, site type =  1:
+//   Row = 0, site type =  2:
+//   Row = 0, site type =  2:
+//   Row = 0, site type =  2:
+//   Row = 0, site type =  2:
+
+//  Row occupancy info:
+//   Row  1:
+//   Row  2:
+//   Row  3:
+//   Row  4:
+//   Row  5:
+//   Row  6:
+//   Row  7:
+//   Row  8:

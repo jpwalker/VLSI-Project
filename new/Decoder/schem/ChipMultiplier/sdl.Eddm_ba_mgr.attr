@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 5cd3aee2bcdd.03.80.eb.2c.49.00.66.5f 1 2 1 0
+V v 1 1 5cd3aee2bcdd.03.80.eb.2c.49.01.66.5f
+F f 1 "sdl.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/afs/cad/u/j/p/jpw33/VLSI-2/Project/new/Decoder/schem/ChipMultiplier/accusim" 1 Eddm_design_viewpoint 5cd3aee23e53.03.80.eb.2c.49.01.66.5f 5cd3aee23e53.03.80.eb.2c.49.00.66.5f

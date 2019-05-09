@@ -1,0 +1,1308 @@
+* LVS netlist generated with ICnet by 'jpw33' on Thu May  9 2019 at 01:14:41
+
+*
+* Globals.
+*
+.global VDD GND
+
+*
+* Component pathname : $ADK/parts/inv01
+*
+.subckt inv01  A Y
+
+        M_I$411 Y A VDD VDD p L=1.2u W=5.4u
+        M_I$412 Y A GND GND n L=1.2u W=3u
+.ends inv01
+
+*
+* Component pathname : $ADK/parts/nand04
+*
+.subckt nand04  A3 A1 Y A0 A2
+
+        M_I$15 N$6 A1 N$9 GND n L=1.2u W=12u
+        M_I$14 Y A0 N$6 GND n L=1.2u W=12u
+        M_I$11 Y A3 VDD VDD p L=1.2u W=12u
+        M_I$10 Y A2 VDD VDD p L=1.2u W=12u
+        M_I$9 N$2 A3 GND GND n L=1.2u W=12u
+        M_I$8 N$9 A2 N$2 GND n L=1.2u W=12u
+        M_I$3 Y A1 VDD VDD p L=1.2u W=12u
+        M_I$2 Y A0 VDD VDD p L=1.2u W=12u
+.ends nand04
+
+*
+* Component pathname : $ADK/parts/nand03
+*
+.subckt nand03  A1 Y A0 A2
+
+        M_I$10 Y A2 VDD VDD p L=1.2u W=9u
+        M_I$9 Y A0 N$4 GND n L=1.2u W=9u
+        M_I$8 N$5 A2 GND GND n L=1.2u W=9u
+        M_I$7 N$4 A1 N$5 GND n L=1.2u W=9u
+        M_I$3 Y A1 VDD VDD p L=1.2u W=9u
+        M_I$2 Y A0 VDD VDD p L=1.2u W=9u
+.ends nand03
+
+*
+* Component pathname : $ADK/parts/nor03
+*
+.subckt nor03  A2 A0 A1 Y
+
+        M_I$213 Y A0 GND GND n L=1.2u W=3.6u
+        M_I$211 Y A2 N$211 VDD p L=1.2u W=16.2u
+        M_I$5 Y A1 GND GND n L=1.2u W=3.6u
+        M_I$4 Y A2 GND GND n L=1.2u W=3.6u
+        M_I$3 N$211 A1 N$1 VDD p L=1.2u W=16.2u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=16.2u
+.ends nor03
+
+*
+* Component pathname : $ADK/parts/nor02
+*
+.subckt nor02  A0 A1 Y
+
+        M_I$5 Y A0 GND GND n L=1.2u W=3u
+        M_I$4 Y A1 GND GND n L=1.2u W=3u
+        M_I$3 Y A1 N$1 VDD p L=1.2u W=7.8u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=7.8u
+.ends nor02
+
+*
+* Component pathname : $ADK/parts/dff
+*
+.subckt dff  QB Q CLK D
+
+        M_I$441 N$847 bclk- N$851 GND n L=1.2u W=9u
+        M_I$440 N$849 N$847 VDD VDD p L=1.2u W=3u
+        M_I$439 N$847 bclk- N$848 VDD p L=1.2u W=3u
+        M_I$438 N$848 N$849 VDD VDD p L=1.2u W=3u
+        M_I$437 N$847 bclk N$845 VDD p L=1.2u W=16.2u
+        M_I$436 N$845 D VDD VDD p L=1.2u W=16.2u
+        M_I$452 bclk bclk- GND GND n L=1.2u W=6u
+        M_I$673 Q QB GND GND n L=1.2u W=6u
+        M_I$672 Q QB VDD VDD p L=1.2u W=10.8u
+        M_I$669 QB N$1074 GND GND n L=1.2u W=6u
+        M_I$675 QB N$1074 VDD VDD p L=1.2u W=10.8u
+        M_I$668 N$1071 N$1074 GND GND n L=1.2u W=3u
+        M_I$667 N$1073 N$1071 GND GND n L=1.2u W=3u
+        M_I$666 N$1074 bclk- N$1073 GND n L=1.2u W=3u
+        M_I$665 N$1072 N$847 GND GND n L=1.2u W=9u
+        M_I$664 N$1074 bclk N$1072 GND n L=1.2u W=9u
+        M_I$663 N$1071 N$1074 VDD VDD p L=1.2u W=3u
+        M_I$662 N$1074 bclk N$1070 VDD p L=1.2u W=3u
+        M_I$661 N$1070 N$1071 VDD VDD p L=1.2u W=3u
+        M_I$660 N$1074 bclk- N$1069 VDD p L=1.2u W=16.2u
+        M_I$659 N$1069 N$847 VDD VDD p L=1.2u W=16.2u
+        M_I$449 bclk- CLK GND GND n L=1.2u W=6u
+        M_I$448 bclk- CLK VDD VDD p L=1.2u W=10.8u
+        M_I$453 bclk bclk- VDD VDD p L=1.2u W=10.8u
+        M_I$445 N$849 N$847 GND GND n L=1.2u W=3u
+        M_I$444 N$852 N$849 GND GND n L=1.2u W=3u
+        M_I$443 N$847 bclk N$852 GND n L=1.2u W=3u
+        M_I$442 N$851 D GND GND n L=1.2u W=9u
+.ends dff
+
+*
+* Component pathname : $ADK/parts/latch
+*
+.subckt latch  Q CLK D
+
+        M_I$222 Q N$17 GND GND n L=1.2u W=3u
+        M_I$221 Q N$17 VDD VDD p L=1.2u W=5.4u
+        M_I$15 N$10 CLK GND GND n L=1.2u W=3u
+        M_I$13 N$222 N$17 GND GND n L=1.2u W=3u
+        M_I$12 N$15 N$222 GND GND n L=1.2u W=3u
+        M_I$11 N$17 N$10 N$15 GND n L=1.2u W=3u
+        M_I$10 N$13 D GND GND n L=1.2u W=9u
+        M_I$9 N$17 CLK N$13 GND n L=1.2u W=9u
+        M_I$6 N$17 CLK N$15 VDD p L=1.2u W=3u
+        M_I$7 N$222 N$17 VDD VDD p L=1.2u W=5.4u
+        M_I$5 N$15 N$222 VDD VDD p L=1.2u W=3u
+        M_I$4 N$17 N$10 N$11 VDD p L=1.2u W=16.2u
+        M_I$3 N$11 D VDD VDD p L=1.2u W=16.2u
+        M_I$2 N$10 CLK VDD VDD p L=1.2u W=5.4u
+.ends latch
+
+*
+* Component pathname : $ADK/parts/xnor2
+*
+.subckt xnor2  Y A0 A1
+
+        M_I$218 N$213 A1 GND GND n L=1.2u W=6u
+        M_I$217 N$212 A0 N$213 GND n L=1.2u W=6u
+        M_I$9 N$212 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$8 N$212 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$7 N$3 N$212 GND GND n L=1.2u W=6u
+        M_I$6 Y A1 N$3 GND n L=1.2u W=6u
+        M_I$5 Y A0 N$3 GND n L=1.2u W=6u
+        M_I$4 Y A1 N$1 VDD p L=1.2u W=15.6u
+        M_I$3 Y N$212 VDD VDD p L=1.2u W=7.8u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=15.6u
+.ends xnor2
+
+*
+* Component pathname : $ADK/parts/aoi22
+*
+.subckt aoi22  B1 A0 A1 B0 Y
+
+        M_I$425 Y B0 N$9 GND n L=1.2u W=6u
+        M_I$426 Y B1 N$4 VDD p L=1.2u W=7.8u
+        M_I$12 N$8 A1 GND GND n L=1.2u W=6u
+        M_I$11 Y A0 N$8 GND n L=1.2u W=6u
+        M_I$7 Y B0 N$4 VDD p L=1.2u W=7.8u
+        M_I$6 N$4 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$5 N$4 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$13 N$9 B1 GND GND n L=1.2u W=6u
+.ends aoi22
+
+*
+* Component pathname : $ADK/parts/mux21
+*
+.subckt mux21  S0 A0 A1 Y
+
+        M_I$5 Y S0 N$10 VDD p L=1.2u W=10.8u
+        M_I$13 N$6 A1 GND GND n L=1.2u W=6u
+        M_I$12 Y S0 N$6 GND n L=1.2u W=6u
+        M_I$17 Y N$7 N$5 VDD p L=1.2u W=10.8u
+        M_I$16 N$5 A1 VDD VDD p L=1.2u W=10.8u
+        M_I$7 N$4 A0 GND GND n L=1.2u W=6u
+        M_I$6 Y N$7 N$4 GND n L=1.2u W=6u
+        M_I$4 N$10 A0 VDD VDD p L=1.2u W=10.8u
+        M_I$3 N$7 S0 GND GND n L=1.2u W=3u
+        M_I$2 N$7 S0 VDD VDD p L=1.2u W=5.4u
+.ends mux21
+
+*
+* Component pathname : $ADK/parts/oai21
+*
+.subckt oai21  A0 A1 B0 Y
+
+        M_I$5 N$7 B0 GND GND n L=1.2u W=6u
+        M_I$4 Y A1 N$7 GND n L=1.2u W=6u
+        M_I$3 Y A0 N$7 GND n L=1.2u W=6u
+        M_I$12 Y B0 VDD VDD p L=1.2u W=7.2u
+        M_I$2 Y A1 N$9 VDD p L=1.2u W=14.4u
+        M_I$1 N$9 A0 VDD VDD p L=1.2u W=14.4u
+.ends oai21
+
+*
+* Component pathname : $ADK/parts/nand02
+*
+.subckt nand02  Y A0 A1
+
+        M_I$472 Y A1 VDD VDD p L=1.2u W=7.2u
+        M_I$471 Y A0 VDD VDD p L=1.2u W=7.2u
+        M_I$4 Y A0 N$7 GND n L=1.2u W=6u
+        M_I$5 N$7 A1 GND GND n L=1.2u W=6u
+.ends nand02
+
+*
+* Component pathname : $HOME/VLSI-2/Project/new/Decoder/schem/Bit9Adder
+*
+.subckt Bit9Adder  A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] B[0] B[1]
++ B[2] B[3] B[4] B[5] B[6] B[7] B[8] C[0] C[1] C[2] C[3] C[4] C[5] C[6]
++ C[7] C[8]
+
+        X_ix241 B[4] nx240 inv01
+        X_ix232 A[4] nx231 inv01
+        X_ix230 B[3] nx229 inv01
+        X_ix221 A[3] nx220 inv01
+        X_ix219 B[2] nx218 inv01
+        X_ix210 A[2] nx209 inv01
+        X_ix208 B[1] nx207 inv01
+        X_ix45 nx192 nx44 inv01
+        X_ix187 A[0] nx186 inv01
+        X_ix9 nx8 A[6] nx262 xnor2
+        X_ix257 nx256 A[8] B[8] xnor2
+        X_ix75 C[8] nx256 nx72 xnor2
+        X_ix15 nx14 A[5] nx251 xnor2
+        X_ix246 nx245 A[7] B[7] xnor2
+        X_ix77 C[7] nx245 nx68 xnor2
+        X_ix21 nx20 A[4] nx240 xnor2
+        X_ix235 nx234 A[6] B[6] xnor2
+        X_ix79 C[6] nx234 nx64 xnor2
+        X_ix27 nx26 A[3] nx229 xnor2
+        X_ix224 nx223 A[5] B[5] xnor2
+        X_ix81 C[5] nx223 nx60 xnor2
+        X_ix33 nx32 A[2] nx218 xnor2
+        X_ix213 nx212 A[4] B[4] xnor2
+        X_ix83 C[4] nx212 nx56 xnor2
+        X_ix39 nx38 A[1] nx207 xnor2
+        X_ix202 nx201 A[3] B[3] xnor2
+        X_ix85 C[3] nx201 nx52 xnor2
+        X_ix196 nx195 A[2] B[2] xnor2
+        X_ix87 C[2] nx195 nx48 xnor2
+        X_ix190 nx189 A[1] B[1] xnor2
+        X_ix89 C[1] nx189 nx44 xnor2
+        X_ix95 C[0] B[0] nx186 xnor2
+        X_ix260 nx8 A[6] B[6] nx64 nx259 aoi22
+        X_ix249 nx14 A[5] B[5] nx60 nx248 aoi22
+        X_ix238 nx20 A[4] B[4] nx56 nx237 aoi22
+        X_ix227 nx26 A[3] B[3] nx52 nx226 aoi22
+        X_ix216 nx32 A[2] B[2] nx48 nx215 aoi22
+        X_ix205 nx38 A[1] B[1] nx44 nx204 aoi22
+        X_ix73 nx245 nx259 nx264 nx72 mux21
+        X_ix69 nx234 nx248 nx253 nx68 mux21
+        X_ix65 nx223 nx237 nx242 nx64 mux21
+        X_ix61 nx212 nx226 nx231 nx60 mux21
+        X_ix57 nx201 nx215 nx220 nx56 mux21
+        X_ix53 nx195 nx204 nx209 nx52 mux21
+        X_ix49 nx192 nx189 nx198 nx48 oai21
+        X_ix199 nx198 A[1] B[1] nand02
+        X_ix193 nx192 B[0] A[0] nand02
+        X_ix265 A[7] nx264 inv01
+        X_ix263 B[6] nx262 inv01
+        X_ix254 A[6] nx253 inv01
+        X_ix252 B[5] nx251 inv01
+        X_ix243 A[5] nx242 inv01
+.ends Bit9Adder
+
+*
+* Component pathname : $ADK/parts/oai32
+*
+.subckt oai32  A2 B1 A0 A1 B0 Y
+
+        M_I$471 Y A2 N$415 VDD p L=1.2u W=21.6u
+        M_I$470 Y A2 N$7 GND n L=1.2u W=9u
+        M_I$267 N$7 B1 GND GND n L=1.2u W=9u
+        M_I$265 Y B1 N$414 VDD p L=1.2u W=14.4u
+        M_I$5 N$7 B0 GND GND n L=1.2u W=9u
+        M_I$4 Y A1 N$7 GND n L=1.2u W=9u
+        M_I$3 Y A0 N$7 GND n L=1.2u W=9u
+        M_I$12 N$414 B0 VDD VDD p L=1.2u W=14.4u
+        M_I$2 N$415 A1 N$9 VDD p L=1.2u W=21.6u
+        M_I$1 N$9 A0 VDD VDD p L=1.2u W=21.6u
+.ends oai32
+
+*
+* Component pathname : $ADK/parts/aoi21
+*
+.subckt aoi21  A0 A1 B0 Y
+
+        M_I$12 N$8 A1 GND GND n L=1.2u W=6u
+        M_I$11 Y A0 N$8 GND n L=1.2u W=6u
+        M_I$7 Y B0 N$4 VDD p L=1.2u W=7.8u
+        M_I$6 N$4 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$5 N$4 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$13 Y B0 GND GND n L=1.2u W=3u
+.ends aoi21
+
+*
+* Component pathname : $ADK/parts/aoi32
+*
+.subckt aoi32  A0 A1 A2 B0 B1 Y
+
+        M_I$12 N$8 B1 GND GND n L=1.2u W=6u
+        M_I$11 Y B0 N$8 GND n L=1.2u W=6u
+        M_I$10 N$7 A2 GND GND n L=1.2u W=9u
+        M_I$9 N$6 A1 N$7 GND n L=1.2u W=9u
+        M_I$8 Y A0 N$6 GND n L=1.2u W=9u
+        M_I$6 Y B0 N$14 VDD p L=1.2u W=7.8u
+        M_I$5 Y B1 N$14 VDD p L=1.2u W=7.8u
+        M_I$4 N$14 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$3 N$14 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$2 N$14 A2 VDD VDD p L=1.2u W=7.8u
+.ends aoi32
+
+*
+* Component pathname : $ADK/parts/aoi33
+*
+.subckt aoi33  B2 A0 A1 A2 B0 B1 Y
+
+        M_I$426 Y B0 N$223 VDD p L=1.2u W=7.8u
+        M_I$425 N$219 B2 GND GND n L=1.2u W=9u
+        M_I$12 N$8 B1 N$219 GND n L=1.2u W=9u
+        M_I$11 Y B0 N$8 GND n L=1.2u W=9u
+        M_I$10 N$7 A2 GND GND n L=1.2u W=9u
+        M_I$9 N$6 A1 N$7 GND n L=1.2u W=9u
+        M_I$8 Y A0 N$6 GND n L=1.2u W=9u
+        M_I$6 Y B2 N$223 VDD p L=1.2u W=7.8u
+        M_I$5 Y B1 N$223 VDD p L=1.2u W=7.8u
+        M_I$4 N$223 A0 VDD VDD p L=1.2u W=7.8u
+        M_I$3 N$223 A1 VDD VDD p L=1.2u W=7.8u
+        M_I$2 N$223 A2 VDD VDD p L=1.2u W=7.8u
+.ends aoi33
+
+*
+* Component pathname : $ADK/parts/aoi221
+*
+.subckt aoi221  A0 A1 B0 B1 C0 Y
+
+        M_I$13 Y C0 GND GND n L=1.2u W=6u
+        M_I$12 N$8 B1 GND GND n L=1.2u W=9u
+        M_I$11 Y B0 N$8 GND n L=1.2u W=9u
+        M_I$9 N$6 A1 GND GND n L=1.2u W=9u
+        M_I$8 Y A0 N$6 GND n L=1.2u W=9u
+        M_I$7 Y C0 N$4 VDD p L=1.2u W=14.4u
+        M_I$6 N$4 B0 N$14 VDD p L=1.2u W=14.4u
+        M_I$5 N$4 B1 N$14 VDD p L=1.2u W=14.4u
+        M_I$3 N$14 A1 VDD VDD p L=1.2u W=14.4u
+        M_I$2 N$14 A0 VDD VDD p L=1.2u W=14.4u
+.ends aoi221
+
+*
+* Component pathname : $ADK/parts/oai22
+*
+.subckt oai22  B1 A0 A1 B0 Y
+
+        M_I$267 N$7 B1 GND GND n L=1.2u W=6u
+        M_I$265 Y B1 N$414 VDD p L=1.2u W=14.4u
+        M_I$5 N$7 B0 GND GND n L=1.2u W=6u
+        M_I$4 Y A1 N$7 GND n L=1.2u W=6u
+        M_I$3 Y A0 N$7 GND n L=1.2u W=6u
+        M_I$12 N$414 B0 VDD VDD p L=1.2u W=14.4u
+        M_I$2 Y A1 N$9 VDD p L=1.2u W=14.4u
+        M_I$1 N$9 A0 VDD VDD p L=1.2u W=14.4u
+.ends oai22
+
+*
+* Component pathname : $HOME/VLSI-2/Project/new/Decoder/schem/ChipMultiplier
+*
+.subckt ChipMultiplier  A[0] A[1] A[2] A[3] A[4] B[0] B[1] B[2] B[3] B[4]
++ C[0] C[1] C[2] C[3] C[4]
+
+        X_ix69 nx539 nx542 nx535 nx537 nx633 nx68 oai32
+        X_ix189 nx631 nx627 nx22 nx188 aoi21
+        X_ix233 nx591 nx599 nx566 C[4] aoi21
+        X_ix578 nx556 nx46 nx613 nx577 aoi21
+        X_ix141 nx607 nx613 nx573 nx140 aoi21
+        X_ix29 nx517 nx621 nx519 nx28 aoi21
+        X_ix571 B[4] nx633 nx140 nx30 nx178 nx570 aoi32
+        X_ix527 nx52 nx54 nx28 nx46 nx68 nx526 aoi32
+        X_ix561 nx560 B[1] nx621 xnor2
+        X_ix15 nx14 B[3] B[2] xnor2
+        X_ix557 A[2] nx556 inv01
+        X_ix543 nx28 nx542 inv01
+        X_ix538 nx54 nx537 inv01
+        X_ix532 B[4] nx531 inv01
+        X_ix516 A[1] nx515 inv01
+        X_ix514 A[4] nx513 inv01
+        X_ix507 A[3] nx506 inv01
+        X_ix502 A[0] nx501 inv01
+        X_ix584 nx621 nx629 nx625 nx583 nor03
+        X_ix41 nx508 nx501 nx503 C[0] nor03
+        X_ix13 nx12 B[2] B[1] xnor2
+        X_ix11 nx10 B[3] B[4] xnor2
+        X_ix203 nx625 nx202 nx629 B[4] nand03
+        X_ix119 nx621 nx118 B[4] nx617 nand03
+        X_ix567 B[0] nx566 nx118 nx18 nand03
+        X_ix79 nx633 nx78 nx501 nx556 nand03
+        X_ix563 B[0] nx562 nx32 nx78 nand03
+        X_ix550 B[4] nx549 nx2 nx46 nand03
+        X_ix91 nx613 nx90 nx607 B[4] nand03
+        X_ix31 nx613 nx30 nx607 nx633 nand03
+        X_ix55 nx513 nx54 nx617 nx531 nand03
+        X_ix37 nx513 nx36 nx617 nx625 nand03
+        X_ix520 nx12 nx519 nx10 nx14 nand03
+        X_ix199 B[1] nx513 nx198 nor02
+        X_ix153 nx607 nx629 nx152 nor02
+        X_ix131 nx558 nx619 nx130 nor02
+        X_ix185 nx566 nx570 C[3] nor02
+        X_ix554 nx629 nx625 nx553 nor02
+        X_ix53 B[1] nx46 nx52 nor02
+        X_ix75 nx503 nx526 C[1] nor02
+        X_ix518 nx607 nx613 nx517 nor02
+        X_ix512 nx617 nx513 nx511 nor02
+        X_ix540 nx539 nx28 nx30 nand02
+        X_ix536 nx535 B[1] nx629 nand02
+        X_ix47 nx46 nx629 nx625 nand02
+        X_ix509 nx508 nx32 nx36 nand02
+        X_ix3 nx2 nx607 nx613 nand02
+        X_ix600 nx188 nx537 B[1] nx599 oai21
+        X_ix580 nx152 nx138 nx531 nx579 oai21
+        X_ix504 nx2 nx621 B[0] nx503 oai21
+        X_ix632 A[1] nx633 inv01
+        X_ix630 nx501 nx631 inv01
+        X_ix628 nx501 nx629 inv01
+        X_ix626 nx515 nx627 inv01
+        X_ix624 nx515 nx625 inv01
+        X_ix622 nx556 nx623 inv01
+        X_ix620 nx556 nx621 inv01
+        X_ix618 nx506 nx619 inv01
+        X_ix616 nx506 nx617 inv01
+        X_ix614 nx513 nx615 inv01
+        X_ix612 nx513 nx613 inv01
+        X_ix606 nx619 nx607 inv01
+        X_ix19 nx519 nx18 inv01
+        X_ix559 B[1] nx558 inv01
+        X_ix588 nx130 nx619 nx501 nx633 nx164 nx78 nx587 aoi33
+        X_ix33 nx511 nx633 nx517 nx621 nx519 nx32 aoi221
+        X_ix598 nx597 nx623 nx625 nand02
+        X_ix223 nx222 nx597 nx531 nand02
+        X_ix165 nx164 nx556 nx615 nand02
+        X_ix586 nx585 B[1] nx506 nand02
+        X_ix99 nx98 nx556 nx558 nand02
+        X_ix552 nx551 nx553 nx98 nand02
+        X_ix23 nx22 nx617 nx513 nand02
+        X_ix546 nx545 nx22 nx90 nand02
+        X_ix592 nx222 nx198 nx619 nx202 nx218 nx78 nx591 aoi33
+        X_ix109 nx545 nx549 nx551 nx560 nx562 C[2] aoi221
+        X_ix219 nx2 nx615 nx585 B[1] nx218 oai22
+        X_ix139 nx506 nx583 nx585 B[1] nx138 oai22
+        X_ix179 nx587 nx577 nx579 nx531 nx178 oai22
+        X_ix574 nx130 nx558 nx617 nx78 nx573 aoi22
+.ends ChipMultiplier
+
+*
+* Component pathname : $ADK/parts/buf02
+*
+.subckt buf02  A Y
+
+        M_I$614 Y N$411 VDD VDD p L=1.2u W=10.8u
+        M_I$615 Y N$411 GND GND n L=1.2u W=6u
+        M_I$411 N$411 A VDD VDD p L=1.2u W=5.4u
+        M_I$412 N$411 A GND GND n L=1.2u W=3u
+.ends buf02
+
+*
+* Component pathname : $ADK/parts/latchr
+*
+.subckt latchr  QB R CLK D
+
+        M_I$1954 N$3723 R GND GND n L=1.2u W=6u
+        M_I$1953 N$3723 R N$3722 VDD p L=1.2u W=7.2u
+        M_I$1244 N$3516 N$3723 VDD VDD p L=1.2u W=3u
+        M_I$1245 N$3108 N$3723 GND GND n L=1.2u W=3u
+        M_I$1749 N$3723 N$3929 GND GND n L=1.2u W=6u
+        M_I$1240 N$3929 CLK N$3516 VDD p L=1.2u W=3u
+        M_I$15 N$3100 CLK GND GND n L=1.2u W=3u
+        M_I$1242 N$3722 N$3929 VDD VDD p L=1.2u W=7.2u
+        M_I$1036 QB N$3723 GND GND n L=1.2u W=3u
+        M_I$10 N$13 D GND GND n L=1.2u W=9u
+        M_I$9 N$3929 CLK N$13 GND n L=1.2u W=9u
+        M_I$1035 QB N$3723 VDD VDD p L=1.2u W=5.4u
+        M_I$1447 N$3929 N$3100 N$3108 GND n L=1.2u W=3u
+        M_I$4 N$3929 N$3100 N$11 VDD p L=1.2u W=16.2u
+        M_I$3 N$11 D VDD VDD p L=1.2u W=16.2u
+        M_I$2 N$3100 CLK VDD VDD p L=1.2u W=5.4u
+.ends latchr
+
+*
+* Component pathname : $ADK/parts/inv02
+*
+.subckt inv02  A Y
+
+        M_I$6 Y A VDD VDD p L=1.2u W=10.8u
+        M_I$5 Y A GND GND n L=1.2u W=6u
+.ends inv02
+
+*
+* Component pathname : $ADK/parts/latchs_ni
+*
+.subckt latchs_ni  CLK D QB S
+
+        MN10 N$14 S GND GND n L=1.2u W=3u
+        MP10 N$14 S VDD VDD p L=1.2u W=5.4u
+        MN9 N$10 N$11 N$13 GND n L=1.2u W=6u
+        MN8 N$13 N$14 GND GND n L=1.2u W=6u
+        MP9 N$10 N$14 VDD VDD p L=1.2u W=7.2u
+        MN7 N$11 N$3 N$7 GND n L=1.2u W=3u
+        MP8 N$6 N$10 VDD VDD p L=1.2u W=3u
+        MN6 N$7 N$10 GND GND n L=1.2u W=3u
+        MP7 N$10 N$11 VDD VDD p L=1.2u W=7.2u
+        MP6 N$11 CLK N$6 VDD p L=1.2u W=3u
+        MN5 QB N$10 GND GND n L=1.2u W=3u
+        MP5 QB N$10 VDD VDD p L=1.2u W=5.4u
+        MN4 N$3 CLK GND GND n L=1.2u W=3u
+        MN3 N$9 D GND GND n L=1.2u W=9u
+        MN2 N$11 CLK N$9 GND n L=1.2u W=9u
+        MP4 N$11 N$3 N$8 VDD p L=1.2u W=16.2u
+        MP3 N$8 D VDD VDD p L=1.2u W=16.2u
+        MP2 N$3 CLK VDD VDD p L=1.2u W=5.4u
+.ends latchs_ni
+
+*
+* Component pathname : $ADK/parts/and04
+*
+.subckt and04  A3 A1 Y A0 A2
+
+        M_I$218 Y N$8 VDD VDD p L=1.2u W=5.4u
+        M_I$217 Y N$8 GND GND n L=1.2u W=3u
+        M_I$15 N$6 A1 N$9 GND n L=1.2u W=12u
+        M_I$14 N$8 A0 N$6 GND n L=1.2u W=12u
+        M_I$11 N$8 A3 VDD VDD p L=1.2u W=12u
+        M_I$10 N$8 A2 VDD VDD p L=1.2u W=12u
+        M_I$9 N$2 A3 GND GND n L=1.2u W=12u
+        M_I$8 N$9 A2 N$2 GND n L=1.2u W=12u
+        M_I$3 N$8 A1 VDD VDD p L=1.2u W=12u
+        M_I$2 N$8 A0 VDD VDD p L=1.2u W=12u
+.ends and04
+
+*
+* Component pathname : $HOME/VLSI-2/Project/new/Decoder/schem/counter_chip
+*
+.subckt counter_chip  chip_rdy clk
+
+        X_ix273 nx272 nx2404 nx2512 xnor2
+        X_ix265 nx264 nx2398 nx2510 xnor2
+        X_ix219 nx218 nx2363 nx2502 xnor2
+        X_ix227 nx226 nx2369 nx2504 xnor2
+        X_ix235 nx234 nx2375 nx2506 xnor2
+        X_ix189 nx188 nx2343 nx2498 xnor2
+        X_ix197 nx196 nx2349 nx2500 xnor2
+        X_ix181 nx180 nx2337 nx2496 xnor2
+        X_ix2391 nx2390 msg_23 nx232 nand02
+        X_ix323 nx322 nx2398 nx2404 nand02
+        X_ix2362 nx2361 msg_19 nx194 nand02
+        X_ix2336 nx2335 msg_15 nx156 nand02
+        X_ix2395 msg_24 nx2394 nx232 msg_23 nand03
+        X_ix2403 nx232 nx2402 msg_25 nx252 nand03
+        X_ix2368 msg_20 nx2367 nx194 msg_19 nand03
+        X_ix2374 nx194 nx2373 msg_21 nx214 nand03
+        X_ix2348 nx156 nx2347 msg_17 nx176 nand03
+        X_ix2342 msg_16 nx2341 nx156 msg_15 nand03
+        X_ix329 nx2410 nx328 nx2382 nx2425 nand03
+        X_ix271 nx2394 nx2398 nx2396 nx270 nor03
+        X_ix2383 nx322 msg_24 msg_25 nx2382 nor03
+        X_ix233 nx2367 nx2369 nx2363 nx232 nor03
+        X_ix2278 nx328 nx340 nx334 nx2277 nor03
+        X_ix195 nx2341 nx2343 nx2337 nx194 nor03
+        X_ix2409 nx252 msg_25 nx2408 msg_26 nx232 nand04
+        X_ix2380 nx214 msg_21 nx2379 msg_22 nx194 nand04
+        X_ix2354 nx176 msg_17 nx2353 msg_18 nx156 nand04
+        X_ix335 nx2375 nx2363 nx334 nx2356 nx2369 nand04
+        X_ix341 nx2349 nx2337 nx340 nx2280 nx2343 nand04
+        X_ix253 nx2388 nx2375 nx252 nor02
+        X_ix215 nx2356 nx2349 nx214 nor02
+        X_ix177 nx2280 nx2329 nx176 nor02
+        X_lat_msg_20__u3 nx2554 nx2356 buf02
+        X_lat_msg_21__u3 nx2556 nx2363 buf02
+        X_lat_msg_22__u3 nx2558 nx2369 buf02
+        X_lat_msg_23__u3 nx2560 nx2375 buf02
+        X_lat_msg_18__u3 nx2550 nx2343 buf02
+        X_lat_msg_19__u3 nx2552 nx2349 buf02
+        X_lat_msg_16__u3 nx2530 nx2280 buf02
+        X_lat_msg_17__u3 nx2548 nx2337 buf02
+        X_lat_msg_24__u2 nx2562 msg_24 inv01
+        X_lat_msg_25__u2 nx2564 msg_25 inv01
+        X_ix2507 nx2394 nx2508 inv01
+        X_ix2511 nx2408 nx2512 inv01
+        X_lat_msg_26__u2 nx2566 msg_26 inv01
+        X_ix2509 nx2402 nx2510 inv01
+        X_lat_msg_20__u2 nx2554 msg_20 inv01
+        X_lat_msg_21__u2 nx2556 msg_21 inv01
+        X_ix2501 nx2367 nx2502 inv01
+        X_lat_msg_22__u2 nx2558 msg_22 inv01
+        X_ix2503 nx2373 nx2504 inv01
+        X_lat_msg_23__u2 nx2560 msg_23 inv01
+        X_ix2505 nx2379 nx2506 inv01
+        X_lat_msg_18__u2 nx2550 msg_18 inv01
+        X_ix2497 nx2347 nx2498 inv01
+        X_lat_msg_19__u2 nx2552 msg_19 inv01
+        X_ix2499 nx2353 nx2500 inv01
+        X_lat_msg_16__u2 nx2530 msg_16 inv01
+        X_lat_msg_17__u2 nx2548 msg_17 inv01
+        X_ix2495 nx2341 nx2496 inv01
+        X_ix247 nx2388 nx232 nx252 nx2390 nx246 aoi22
+        X_ix209 nx2356 nx194 nx214 nx2361 nx208 aoi22
+        X_ix171 nx2280 nx156 nx176 nx2335 nx170 aoi22
+        X_ix257 nx256 nx2396 nx2508 xnor2
+        X_lat_msg_24__u1 nx2562 nx2462 clk nx246 latchr
+        X_lat_msg_25__u1 nx2564 nx2464 clk nx256 latchr
+        X_lat_msg_27__u1 nx2568 nx2464 clk nx272 latchr
+        X_lat_msg_26__u1 nx2566 nx2464 clk nx264 latchr
+        X_lat_msg_20__u1 nx2554 nx2462 clk nx208 latchr
+        X_lat_msg_21__u1 nx2556 nx2462 clk nx218 latchr
+        X_lat_msg_22__u1 nx2558 nx2462 clk nx226 latchr
+        X_lat_msg_23__u1 nx2560 nx2462 clk nx234 latchr
+        X_lat_msg_18__u1 nx2550 nx2460 clk nx188 latchr
+        X_lat_msg_19__u1 nx2552 nx2462 clk nx196 latchr
+        X_lat_msg_16__u1 nx2530 nx2460 clk nx170 latchr
+        X_lat_msg_17__u1 nx2548 nx2460 clk nx180 latchr
+        X_lat_msg_24__u3 nx2562 nx2388 buf02
+        X_lat_msg_25__u3 nx2564 nx2396 buf02
+        X_lat_msg_26__u3 nx2566 nx2398 buf02
+        X_lat_msg_6__u2 nx2516 msg_6 inv01
+        X_lat_msg_4__u2 nx2520 msg_4 inv01
+        X_ix2479 nx2261 nx2480 inv01
+        X_ix2453 nx2214 nx2454 inv01
+        X_ix2457 nx2454 nx2458 inv01
+        X_ix2459 nx2454 nx2460 inv01
+        X_ix2461 nx2454 nx2462 inv01
+        X_ix2463 nx2454 nx2464 inv01
+        X_ix2475 nx2215 nx2476 inv01
+        X_lat_msg_7__u2 nx2514 msg_7 inv01
+        X_ix11 nx10 msg_1 NOT_msg_0 xnor2
+        X_ix23 nx22 nx2272 nx2482 xnor2
+        X_ix47 nx46 nx2253 nx2478 xnor2
+        X_ix35 nx34 nx2273 nx2480 xnor2
+        X_ix2251 nx54 nx2274 nx2215 xnor2
+        X_ix63 nx62 nx2242 nx2474 xnor2
+        X_ix71 nx70 nx2235 nx2472 xnor2
+        X_ix347 nx346 nx2272 nx2273 nand02
+        X_ix2266 nx2265 msg_1 msg_0 nand02
+        X_ix2262 msg_1 nx2261 msg_2 msg_0 nand03
+        X_ix2447 nx2437 nx2446 nx2277 nx2440 nand03
+        X_ix2276 nx2437 nx2275 nx2277 nx2440 nand03
+        X_ix2438 nx346 msg_0 msg_1 nx2437 nor03
+        X_ix53 nx2261 nx2253 nx2273 nx2215 nor03
+        X_ix2445 nx2476 nx2242 nx2274 nx2472 nor03
+        X_ix2258 msg_0 msg_2 nx2257 msg_3 msg_1 nand04
+        X_ix2241 msg_4 nx2242 nx2240 nx2235 nx2274 nand04
+        X_ix2234 nx2253 nx2242 nx2233 nx2235 nx2274 nand04
+        X_ix377 nx2240 nx2275 nx2214 nor02
+        X_ix405 nx2233 nx2446 nx404 nor02
+        X_ix2247 nx2274 nx2476 nx2474 nor02
+        X_lat_msg_1__u1 nx2526 nx2456 clk nx10 latchr
+        X_lat_msg_0__u1 nx2528 nx2456 clk NOT_msg_0 latchr
+        X_lat_msg_2__u1 nx2524 nx2456 clk nx22 latchr
+        X_lat_msg_4__u1 nx2520 nx2456 clk nx46 latchr
+        X_lat_msg_3__u1 nx2522 nx2456 clk nx34 latchr
+        X_lat_msg_5__u1 nx2518 nx2458 clk nx54 latchr
+        X_lat_msg_6__u1 nx2516 nx2456 clk nx62 latchr
+        X_lat_msg_7__u1 nx2514 nx2466 clk nx70 latchr
+        X_lat_msg_1__u3 nx2526 nx2525 buf02
+        X_lat_msg_0__u3 nx2528 NOT_msg_0 buf02
+        X_lat_msg_2__u3 nx2524 nx2272 buf02
+        X_lat_msg_4__u3 nx2520 nx2253 buf02
+        X_lat_msg_3__u3 nx2522 nx2273 buf02
+        X_lat_chip_rdy_u3 nx5 nx1 buf02
+        X_lat_msg_5__u3 nx2518 nx2274 buf02
+        X_lat_msg_6__u3 nx2516 nx2242 buf02
+        X_lat_msg_7__u3 nx2514 nx2235 buf02
+        X_lat_chip_rdy_u2 nx5 chip_rdy inv02
+        X_lat_chip_rdy_u1 nx404 GND nx5 nx2466 latchs_ni
+        X_ix69 nx2478 msg_5 nx68 msg_6 msg_4 and04
+        X_lat_msg_1__u2 nx2526 msg_1 inv01
+        X_lat_msg_0__u2 nx2528 msg_0 inv01
+        X_ix2465 nx2454 nx2466 inv01
+        X_ix2455 nx2454 nx2456 inv01
+        X_lat_msg_3__u2 nx2522 msg_3 inv01
+        X_ix2477 nx2257 nx2478 inv01
+        X_lat_msg_2__u2 nx2524 msg_2 inv01
+        X_ix2481 nx2265 nx2482 inv01
+        X_lat_msg_5__u2 nx2518 msg_5 inv01
+        X_ix133 nx2317 nx118 nx138 nx2325 nx132 aoi22
+        X_ix303 nx302 msg_30 nx2429 xnor2
+        X_ix311 nx310 msg_31 nx2434 xnor2
+        X_ix295 nx294 msg_29 nx2422 xnor2
+        X_ix113 nx112 nx2295 nx2488 xnor2
+        X_ix121 nx120 nx2319 nx2492 xnor2
+        X_ix105 nx104 nx2313 nx2490 xnor2
+        X_ix151 nx150 nx2284 nx2484 xnor2
+        X_ix143 nx142 nx2327 nx2486 xnor2
+        X_ix159 nx158 nx2329 nx2494 xnor2
+        X_ix2419 nx2418 msg_27 nx270 nand02
+        X_ix2312 nx2311 msg_7 nx68 nand02
+        X_ix2326 nx2325 msg_11 nx118 nand02
+        X_ix2430 nx270 nx2429 msg_29 nx290 nand03
+        X_ix2423 msg_28 nx2422 nx270 msg_27 nand03
+        X_ix2304 msg_8 nx2303 nx68 msg_7 nand03
+        X_ix2300 nx68 nx2299 msg_9 nx100 nand03
+        X_ix2293 msg_12 nx2292 nx118 msg_11 nand03
+        X_ix2289 nx118 nx2288 msg_13 nx138 nand03
+        X_ix119 nx2303 nx2295 nx2313 nx118 nor03
+        X_ix157 nx2292 nx2284 nx2327 nx156 nor03
+        X_ix2435 nx290 msg_29 nx2434 msg_30 nx270 nand04
+        X_ix2324 nx100 msg_9 nx2323 msg_10 nx68 nand04
+        X_ix357 nx2329 nx2327 nx356 nx2317 nx2284 nand04
+        X_ix363 nx2319 nx2313 nx362 nx2309 nx2295 nand04
+        X_ix2334 nx138 msg_13 nx2333 msg_14 nx118 nand04
+        X_ix2426 msg_30 msg_31 nx2425 nor02
+        X_ix2411 msg_28 msg_29 nx2410 nor02
+        X_ix291 nx2416 nx2404 nx290 nor02
+        X_ix101 nx2309 nx2235 nx100 nor02
+        X_ix2441 nx362 nx356 nx2440 nor02
+        X_ix139 nx2317 nx2319 nx138 nor02
+        X_lat_msg_29__u3 nx2572 nx2571 buf02
+        X_lat_msg_28__u3 nx2570 nx2416 buf02
+        X_lat_msg_27__u3 nx2568 nx2404 buf02
+        X_lat_msg_8__u3 nx2540 nx2309 buf02
+        X_lat_msg_10__u3 nx2536 nx2295 buf02
+        X_lat_msg_11__u3 nx2544 nx2319 buf02
+        X_lat_msg_9__u3 nx2538 nx2313 buf02
+        X_lat_msg_12__u3 nx2542 nx2317 buf02
+        X_lat_msg_14__u3 nx2532 nx2284 buf02
+        X_lat_msg_13__u3 nx2534 nx2327 buf02
+        X_lat_msg_15__u3 nx2546 nx2329 buf02
+        X_lat_msg_30__u2 nx2574 msg_30 inv01
+        X_lat_msg_31__u2 nx2576 msg_31 inv01
+        X_lat_msg_29__u2 nx2572 msg_29 inv01
+        X_lat_msg_28__u2 nx2570 msg_28 inv01
+        X_lat_msg_27__u2 nx2568 msg_27 inv01
+        X_lat_msg_8__u2 nx2540 msg_8 inv01
+        X_lat_msg_10__u2 nx2536 msg_10 inv01
+        X_ix2487 nx2299 nx2488 inv01
+        X_lat_msg_11__u2 nx2544 msg_11 inv01
+        X_ix2491 nx2323 nx2492 inv01
+        X_lat_msg_9__u2 nx2538 msg_9 inv01
+        X_ix2489 nx2303 nx2490 inv01
+        X_lat_msg_12__u2 nx2542 msg_12 inv01
+        X_lat_msg_14__u2 nx2532 msg_14 inv01
+        X_ix2483 nx2288 nx2484 inv01
+        X_lat_msg_13__u2 nx2534 msg_13 inv01
+        X_ix2485 nx2292 nx2486 inv01
+        X_lat_msg_15__u2 nx2546 msg_15 inv01
+        X_ix2493 nx2333 nx2494 inv01
+        X_ix285 nx2416 nx270 nx290 nx2418 nx284 aoi22
+        X_ix95 nx2309 nx68 nx100 nx2311 nx94 aoi22
+        X_lat_msg_30__u1 nx2574 nx2464 clk nx302 latchr
+        X_lat_msg_31__u1 nx2576 nx2466 clk nx310 latchr
+        X_lat_msg_29__u1 nx2572 nx2464 clk nx294 latchr
+        X_lat_msg_28__u1 nx2570 nx2464 clk nx284 latchr
+        X_lat_msg_8__u1 nx2540 nx2458 clk nx94 latchr
+        X_lat_msg_10__u1 nx2536 nx2458 clk nx112 latchr
+        X_lat_msg_11__u1 nx2544 nx2460 clk nx120 latchr
+        X_lat_msg_9__u1 nx2538 nx2458 clk nx104 latchr
+        X_lat_msg_12__u1 nx2542 nx2458 clk nx132 latchr
+        X_lat_msg_14__u1 nx2532 nx2458 clk nx150 latchr
+        X_lat_msg_13__u1 nx2534 nx2460 clk nx142 latchr
+        X_lat_msg_15__u1 nx2546 nx2460 clk nx158 latchr
+        X_lat_msg_30__u3 nx2574 nx2573 buf02
+        X_lat_msg_31__u3 nx2576 nx2575 buf02
+.ends counter_chip
+
+*
+* Component pathname : $ADK/parts/nor02ii
+*
+.subckt nor02ii  A0 A1 Y
+
+        MP1 N$208 A1 VDD VDD p L=1.2u W=5.4u
+        MN1 N$208 A1 GND GND n L=1.2u W=3u
+        MN4 Y A0 GND GND n L=1.2u W=3u
+        MN2 Y N$208 GND GND n L=1.2u W=3u
+        MP4 Y N$208 N$4 VDD p L=1.2u W=7.8u
+        MP2 N$4 A0 VDD VDD p L=1.2u W=7.8u
+.ends nor02ii
+
+*
+* Component pathname : $HOME/VLSI-2/Project/new/Decoder/schem/sipo
+*
+.subckt sipo  ser_data[0] ser_data[1] ser_data[2] ser_data[3] ser_data[4]
++ pal_data_10__2 pal_data_10__3 pal_data_10__4 pal_data_11__0 pal_data_11__1
++ pal_data_11__2 pal_data_11__3 pal_data_11__4 pal_data_12__0 pal_data_12__1
++ pal_data_12__2 pal_data_12__3 pal_data_12__4 pal_data_13__0 pal_data_13__1
++ pal_data_13__2 pal_data_13__3 pal_data_13__4 pal_data_14__0 pal_data_14__1
++ pal_data_14__2 pal_data_14__3 pal_data_14__4 pal_data_15__0 pal_data_15__1
++ pal_data_15__2 pal_data_15__3 pal_data_15__4 en clk clr pal_data_4__0
++ pal_data_4__1 pal_data_4__2 pal_data_4__3 pal_data_4__4 pal_data_5__0
++ pal_data_5__1 pal_data_5__2 pal_data_5__3 pal_data_5__4 pal_data_6__0
++ pal_data_6__1 pal_data_6__2 pal_data_6__3 pal_data_6__4 pal_data_7__0
++ pal_data_7__1 pal_data_7__2 pal_data_7__3 pal_data_7__4 pal_data_8__0
++ pal_data_8__1 pal_data_8__2 pal_data_8__3 pal_data_8__4 pal_data_9__0
++ pal_data_9__1 pal_data_9__2 pal_data_9__3 pal_data_9__4 pal_data_10__0
++ pal_data_10__1 pal_data_0__0 pal_data_0__1 pal_data_0__2 pal_data_0__3
++ pal_data_0__4 pal_data_1__0 pal_data_1__1 pal_data_1__2 pal_data_1__3
++ pal_data_1__4 pal_data_2__0 pal_data_2__1 pal_data_2__2 pal_data_2__3
++ pal_data_2__4 pal_data_3__0 pal_data_3__1 pal_data_3__2 pal_data_3__3
++ pal_data_3__4
+
+        X_ix519 nx2101 pal_data_3__2 inv01
+        X_ix501 nx2074 pal_data_1__3 inv01
+        X_ix503 nx2077 pal_data_1__4 inv01
+        X_ix505 nx2080 pal_data_2__0 inv01
+        X_ix507 nx2083 pal_data_2__1 inv01
+        X_ix497 nx2068 pal_data_1__1 inv01
+        X_ix499 nx2071 pal_data_1__2 inv01
+        X_ix199 nx1989 pal_data_0__1 inv01
+        X_ix2333 nx2362 nx2334 inv01
+        X_ix2335 nx2362 nx2336 inv01
+        X_ix2337 nx2362 nx2338 inv01
+        X_ix2339 nx2362 nx2340 inv01
+        X_ix545 nx2140 pal_data_6__0 inv01
+        X_ix547 nx2143 pal_data_6__1 inv01
+        X_ix549 nx2146 pal_data_6__2 inv01
+        X_ix551 nx2149 pal_data_6__3 inv01
+        X_ix553 nx2152 pal_data_6__4 inv01
+        X_ix555 nx2155 pal_data_7__0 inv01
+        X_ix2321 nx2294 nx2322 inv01
+        X_ix2293 nx2 nx2294 inv01
+        X_ix2319 nx2294 nx2320 inv01
+        X_ix493 nx2046 pal_data_0__4 inv01
+        X_ix533 nx2122 pal_data_4__4 inv01
+        X_ix535 nx2125 pal_data_5__0 inv01
+        X_ix537 nx2128 pal_data_5__1 inv01
+        X_ix539 nx2131 pal_data_5__2 inv01
+        X_ix541 nx2134 pal_data_5__3 inv01
+        X_ix543 nx2137 pal_data_5__4 inv01
+        X_ix2341 nx2362 nx2342 inv01
+        X_ix2343 nx2362 nx2344 inv01
+        X_ix2361 en nx2362 inv01
+        X_ix2363 en nx2364 inv01
+        X_lat_temp_reg_7__0 temp_reg_7__0 nx2298 temp_reg_8__0 latch
+        X_lat_temp_reg_6__4 temp_reg_6__4 nx2320 temp_reg_7__4 latch
+        X_lat_temp_reg_7__4 temp_reg_7__4 nx2320 temp_reg_8__4 latch
+        X_lat_temp_reg_2__4 temp_reg_2__4 nx2320 temp_reg_3__4 latch
+        X_lat_temp_reg_3__4 temp_reg_3__4 nx2320 temp_reg_4__4 latch
+        X_lat_temp_reg_4__4 temp_reg_4__4 nx2320 temp_reg_5__4 latch
+        X_lat_temp_reg_5__4 temp_reg_5__4 nx2320 temp_reg_6__4 latch
+        X_lat_temp_reg_1__4 temp_reg_1__4 nx2322 temp_reg_2__4 latch
+        X_lat_temp_reg_0__4 temp_reg_0__4 nx2322 temp_reg_1__4 latch
+        X_ix2099 nx2098 nx2338 temp_reg_3__1 nand02
+        X_ix2102 nx2101 nx2338 temp_reg_3__2 nand02
+        X_ix2075 nx2074 nx2336 temp_reg_1__3 nand02
+        X_ix2078 nx2077 nx2336 temp_reg_1__4 nand02
+        X_ix2081 nx2080 nx2336 temp_reg_2__0 nand02
+        X_ix2084 nx2083 nx2336 temp_reg_2__1 nand02
+        X_ix2069 nx2068 nx2336 temp_reg_1__1 nand02
+        X_ix2072 nx2071 nx2336 temp_reg_1__2 nand02
+        X_ix1990 nx1989 nx2334 temp_reg_0__1 nand02
+        X_ix2141 nx2140 nx2344 temp_reg_6__0 nand02
+        X_ix2144 nx2143 nx2344 temp_reg_6__1 nand02
+        X_ix2147 nx2146 nx2344 temp_reg_6__2 nand02
+        X_ix2150 nx2149 nx2344 temp_reg_6__3 nand02
+        X_ix2153 nx2152 nx2344 temp_reg_6__4 nand02
+        X_ix2156 nx2155 nx2344 temp_reg_7__0 nand02
+        X_ix2047 nx2046 nx2334 temp_reg_0__4 nand02
+        X_ix2123 nx2122 nx2342 temp_reg_4__4 nand02
+        X_ix2126 nx2125 nx2342 temp_reg_5__0 nand02
+        X_ix2129 nx2128 nx2342 temp_reg_5__1 nand02
+        X_ix2132 nx2131 nx2342 temp_reg_5__2 nand02
+        X_ix2135 nx2134 nx2342 temp_reg_5__3 nand02
+        X_ix2138 nx2137 nx2342 temp_reg_5__4 nand02
+        X_ix517 nx2098 pal_data_3__1 inv01
+        X_lat_temp_reg_6__1 temp_reg_6__1 nx2304 temp_reg_7__1 latch
+        X_lat_temp_reg_7__1 temp_reg_7__1 nx2304 temp_reg_8__1 latch
+        X_lat_temp_reg_2__1 temp_reg_2__1 nx2304 temp_reg_3__1 latch
+        X_lat_temp_reg_3__1 temp_reg_3__1 nx2304 temp_reg_4__1 latch
+        X_lat_temp_reg_4__1 temp_reg_4__1 nx2304 temp_reg_5__1 latch
+        X_lat_temp_reg_5__1 temp_reg_5__1 nx2304 temp_reg_6__1 latch
+        X_lat_temp_reg_1__1 temp_reg_1__1 nx2306 temp_reg_2__1 latch
+        X_lat_temp_reg_0__1 temp_reg_0__1 nx2306 temp_reg_1__1 latch
+        X_lat_temp_reg_8__0 temp_reg_8__0 nx2298 temp_reg_9__0 latch
+        X_lat_temp_reg_9__0 temp_reg_9__0 nx2298 temp_reg_10__0 latch
+        X_lat_temp_reg_4__0 temp_reg_4__0 nx2298 temp_reg_5__0 latch
+        X_lat_temp_reg_5__0 temp_reg_5__0 nx2298 temp_reg_6__0 latch
+        X_lat_temp_reg_6__0 temp_reg_6__0 nx2298 temp_reg_7__0 latch
+        X_ix2195 nx2194 nx2350 temp_reg_9__3 nand02
+        X_ix2198 nx2197 nx2350 temp_reg_9__4 nand02
+        X_ix2201 nx2200 nx2350 temp_reg_10__0 nand02
+        X_ix2204 nx2203 nx2350 temp_reg_10__1 nand02
+        X_ix2171 nx2170 nx2346 temp_reg_8__0 nand02
+        X_ix2174 nx2173 nx2346 temp_reg_8__1 nand02
+        X_ix593 nx2212 pal_data_10__4 inv01
+        X_ix595 nx2215 pal_data_11__0 inv01
+        X_ix597 nx2218 pal_data_11__1 inv01
+        X_ix599 nx2221 pal_data_11__2 inv01
+        X_ix601 nx2224 pal_data_11__3 inv01
+        X_ix603 nx2227 pal_data_11__4 inv01
+        X_ix569 nx2176 pal_data_8__2 inv01
+        X_ix571 nx2179 pal_data_8__3 inv01
+        X_ix573 nx2182 pal_data_8__4 inv01
+        X_ix575 nx2185 pal_data_9__0 inv01
+        X_ix577 nx2188 pal_data_9__1 inv01
+        X_ix579 nx2191 pal_data_9__2 inv01
+        X_ix557 nx2158 pal_data_7__1 inv01
+        X_ix559 nx2161 pal_data_7__2 inv01
+        X_ix561 nx2164 pal_data_7__3 inv01
+        X_ix563 nx2167 pal_data_7__4 inv01
+        X_ix581 nx2194 pal_data_9__3 inv01
+        X_ix583 nx2197 pal_data_9__4 inv01
+        X_ix585 nx2200 pal_data_10__0 inv01
+        X_ix587 nx2203 pal_data_10__1 inv01
+        X_ix565 nx2170 pal_data_8__0 inv01
+        X_ix567 nx2173 pal_data_8__1 inv01
+        X_ix2345 nx2364 nx2346 inv01
+        X_ix2347 nx2364 nx2348 inv01
+        X_ix2349 nx2364 nx2350 inv01
+        X_ix2351 nx2364 nx2352 inv01
+        X_lat_temp_reg_8__4 temp_reg_8__4 nx2318 temp_reg_9__4 latch
+        X_lat_temp_reg_9__4 temp_reg_9__4 nx2318 temp_reg_10__4 latch
+        X_lat_temp_reg_10__4 temp_reg_10__4 nx2318 temp_reg_11__4 latch
+        X_lat_temp_reg_11__4 temp_reg_11__4 nx2318 temp_reg_12__4 latch
+        X_lat_temp_reg_10__2 temp_reg_10__2 nx2308 temp_reg_11__2 latch
+        X_lat_temp_reg_11__2 temp_reg_11__2 nx2308 temp_reg_12__2 latch
+        X_lat_temp_reg_6__2 temp_reg_6__2 nx2308 temp_reg_7__2 latch
+        X_lat_temp_reg_7__2 temp_reg_7__2 nx2308 temp_reg_8__2 latch
+        X_lat_temp_reg_8__2 temp_reg_8__2 nx2308 temp_reg_9__2 latch
+        X_lat_temp_reg_9__2 temp_reg_9__2 nx2308 temp_reg_10__2 latch
+        X_lat_temp_reg_8__3 temp_reg_8__3 nx2314 temp_reg_9__3 latch
+        X_lat_temp_reg_9__3 temp_reg_9__3 nx2314 temp_reg_10__3 latch
+        X_lat_temp_reg_4__3 temp_reg_4__3 nx2314 temp_reg_5__3 latch
+        X_lat_temp_reg_5__3 temp_reg_5__3 nx2314 temp_reg_6__3 latch
+        X_lat_temp_reg_6__3 temp_reg_6__3 nx2314 temp_reg_7__3 latch
+        X_lat_temp_reg_7__3 temp_reg_7__3 nx2314 temp_reg_8__3 latch
+        X_ix2213 nx2212 nx2352 temp_reg_10__4 nand02
+        X_ix2216 nx2215 nx2352 temp_reg_11__0 nand02
+        X_ix2219 nx2218 nx2352 temp_reg_11__1 nand02
+        X_ix2222 nx2221 nx2352 temp_reg_11__2 nand02
+        X_ix2225 nx2224 nx2352 temp_reg_11__3 nand02
+        X_ix2228 nx2227 nx2352 temp_reg_11__4 nand02
+        X_ix2177 nx2176 nx2348 temp_reg_8__2 nand02
+        X_ix2180 nx2179 nx2348 temp_reg_8__3 nand02
+        X_ix2183 nx2182 nx2348 temp_reg_8__4 nand02
+        X_ix2186 nx2185 nx2348 temp_reg_9__0 nand02
+        X_ix2189 nx2188 nx2348 temp_reg_9__1 nand02
+        X_ix2192 nx2191 nx2348 temp_reg_9__2 nand02
+        X_ix2159 nx2158 nx2346 temp_reg_7__1 nand02
+        X_ix2162 nx2161 nx2346 temp_reg_7__2 nand02
+        X_ix2165 nx2164 nx2346 temp_reg_7__3 nand02
+        X_ix2168 nx2167 nx2346 temp_reg_7__4 nand02
+        X_lat_temp_reg_12__4 temp_reg_12__4 nx2318 temp_reg_13__4 latch
+        X_lat_temp_reg_13__4 temp_reg_13__4 nx2318 temp_reg_14__4 latch
+        X_ix2028 nx2027 nx2334 temp_reg_0__3 nand02
+        X_ix2087 nx2086 nx2338 temp_reg_2__2 nand02
+        X_ix2090 nx2089 nx2338 temp_reg_2__3 nand02
+        X_ix2093 nx2092 nx2338 temp_reg_2__4 nand02
+        X_ix2096 nx2095 nx2338 temp_reg_3__0 nand02
+        X_ix2066 nx2065 nx2334 temp_reg_1__0 nand02
+        X_ix1968 nx1967 nx2334 temp_reg_0__0 nand02
+        X_ix2009 nx2008 nx2334 temp_reg_0__2 nand02
+        X_ix589 nx2206 pal_data_10__2 inv01
+        X_ix591 nx2209 pal_data_10__3 inv01
+        X_ix2307 nx2326 nx2308 inv01
+        X_ix2309 nx2326 nx2310 inv01
+        X_ix2311 nx2326 nx2312 inv01
+        X_ix2313 nx2326 nx2314 inv01
+        X_ix2315 nx2326 nx2316 inv01
+        X_ix2317 nx2326 nx2318 inv01
+        X_ix2323 nx2 nx2324 inv01
+        X_ix2325 nx2 nx2326 inv01
+        X_ix521 nx2104 pal_data_3__3 inv01
+        X_ix523 nx2107 pal_data_3__4 inv01
+        X_ix525 nx2110 pal_data_4__0 inv01
+        X_ix527 nx2113 pal_data_4__1 inv01
+        X_ix529 nx2116 pal_data_4__2 inv01
+        X_ix531 nx2119 pal_data_4__3 inv01
+        X_ix395 nx2027 pal_data_0__3 inv01
+        X_ix509 nx2086 pal_data_2__2 inv01
+        X_ix511 nx2089 pal_data_2__3 inv01
+        X_ix513 nx2092 pal_data_2__4 inv01
+        X_ix515 nx2095 pal_data_3__0 inv01
+        X_ix495 nx2065 pal_data_1__0 inv01
+        X_ix101 nx1967 pal_data_0__0 inv01
+        X_ix297 nx2008 pal_data_0__2 inv01
+        X_ix3 clr clk nx2 nor02ii
+        X_lat_temp_reg_10__3 temp_reg_10__3 nx2312 temp_reg_11__3 latch
+        X_lat_temp_reg_11__3 temp_reg_11__3 nx2312 temp_reg_12__3 latch
+        X_lat_temp_reg_14__3 temp_reg_14__3 nx2312 temp_reg_15__3 latch
+        X_lat_temp_reg_12__3 temp_reg_12__3 nx2312 temp_reg_13__3 latch
+        X_lat_temp_reg_13__3 temp_reg_13__3 nx2312 temp_reg_14__3 latch
+        X_lat_temp_reg_0__3 temp_reg_0__3 nx2316 temp_reg_1__3 latch
+        X_lat_temp_reg_3__3 temp_reg_3__3 nx2316 temp_reg_4__3 latch
+        X_lat_temp_reg_1__3 temp_reg_1__3 nx2316 temp_reg_2__3 latch
+        X_lat_temp_reg_2__3 temp_reg_2__3 nx2316 temp_reg_3__3 latch
+        X_lat_temp_reg_3__0 temp_reg_3__0 nx2300 temp_reg_4__0 latch
+        X_lat_temp_reg_1__0 temp_reg_1__0 nx2300 temp_reg_2__0 latch
+        X_lat_temp_reg_2__0 temp_reg_2__0 nx2300 temp_reg_3__0 latch
+        X_lat_temp_reg_0__0 temp_reg_0__0 nx2300 temp_reg_1__0 latch
+        X_lat_temp_reg_0__2 temp_reg_0__2 nx2310 temp_reg_1__2 latch
+        X_lat_temp_reg_1__2 temp_reg_1__2 nx2310 temp_reg_2__2 latch
+        X_lat_temp_reg_2__2 temp_reg_2__2 nx2310 temp_reg_3__2 latch
+        X_lat_temp_reg_5__2 temp_reg_5__2 nx2310 temp_reg_6__2 latch
+        X_lat_temp_reg_3__2 temp_reg_3__2 nx2310 temp_reg_4__2 latch
+        X_lat_temp_reg_4__2 temp_reg_4__2 nx2310 temp_reg_5__2 latch
+        X_ix2207 nx2206 nx2350 temp_reg_10__2 nand02
+        X_ix2210 nx2209 nx2350 temp_reg_10__3 nand02
+        X_ix2105 nx2104 nx2340 temp_reg_3__3 nand02
+        X_ix2108 nx2107 nx2340 temp_reg_3__4 nand02
+        X_ix2111 nx2110 nx2340 temp_reg_4__0 nand02
+        X_ix2114 nx2113 nx2340 temp_reg_4__1 nand02
+        X_ix2117 nx2116 nx2340 temp_reg_4__2 nand02
+        X_ix2120 nx2119 nx2340 temp_reg_4__3 nand02
+        X_ix2276 nx2275 nx2358 temp_reg_15__0 nand02
+        X_ix613 nx2242 pal_data_12__4 inv01
+        X_ix615 nx2245 pal_data_13__0 inv01
+        X_ix621 nx2254 pal_data_13__3 inv01
+        X_ix623 nx2257 pal_data_13__4 inv01
+        X_ix625 nx2260 pal_data_14__0 inv01
+        X_ix627 nx2263 pal_data_14__1 inv01
+        X_ix605 nx2230 pal_data_12__0 inv01
+        X_ix607 nx2233 pal_data_12__1 inv01
+        X_ix609 nx2236 pal_data_12__2 inv01
+        X_ix611 nx2239 pal_data_12__3 inv01
+        X_ix2331 en nx2332 inv01
+        X_ix2357 nx2332 nx2358 inv01
+        X_ix629 nx2266 pal_data_14__2 inv01
+        X_ix631 nx2269 pal_data_14__3 inv01
+        X_ix2353 nx2364 nx2354 inv01
+        X_ix2355 nx2364 nx2356 inv01
+        X_ix617 nx2248 pal_data_13__1 inv01
+        X_ix619 nx2251 pal_data_13__2 inv01
+        X_ix643 nx2287 pal_data_15__4 inv01
+        X_ix2359 nx2332 nx2360 inv01
+        X_ix641 nx2284 pal_data_15__3 inv01
+        X_ix2303 nx2324 nx2304 inv01
+        X_ix2305 nx2324 nx2306 inv01
+        X_ix2295 nx2324 nx2296 inv01
+        X_ix2297 nx2324 nx2298 inv01
+        X_ix2299 nx2324 nx2300 inv01
+        X_ix2301 nx2324 nx2302 inv01
+        X_ix637 nx2278 pal_data_15__1 inv01
+        X_ix639 nx2281 pal_data_15__2 inv01
+        X_ix633 nx2272 pal_data_14__4 inv01
+        X_ix635 nx2275 pal_data_15__0 inv01
+        X_lat_temp_reg_9__1 temp_reg_9__1 nx2302 temp_reg_10__1 latch
+        X_lat_temp_reg_10__1 temp_reg_10__1 nx2302 temp_reg_11__1 latch
+        X_lat_temp_reg_11__1 temp_reg_11__1 nx2302 temp_reg_12__1 latch
+        X_lat_temp_reg_14__2 temp_reg_14__2 nx2306 temp_reg_15__2 latch
+        X_lat_temp_reg_12__2 temp_reg_12__2 nx2306 temp_reg_13__2 latch
+        X_lat_temp_reg_13__2 temp_reg_13__2 nx2306 temp_reg_14__2 latch
+        X_lat_temp_reg_14__4 temp_reg_14__4 nx2316 temp_reg_15__4 latch
+        X_lat_temp_reg_14__1 temp_reg_14__1 nx2300 temp_reg_15__1 latch
+        X_lat_temp_reg_15__0 temp_reg_15__0 nx2296 ser_data[0] latch
+        X_lat_temp_reg_15__1 temp_reg_15__1 nx2300 ser_data[1] latch
+        X_lat_temp_reg_15__2 temp_reg_15__2 nx2306 ser_data[2] latch
+        X_lat_temp_reg_15__3 temp_reg_15__3 nx2312 ser_data[3] latch
+        X_lat_temp_reg_15__4 temp_reg_15__4 nx2316 ser_data[4] latch
+        X_ix2243 nx2242 nx2354 temp_reg_12__4 nand02
+        X_ix2246 nx2245 nx2354 temp_reg_13__0 nand02
+        X_ix2255 nx2254 nx2356 temp_reg_13__3 nand02
+        X_ix2258 nx2257 nx2356 temp_reg_13__4 nand02
+        X_ix2261 nx2260 nx2356 temp_reg_14__0 nand02
+        X_ix2264 nx2263 nx2356 temp_reg_14__1 nand02
+        X_ix2231 nx2230 nx2354 temp_reg_12__0 nand02
+        X_ix2234 nx2233 nx2354 temp_reg_12__1 nand02
+        X_ix2237 nx2236 nx2354 temp_reg_12__2 nand02
+        X_ix2240 nx2239 nx2354 temp_reg_12__3 nand02
+        X_ix2267 nx2266 nx2358 temp_reg_14__2 nand02
+        X_ix2270 nx2269 nx2358 temp_reg_14__3 nand02
+        X_ix2249 nx2248 nx2356 temp_reg_13__1 nand02
+        X_ix2252 nx2251 nx2356 temp_reg_13__2 nand02
+        X_ix2288 nx2287 nx2360 temp_reg_15__4 nand02
+        X_ix2285 nx2284 nx2360 temp_reg_15__3 nand02
+        X_ix2279 nx2278 nx2358 temp_reg_15__1 nand02
+        X_ix2282 nx2281 nx2358 temp_reg_15__2 nand02
+        X_ix2273 nx2272 nx2358 temp_reg_14__4 nand02
+        X_lat_temp_reg_10__0 temp_reg_10__0 nx2296 temp_reg_11__0 latch
+        X_lat_temp_reg_11__0 temp_reg_11__0 nx2296 temp_reg_12__0 latch
+        X_lat_temp_reg_14__0 temp_reg_14__0 nx2296 temp_reg_15__0 latch
+        X_lat_temp_reg_12__0 temp_reg_12__0 nx2296 temp_reg_13__0 latch
+        X_lat_temp_reg_13__0 temp_reg_13__0 nx2296 temp_reg_14__0 latch
+        X_lat_temp_reg_12__1 temp_reg_12__1 nx2302 temp_reg_13__1 latch
+        X_lat_temp_reg_13__1 temp_reg_13__1 nx2302 temp_reg_14__1 latch
+        X_lat_temp_reg_8__1 temp_reg_8__1 nx2302 temp_reg_9__1 latch
+.ends sipo
+
+*
+* Component pathname : $HOME/VLSI-2/Project/new/Decoder/schem/decoder
+*
+.subckt decoder  decode_in[0] decode_in[1] decode_in[2] decode_in[3] decode_in[4]
++ decode_out[0] decode_out[1] decode_out[2] decode_out[3] decode_out[4]
++ clk
+
+        X_ix425 acc2reg_3 nx424 inv01
+        X_ix423 acc2reg_1 nx422 inv01
+        X_ix414 acc2reg_5 nx413 inv01
+        X_ix412 acc2reg_4 nx411 inv01
+        X_ix410 acc2reg_1 acc2reg_3 nx409 acc2reg_0 acc2reg_2 nand04
+        X_ix421 nx424 nx420 nx422 nx426 nand03
+        X_ix35 acc2reg_4 nx34 nx420 acc2reg_5 nand03
+        X_ix9 nx411 nx8 nx409 nx413 nand03
+        X_ix407 nx8 acc2reg_6 acc2reg_7 nx406 nor03
+        X_ix79 nx439 nx443 decode_out[4] nor02
+        X_ix17 acc2reg_8 nx406 nx16 nor02
+        X_ctr1_reg_curr_state_0 nx443 ctr1_curr_state_0 nx46 nx396 dff
+        X_sipo1_reg_temp_3 N$dummy_esc1[4] sipo2dl_3 nx46 sipo2dl_2 dff
+        X_sipo1_reg_temp_2 N$dummy_esc1[3] sipo2dl_2 nx46 sipo2dl_1 dff
+        X_sipo1_reg_temp_1 N$dummy_esc1[2] sipo2dl_1 nx46 sipo2dl_0 dff
+        X_ctr1_reg_curr_state_1 nx439 N$dummy_esc1[1] nx46 nx70 dff
+        X_sipo1_reg_temp_0 N$dummy_esc1[0] sipo2dl_0 nx46 nx16 dff
+        X_dlat1_lat_user_data_3 decode_out[3] decode_out[4] sipo2dl_3 latch
+        X_dlat1_lat_user_data_2 decode_out[2] decode_out[4] sipo2dl_2 latch
+        X_dlat1_lat_user_data_1 decode_out[1] decode_out[4] sipo2dl_1 latch
+        X_dlat1_lat_user_data_0 decode_out[0] decode_out[4] sipo2dl_0 latch
+        X_acc1_lvl1_6_ca_B9A mul2acc_12__0 mul2acc_12__1 mul2acc_12__2 mul2acc_12__3
++ nx487 nx485 nx483 nx481 nx481 mul2acc_13__0 mul2acc_13__1 mul2acc_13__2
++ mul2acc_13__3 nx477 nx477 nx475 nx475 nx475 acc1_bv1_6__0 acc1_bv1_6__1
++ acc1_bv1_6__2 acc1_bv1_6__3 acc1_bv1_6__4 acc1_bv1_6__5 acc1_bv1_6__6
++ acc1_bv1_6__7 acc1_bv1_6__8 Bit9Adder
+        X_acc1_lvl2_3_b9a acc1_bv1_6__0 acc1_bv1_6__1 acc1_bv1_6__2 acc1_bv1_6__3
++ acc1_bv1_6__4 acc1_bv1_6__5 acc1_bv1_6__6 acc1_bv1_6__7 acc1_bv1_6__8
++ acc1_bv1_7__0 acc1_bv1_7__1 acc1_bv1_7__2 acc1_bv1_7__3 acc1_bv1_7__4
++ acc1_bv1_7__5 acc1_bv1_7__6 acc1_bv1_7__7 acc1_bv1_7__8 acc1_bv2_3__0
++ acc1_bv2_3__1 acc1_bv2_3__2 acc1_bv2_3__3 acc1_bv2_3__4 acc1_bv2_3__5
++ acc1_bv2_3__6 acc1_bv2_3__7 acc1_bv2_3__8 Bit9Adder
+        X_acc1_lvl3_1_b9a acc1_bv2_2__0 acc1_bv2_2__1 acc1_bv2_2__2 acc1_bv2_2__3
++ acc1_bv2_2__4 acc1_bv2_2__5 acc1_bv2_2__6 acc1_bv2_2__7 acc1_bv2_2__8
++ acc1_bv2_3__0 acc1_bv2_3__1 acc1_bv2_3__2 acc1_bv2_3__3 acc1_bv2_3__4
++ acc1_bv2_3__5 acc1_bv2_3__6 acc1_bv2_3__7 acc1_bv2_3__8 acc1_bv3_1__0
++ acc1_bv3_1__1 acc1_bv3_1__2 acc1_bv3_1__3 acc1_bv3_1__4 acc1_bv3_1__5
++ acc1_bv3_1__6 acc1_bv3_1__7 acc1_bv3_1__8 Bit9Adder
+        X_acc1_lvl2_2_b9a acc1_bv1_4__0 acc1_bv1_4__1 acc1_bv1_4__2 acc1_bv1_4__3
++ acc1_bv1_4__4 acc1_bv1_4__5 acc1_bv1_4__6 acc1_bv1_4__7 acc1_bv1_4__8
++ acc1_bv1_5__0 acc1_bv1_5__1 acc1_bv1_5__2 acc1_bv1_5__3 acc1_bv1_5__4
++ acc1_bv1_5__5 acc1_bv1_5__6 acc1_bv1_5__7 acc1_bv1_5__8 acc1_bv2_2__0
++ acc1_bv2_2__1 acc1_bv2_2__2 acc1_bv2_2__3 acc1_bv2_2__4 acc1_bv2_2__5
++ acc1_bv2_2__6 acc1_bv2_2__7 acc1_bv2_2__8 Bit9Adder
+        X_acc1_b9a acc1_bv3_0__0 acc1_bv3_0__1 acc1_bv3_0__2 acc1_bv3_0__3
++ acc1_bv3_0__4 acc1_bv3_0__5 acc1_bv3_0__6 acc1_bv3_0__7 acc1_bv3_0__8
++ acc1_bv3_1__0 acc1_bv3_1__1 acc1_bv3_1__2 acc1_bv3_1__3 acc1_bv3_1__4
++ acc1_bv3_1__5 acc1_bv3_1__6 acc1_bv3_1__7 acc1_bv3_1__8 acc2reg_0 acc2reg_1
++ acc2reg_2 acc2reg_3 acc2reg_4 acc2reg_5 acc2reg_6 acc2reg_7 acc2reg_8 Bit9Adder
+        X_acc1_lvl2_1_b9a acc1_bv1_2__0 acc1_bv1_2__1 acc1_bv1_2__2 acc1_bv1_2__3
++ acc1_bv1_2__4 acc1_bv1_2__5 acc1_bv1_2__6 acc1_bv1_2__7 acc1_bv1_2__8
++ acc1_bv1_3__0 acc1_bv1_3__1 acc1_bv1_3__2 acc1_bv1_3__3 acc1_bv1_3__4
++ acc1_bv1_3__5 acc1_bv1_3__6 acc1_bv1_3__7 acc1_bv1_3__8 acc1_bv2_1__0
++ acc1_bv2_1__1 acc1_bv2_1__2 acc1_bv2_1__3 acc1_bv2_1__4 acc1_bv2_1__5
++ acc1_bv2_1__6 acc1_bv2_1__7 acc1_bv2_1__8 Bit9Adder
+        X_acc1_lvl3_0_b9a acc1_bv2_0__0 acc1_bv2_0__1 acc1_bv2_0__2 acc1_bv2_0__3
++ acc1_bv2_0__4 acc1_bv2_0__5 acc1_bv2_0__6 acc1_bv2_0__7 acc1_bv2_0__8
++ acc1_bv2_1__0 acc1_bv2_1__1 acc1_bv2_1__2 acc1_bv2_1__3 acc1_bv2_1__4
++ acc1_bv2_1__5 acc1_bv2_1__6 acc1_bv2_1__7 acc1_bv2_1__8 acc1_bv3_0__0
++ acc1_bv3_0__1 acc1_bv3_0__2 acc1_bv3_0__3 acc1_bv3_0__4 acc1_bv3_0__5
++ acc1_bv3_0__6 acc1_bv3_0__7 acc1_bv3_0__8 Bit9Adder
+        X_acc1_lvl2_0_b9a acc1_bv1_0__0 acc1_bv1_0__1 acc1_bv1_0__2 acc1_bv1_0__3
++ acc1_bv1_0__4 acc1_bv1_0__5 acc1_bv1_0__6 acc1_bv1_0__7 acc1_bv1_0__8
++ acc1_bv1_1__0 acc1_bv1_1__1 acc1_bv1_1__2 acc1_bv1_1__3 acc1_bv1_1__4
++ acc1_bv1_1__5 acc1_bv1_1__6 acc1_bv1_1__7 acc1_bv1_1__8 acc1_bv2_0__0
++ acc1_bv2_0__1 acc1_bv2_0__2 acc1_bv2_0__3 acc1_bv2_0__4 acc1_bv2_0__5
++ acc1_bv2_0__6 acc1_bv2_0__7 acc1_bv2_0__8 Bit9Adder
+        X_mult1_chipmulties_12_cm reg2mul_12__0 reg2mul_12__1 reg2mul_12__2
++ reg2mul_12__3 reg2mul_12__4 GND GND GND GND GND mul2acc_12__0 mul2acc_12__1
++ mul2acc_12__2 mul2acc_12__3 mul2acc_12__4 ChipMultiplier
+        X_mult1_chipmulties_13_cm reg2mul_13__0 reg2mul_13__1 reg2mul_13__2
++ reg2mul_13__3 reg2mul_13__4 GND GND GND GND GND mul2acc_13__0 mul2acc_13__1
++ mul2acc_13__2 mul2acc_13__3 mul2acc_13__4 ChipMultiplier
+        X_ix71 nx70 nx439 ctr1_curr_state_0 xnor2
+        X_ix476 mul2acc_13__4 nx477 buf02
+        X_ix474 mul2acc_13__4 nx475 buf02
+        X_ix429 nx10 nx8 nx435 nx428 oai21
+        X_ix417 nx40 nx34 acc2reg_8 nx416 oai21
+        X_ix63 nx396 ctr1_curr_state_0 nx439 nand02
+        X_ix11 nx10 nx431 nx433 nand02
+        X_ix41 nx40 acc2reg_6 acc2reg_7 nand02
+        X_ix47 nx46 nx416 nx428 nand02
+        X_ix478 mul2acc_12__4 nx479 inv01
+        X_ix486 nx479 nx487 inv01
+        X_ix480 nx479 nx481 inv01
+        X_ix484 nx479 nx485 inv01
+        X_ix482 nx479 nx483 inv01
+        X_ix436 acc2reg_8 nx435 inv01
+        X_ix434 acc2reg_7 nx433 inv01
+        X_ix432 acc2reg_6 nx431 inv01
+        X_ix427 acc2reg_2 nx426 inv01
+        X_ix496 nx493 nx497 inv01
+        X_ix472 nx465 nx473 inv01
+        X_ix466 nx465 nx467 inv01
+        X_ix470 nx465 nx471 inv01
+        X_ix468 nx465 nx469 inv01
+        X_ix520 mul2acc_6__4 nx521 inv01
+        X_ix506 mul2acc_8__4 nx507 inv01
+        X_ix492 mul2acc_10__4 nx493 inv01
+        X_ix464 mul2acc_14__4 nx465 inv01
+        X_acc1_lvl1_0_ca_B9A mul2acc_0__0 mul2acc_0__1 mul2acc_0__2 mul2acc_0__3
++ nx571 nx569 nx567 nx565 nx565 mul2acc_1__0 mul2acc_1__1 mul2acc_1__2 mul2acc_1__3
++ nx561 nx561 nx559 nx559 nx559 acc1_bv1_0__0 acc1_bv1_0__1 acc1_bv1_0__2
++ acc1_bv1_0__3 acc1_bv1_0__4 acc1_bv1_0__5 acc1_bv1_0__6 acc1_bv1_0__7
++ acc1_bv1_0__8 Bit9Adder
+        X_acc1_lvl1_1_ca_B9A mul2acc_2__0 mul2acc_2__1 mul2acc_2__2 mul2acc_2__3
++ nx557 nx555 nx553 nx551 nx551 mul2acc_3__0 mul2acc_3__1 mul2acc_3__2 mul2acc_3__3
++ nx547 nx547 nx545 nx545 nx545 acc1_bv1_1__0 acc1_bv1_1__1 acc1_bv1_1__2
++ acc1_bv1_1__3 acc1_bv1_1__4 acc1_bv1_1__5 acc1_bv1_1__6 acc1_bv1_1__7
++ acc1_bv1_1__8 Bit9Adder
+        X_acc1_lvl1_2_ca_B9A mul2acc_4__0 mul2acc_4__1 mul2acc_4__2 mul2acc_4__3
++ nx543 nx541 nx539 nx537 nx537 mul2acc_5__0 mul2acc_5__1 mul2acc_5__2 mul2acc_5__3
++ nx533 nx533 nx531 nx531 nx531 acc1_bv1_2__0 acc1_bv1_2__1 acc1_bv1_2__2
++ acc1_bv1_2__3 acc1_bv1_2__4 acc1_bv1_2__5 acc1_bv1_2__6 acc1_bv1_2__7
++ acc1_bv1_2__8 Bit9Adder
+        X_acc1_lvl1_3_ca_B9A mul2acc_6__0 mul2acc_6__1 mul2acc_6__2 mul2acc_6__3
++ nx529 nx527 nx525 nx523 nx523 mul2acc_7__0 mul2acc_7__1 mul2acc_7__2 mul2acc_7__3
++ nx519 nx519 nx517 nx517 nx517 acc1_bv1_3__0 acc1_bv1_3__1 acc1_bv1_3__2
++ acc1_bv1_3__3 acc1_bv1_3__4 acc1_bv1_3__5 acc1_bv1_3__6 acc1_bv1_3__7
++ acc1_bv1_3__8 Bit9Adder
+        X_acc1_lvl1_4_ca_B9A mul2acc_8__0 mul2acc_8__1 mul2acc_8__2 mul2acc_8__3
++ nx515 nx513 nx511 nx509 nx509 mul2acc_9__0 mul2acc_9__1 mul2acc_9__2 mul2acc_9__3
++ nx505 nx505 nx503 nx503 nx503 acc1_bv1_4__0 acc1_bv1_4__1 acc1_bv1_4__2
++ acc1_bv1_4__3 acc1_bv1_4__4 acc1_bv1_4__5 acc1_bv1_4__6 acc1_bv1_4__7
++ acc1_bv1_4__8 Bit9Adder
+        X_acc1_lvl1_5_ca_B9A mul2acc_10__0 mul2acc_10__1 mul2acc_10__2 mul2acc_10__3
++ nx501 nx499 nx497 nx495 nx495 mul2acc_11__0 mul2acc_11__1 mul2acc_11__2
++ mul2acc_11__3 nx491 nx491 nx489 nx489 nx489 acc1_bv1_5__0 acc1_bv1_5__1
++ acc1_bv1_5__2 acc1_bv1_5__3 acc1_bv1_5__4 acc1_bv1_5__5 acc1_bv1_5__6
++ acc1_bv1_5__7 acc1_bv1_5__8 Bit9Adder
+        X_acc1_lvl1_7_ca_B9A mul2acc_14__0 mul2acc_14__1 mul2acc_14__2 mul2acc_14__3
++ nx473 nx471 nx469 nx467 nx467 mul2acc_15__0 mul2acc_15__1 mul2acc_15__2
++ mul2acc_15__3 nx463 nx463 nx461 nx461 nx461 acc1_bv1_7__0 acc1_bv1_7__1
++ acc1_bv1_7__2 acc1_bv1_7__3 acc1_bv1_7__4 acc1_bv1_7__5 acc1_bv1_7__6
++ acc1_bv1_7__7 acc1_bv1_7__8 Bit9Adder
+        X_mult1_chipmulties_0_cm reg2mul_0__0 reg2mul_0__1 reg2mul_0__2
++ reg2mul_0__3 reg2mul_0__4 GND GND GND GND GND mul2acc_0__0 mul2acc_0__1
++ mul2acc_0__2 mul2acc_0__3 mul2acc_0__4 ChipMultiplier
+        X_mult1_chipmulties_1_cm reg2mul_1__0 reg2mul_1__1 reg2mul_1__2
++ reg2mul_1__3 reg2mul_1__4 GND GND GND GND GND mul2acc_1__0 mul2acc_1__1
++ mul2acc_1__2 mul2acc_1__3 mul2acc_1__4 ChipMultiplier
+        X_mult1_chipmulties_2_cm reg2mul_2__0 reg2mul_2__1 reg2mul_2__2
++ reg2mul_2__3 reg2mul_2__4 GND GND GND GND GND mul2acc_2__0 mul2acc_2__1
++ mul2acc_2__2 mul2acc_2__3 mul2acc_2__4 ChipMultiplier
+        X_mult1_chipmulties_3_cm reg2mul_3__0 reg2mul_3__1 reg2mul_3__2
++ reg2mul_3__3 reg2mul_3__4 GND GND GND GND GND mul2acc_3__0 mul2acc_3__1
++ mul2acc_3__2 mul2acc_3__3 mul2acc_3__4 ChipMultiplier
+        X_mult1_chipmulties_4_cm reg2mul_4__0 reg2mul_4__1 reg2mul_4__2
++ reg2mul_4__3 reg2mul_4__4 GND GND GND GND GND mul2acc_4__0 mul2acc_4__1
++ mul2acc_4__2 mul2acc_4__3 mul2acc_4__4 ChipMultiplier
+        X_mult1_chipmulties_5_cm reg2mul_5__0 reg2mul_5__1 reg2mul_5__2
++ reg2mul_5__3 reg2mul_5__4 GND GND GND GND GND mul2acc_5__0 mul2acc_5__1
++ mul2acc_5__2 mul2acc_5__3 mul2acc_5__4 ChipMultiplier
+        X_mult1_chipmulties_7_cm reg2mul_7__0 reg2mul_7__1 reg2mul_7__2
++ reg2mul_7__3 reg2mul_7__4 GND GND GND GND GND mul2acc_7__0 mul2acc_7__1
++ mul2acc_7__2 mul2acc_7__3 mul2acc_7__4 ChipMultiplier
+        X_mult1_chipmulties_9_cm reg2mul_9__0 reg2mul_9__1 reg2mul_9__2
++ reg2mul_9__3 reg2mul_9__4 GND GND GND GND GND mul2acc_9__0 mul2acc_9__1
++ mul2acc_9__2 mul2acc_9__3 mul2acc_9__4 ChipMultiplier
+        X_mult1_chipmulties_11_cm reg2mul_11__0 reg2mul_11__1 reg2mul_11__2
++ reg2mul_11__3 reg2mul_11__4 GND GND GND GND GND mul2acc_11__0 mul2acc_11__1
++ mul2acc_11__2 mul2acc_11__3 mul2acc_11__4 ChipMultiplier
+        X_mult1_chipmulties_15_cm reg2mul_15__0 reg2mul_15__1 reg2mul_15__2
++ reg2mul_15__3 reg2mul_15__4 GND GND GND GND GND mul2acc_15__0 mul2acc_15__1
++ mul2acc_15__2 mul2acc_15__3 mul2acc_15__4 ChipMultiplier
+        X_mult1_chipmulties_6_cm reg2mul_6__0 reg2mul_6__1 reg2mul_6__2
++ reg2mul_6__3 reg2mul_6__4 GND GND GND GND GND mul2acc_6__0 mul2acc_6__1
++ mul2acc_6__2 mul2acc_6__3 mul2acc_6__4 ChipMultiplier
+        X_mult1_chipmulties_8_cm reg2mul_8__0 reg2mul_8__1 reg2mul_8__2
++ reg2mul_8__3 reg2mul_8__4 GND GND GND GND GND mul2acc_8__0 mul2acc_8__1
++ mul2acc_8__2 mul2acc_8__3 mul2acc_8__4 ChipMultiplier
+        X_mult1_chipmulties_10_cm reg2mul_10__0 reg2mul_10__1 reg2mul_10__2
++ reg2mul_10__3 reg2mul_10__4 GND GND GND GND GND mul2acc_10__0 mul2acc_10__1
++ mul2acc_10__2 mul2acc_10__3 mul2acc_10__4 ChipMultiplier
+        X_mult1_chipmulties_14_cm reg2mul_14__0 reg2mul_14__1 reg2mul_14__2
++ reg2mul_14__3 reg2mul_14__4 GND GND GND GND GND mul2acc_14__0 mul2acc_14__1
++ mul2acc_14__2 mul2acc_14__3 mul2acc_14__4 ChipMultiplier
+        X_ctr_ld ctr2reg clk counter_chip
+        X_recev_0_reg decode_in[0] decode_in[1] decode_in[2] decode_in[3]
++ decode_in[4] reg2mul_10__2 reg2mul_10__3 reg2mul_10__4 reg2mul_11__0 reg2mul_11__1
++ reg2mul_11__2 reg2mul_11__3 reg2mul_11__4 reg2mul_12__0 reg2mul_12__1
++ reg2mul_12__2 reg2mul_12__3 reg2mul_12__4 reg2mul_13__0 reg2mul_13__1
++ reg2mul_13__2 reg2mul_13__3 reg2mul_13__4 reg2mul_14__0 reg2mul_14__1
++ reg2mul_14__2 reg2mul_14__3 reg2mul_14__4 reg2mul_15__0 reg2mul_15__1
++ reg2mul_15__2 reg2mul_15__3 reg2mul_15__4 ctr2reg clk GND reg2mul_4__0
++ reg2mul_4__1 reg2mul_4__2 reg2mul_4__3 reg2mul_4__4 reg2mul_5__0 reg2mul_5__1
++ reg2mul_5__2 reg2mul_5__3 reg2mul_5__4 reg2mul_6__0 reg2mul_6__1 reg2mul_6__2
++ reg2mul_6__3 reg2mul_6__4 reg2mul_7__0 reg2mul_7__1 reg2mul_7__2 reg2mul_7__3
++ reg2mul_7__4 reg2mul_8__0 reg2mul_8__1 reg2mul_8__2 reg2mul_8__3 reg2mul_8__4
++ reg2mul_9__0 reg2mul_9__1 reg2mul_9__2 reg2mul_9__3 reg2mul_9__4 reg2mul_10__0
++ reg2mul_10__1 reg2mul_0__0 reg2mul_0__1 reg2mul_0__2 reg2mul_0__3 reg2mul_0__4
++ reg2mul_1__0 reg2mul_1__1 reg2mul_1__2 reg2mul_1__3 reg2mul_1__4 reg2mul_2__0
++ reg2mul_2__1 reg2mul_2__2 reg2mul_2__3 reg2mul_2__4 reg2mul_3__0 reg2mul_3__1
++ reg2mul_3__2 reg2mul_3__3 reg2mul_3__4 sipo
+        X_ix504 mul2acc_9__4 nx505 buf02
+        X_ix502 mul2acc_9__4 nx503 buf02
+        X_ix490 mul2acc_11__4 nx491 buf02
+        X_ix488 mul2acc_11__4 nx489 buf02
+        X_ix462 mul2acc_15__4 nx463 buf02
+        X_ix460 mul2acc_15__4 nx461 buf02
+        X_ix562 mul2acc_0__4 nx563 inv01
+        X_ix570 nx563 nx571 inv01
+        X_ix564 nx563 nx565 inv01
+        X_ix568 nx563 nx569 inv01
+        X_ix566 nx563 nx567 inv01
+        X_ix548 mul2acc_2__4 nx549 inv01
+        X_ix556 nx549 nx557 inv01
+        X_ix550 nx549 nx551 inv01
+        X_ix554 nx549 nx555 inv01
+        X_ix552 nx549 nx553 inv01
+        X_ix534 mul2acc_4__4 nx535 inv01
+        X_ix542 nx535 nx543 inv01
+        X_ix536 nx535 nx537 inv01
+        X_ix540 nx535 nx541 inv01
+        X_ix538 nx535 nx539 inv01
+        X_ix528 nx521 nx529 inv01
+        X_ix522 nx521 nx523 inv01
+        X_ix526 nx521 nx527 inv01
+        X_ix524 nx521 nx525 inv01
+        X_ix514 nx507 nx515 inv01
+        X_ix508 nx507 nx509 inv01
+        X_ix512 nx507 nx513 inv01
+        X_ix510 nx507 nx511 inv01
+        X_ix500 nx493 nx501 inv01
+        X_ix494 nx493 nx495 inv01
+        X_ix498 nx493 nx499 inv01
+        X_ix560 mul2acc_1__4 nx561 buf02
+        X_ix558 mul2acc_1__4 nx559 buf02
+        X_ix546 mul2acc_3__4 nx547 buf02
+        X_ix544 mul2acc_3__4 nx545 buf02
+        X_ix532 mul2acc_5__4 nx533 buf02
+        X_ix530 mul2acc_5__4 nx531 buf02
+        X_ix518 mul2acc_7__4 nx519 buf02
+        X_ix516 mul2acc_7__4 nx517 buf02
+.ends decoder
+

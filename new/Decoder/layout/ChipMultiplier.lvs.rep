@@ -1,0 +1,252 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         ChipMultiplier.lvs.report
+LAYOUT NAME:              /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/schem/ChipMultiplier/ChipMultiplier.src.net ('ChipMultiplier')
+SOURCE NAME:              /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/schem/ChipMultiplier/ChipMultiplier.src.net ('ChipMultiplier')
+RULE FILE:                /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/layout/_tsmc018.calibre.rules_
+CREATION TIME:            Thu May  9 01:44:26 2019
+CURRENT DIRECTORY:        /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/new/Decoder/layout
+USER NAME:                jpw33
+CALIBRE VERSION:          v2012.2_36.25    Mon Jul 2 12:15:31 PDT 2012
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+  Warning:  Source and layout refer to the same data.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        ChipMultiplier                ChipMultiplier
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD" "VCC" "vdd" "vcc"
+   LVS GROUND NAME                        "VSS" "vss" "GND" "gnd"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Filter
+
+   LVS FILTER  sch_filter_direct_open  OPEN SOURCE DIRECT
+   LVS FILTER  sch_filter_direct_short  SHORT SOURCE DIRECT
+   LVS FILTER  sch_filter_mask_open  OPEN SOURCE MASK
+   LVS FILTER  sch_filter_mask_short  SHORT SOURCE MASK
+   LVS FILTER  lay_filter_direct_open  OPEN LAYOUT DIRECT
+   LVS FILTER  lay_filter_direct_short  SHORT LAYOUT DIRECT
+   LVS FILTER  v  OPEN
+   LVS FILTER  i  OPEN
+   LVS FILTER  e  OPEN
+   LVS FILTER  f  OPEN
+   LVS FILTER  g  OPEN
+
+   // Trace Property
+
+   TRACE PROPERTY  mn  w w 0
+   TRACE PROPERTY  mp  w w 0
+   TRACE PROPERTY  mn  l l 0
+   TRACE PROPERTY  mp  l l 0
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+LAYOUT CELL NAME:         ChipMultiplier
+SOURCE CELL NAME:         ChipMultiplier
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0         0
+
+ Nets:             214       214
+
+ Instances:        202       202         MN (4 pins)
+                   202       202         MP (4 pins)
+                ------    ------
+ Total Inst:       404       404
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0         0
+
+ Nets:              96        96
+
+ Instances:          7         7         MN (4 pins)
+                     7         7         MP (4 pins)
+                     7         7         SPMN_2_1 (5 pins)
+                     3         3         SPMN_2_2 (6 pins)
+                     1         1         SPMN_3_2 (7 pins)
+                     5         5         SPMP_2_1 (5 pins)
+                     1         1         SPMP_2_2 (6 pins)
+                     2         2         SPMP_2_2_1 (7 pins)
+                     2         2         SPMP_3_2 (7 pins)
+                     2         2         SPMP_3_3 (8 pins)
+                    22        22         _invv (4 pins)
+                    17        17         _nand2v (5 pins)
+                    11        11         _nand3v (6 pins)
+                     9         9         _nor2v (5 pins)
+                     2         2         _nor3v (6 pins)
+                    13        13         _smn2v (4 pins)
+                     6         6         _smn3v (5 pins)
+                    14        14         _smp2v (4 pins)
+                     1         1         _smp3v (5 pins)
+                ------    ------
+ Total Inst:       132       132
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               0          0            0            0
+
+   Nets:               96         96            0            0
+
+   Instances:           7          7            0            0    MN(N)
+                        7          7            0            0    MP(P)
+                        7          7            0            0    SPMN_2_1
+                        3          3            0            0    SPMN_2_2
+                        1          1            0            0    SPMN_3_2
+                        5          5            0            0    SPMP_2_1
+                        1          1            0            0    SPMP_2_2
+                        2          2            0            0    SPMP_2_2_1
+                        2          2            0            0    SPMP_3_2
+                        2          2            0            0    SPMP_3_3
+                       22         22            0            0    _invv
+                       17         17            0            0    _nand2v
+                       11         11            0            0    _nand3v
+                        9          9            0            0    _nor2v
+                        2          2            0            0    _nor3v
+                       13         13            0            0    _smn2v
+                        6          6            0            0    _smn3v
+                       14         14            0            0    _smp2v
+                        1          1            0            0    _smp3v
+                  -------    -------    ---------    ---------
+   Total Inst:        132        132            0            0
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

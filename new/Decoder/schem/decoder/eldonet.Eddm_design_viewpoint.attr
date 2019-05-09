@@ -1,0 +1,13 @@
+A 5 u Eddm_design_viewpoint 5cd3b73d93f2.03.80.eb.2c.49.00.52.d0 1 2 4 0
+V v 1 4 5cd3b73d93f2.03.80.eb.2c.49.01.52.d0
+F f 1 "eldonet.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/part" 2 Eddm_part 5cd3a79358a7.03.80.eb.2c.49.00.54.94 5cd3a78f293e.03.80.eb.2c.49.00.54.94
+R cspuv 1 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/decoder" 1 mgc_symbol 5cd3a78f27ca.03.80.eb.2c.49.01.54.94 5cd3a78f27ca.03.80.eb.2c.49.00.54.94
+R cspuv 2 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/schematic" 1 mgc_schematic 5cd3a78f36a7.03.80.eb.2c.49.01.54.94 5cd3a78f36a7.03.80.eb.2c.49.00.54.94
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 3 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/eldonet" 1 Eddm_ba_mgr 5cd3b73f22b2.03.80.eb.2c.49.01.52.d0 5cd3b73f22b2.03.80.eb.2c.49.00.52.d0

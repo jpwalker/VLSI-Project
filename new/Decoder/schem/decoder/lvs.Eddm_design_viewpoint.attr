@@ -1,0 +1,25 @@
+A 5 u Eddm_design_viewpoint 5cd3b6cf46bd.03.80.eb.2c.49.00.52.d0 2 2 4 0
+V v 1 4 5cd3b6cf46be.03.80.eb.2c.49.00.52.d0
+F f 1 "lvs.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 5cd3b73cb5d1.03.80.eb.2c.49.00.52.d0
+F f 2 "lvs.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/part" 2 Eddm_part 5cd3a79358a7.03.80.eb.2c.49.00.54.94 5cd3a78f293e.03.80.eb.2c.49.00.54.94
+R cspuv 1 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/decoder" 1 mgc_symbol 5cd3a78f27ca.03.80.eb.2c.49.01.54.94 5cd3a78f27ca.03.80.eb.2c.49.00.54.94
+R cspuv 2 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/schematic" 1 mgc_schematic 5cd3a78f36a7.03.80.eb.2c.49.01.54.94 5cd3a78f36a7.03.80.eb.2c.49.00.54.94
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 3 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/lvs" 1 Eddm_ba_mgr 5cd3b6cf4bae.03.80.eb.2c.49.01.52.d0 5cd3b6cf4bae.03.80.eb.2c.49.00.52.d0
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/part" 2 Eddm_part 5cd3a79358a7.03.80.eb.2c.49.00.54.94 5cd3a78f293e.03.80.eb.2c.49.00.54.94
+R cspuv 1 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/decoder" 1 mgc_symbol 5cd3a78f27ca.03.80.eb.2c.49.01.54.94 5cd3a78f27ca.03.80.eb.2c.49.00.54.94
+R cspuv 2 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/schematic" 1 mgc_schematic 5cd3a78f36a7.03.80.eb.2c.49.01.54.94 5cd3a78f36a7.03.80.eb.2c.49.00.54.94
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 3 "$HOME/VLSI-2/Project/new/Decoder/schem/decoder/lvs" 1 Eddm_ba_mgr 5cd3b6cf4bae.03.80.eb.2c.49.01.52.d0 5cd3b6cf4bae.03.80.eb.2c.49.00.52.d0

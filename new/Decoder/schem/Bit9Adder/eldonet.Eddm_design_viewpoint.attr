@@ -1,0 +1,13 @@
+A 5 u Eddm_design_viewpoint 5cd3a9469c53.03.80.eb.2c.49.00.52.d0 1 2 4 0
+V v 1 4 5cd3a9469c53.03.80.eb.2c.49.01.52.d0
+F f 1 "eldonet.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/VLSI-2/Project/new/Decoder/schem/Bit9Adder/part" 2 Eddm_part 5cd3a7871d62.03.80.eb.2c.49.00.54.94 5cd3a7861873.03.80.eb.2c.49.00.54.94
+R cspuv 1 "$HOME/VLSI-2/Project/new/Decoder/schem/Bit9Adder/Bit9Adder" 1 mgc_symbol 5cd3a7861661.03.80.eb.2c.49.01.54.94 5cd3a7861661.03.80.eb.2c.49.00.54.94
+R cspuv 2 "$HOME/VLSI-2/Project/new/Decoder/schem/Bit9Adder/schematic" 1 mgc_schematic 5cd3a7862614.03.80.eb.2c.49.00.54.94 5cd3a7862613.03.80.eb.2c.49.00.54.94
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 3 "$HOME/VLSI-2/Project/new/Decoder/schem/Bit9Adder/eldonet" 1 Eddm_ba_mgr 5cd3a946a047.03.80.eb.2c.49.01.52.d0 5cd3a946a047.03.80.eb.2c.49.00.52.d0
