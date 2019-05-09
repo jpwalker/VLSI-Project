@@ -1,0 +1,795 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 9
+        -sort_by group
+Design : accu
+Version: O-2018.06-SP2
+Date   : Tue May  7 14:08:33 2019
+****************************************
+
+Operating Conditions: nom_pvt   Library: class
+Wire Load Model Mode: top
+
+  Startpoint: A[0][4] (input port)
+  Endpoint: B[8] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  accu               10x10                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  A[0][4] (in)                             0.00       0.00 f
+  ca_0/A[4] (ChipAdder_0)                  0.00       0.00 f
+  ca_0/B9A/A[8] (Bit9Adder_8)              0.00       0.00 f
+  ca_0/B9A/U5/Z (IV)                       1.12       1.12 r
+  ca_0/B9A/U2/Z (ND2I)                     0.13       1.25 f
+  ca_0/B9A/U1/Z (EON1P)                    1.06       2.32 f
+  ca_0/B9A/U43/Z (AO4)                     1.58       3.90 r
+  ca_0/B9A/U41/Z (AO5)                     0.78       4.68 f
+  ca_0/B9A/U32/Z (AN2)                     0.85       5.53 f
+  ca_0/B9A/U31/Z (AO4)                     1.32       6.85 r
+  ca_0/B9A/U30/Z (IV)                      0.30       7.14 f
+  ca_0/B9A/U29/Z (AO5)                     2.20       9.35 r
+  ca_0/B9A/U19/Z (NR2)                     0.34       9.69 f
+  ca_0/B9A/U18/Z (EO1)                     1.18      10.87 f
+  ca_0/B9A/U17/Z (AO5)                     2.20      13.08 r
+  ca_0/B9A/U8/Z (NR2)                      0.34      13.42 f
+  ca_0/B9A/U7/Z (EO1)                      1.18      14.60 f
+  ca_0/B9A/U6/Z (AO5)                      2.47      17.06 r
+  ca_0/B9A/U3/Z (EO)                       1.16      18.22 f
+  ca_0/B9A/C[8] (Bit9Adder_8)              0.00      18.22 f
+  ca_0/C[8] (ChipAdder_0)                  0.00      18.22 f
+  b9a_0/A[8] (Bit9Adder_0)                 0.00      18.22 f
+  b9a_0/U5/Z (IV)                          1.12      19.35 r
+  b9a_0/U2/Z (ND2I)                        0.13      19.48 f
+  b9a_0/U1/Z (EON1P)                       1.06      20.54 f
+  b9a_0/U43/Z (AO4)                        1.58      22.12 r
+  b9a_0/U41/Z (AO5)                        0.78      22.90 f
+  b9a_0/U32/Z (AN2)                        0.85      23.75 f
+  b9a_0/U31/Z (AO4)                        1.32      25.07 r
+  b9a_0/U30/Z (IV)                         0.30      25.37 f
+  b9a_0/U29/Z (AO5)                        2.20      27.57 r
+  b9a_0/U19/Z (NR2)                        0.34      27.91 f
+  b9a_0/U18/Z (EO1)                        1.18      29.09 f
+  b9a_0/U17/Z (AO5)                        2.20      31.30 r
+  b9a_0/U8/Z (NR2)                         0.34      31.64 f
+  b9a_0/U7/Z (EO1)                         1.18      32.82 f
+  b9a_0/U6/Z (AO5)                         2.47      35.29 r
+  b9a_0/U3/Z (EO)                          1.16      36.45 f
+  b9a_0/C[8] (Bit9Adder_0)                 0.00      36.45 f
+  b9a_0_0/A[8] (Bit9Adder_11)              0.00      36.45 f
+  b9a_0_0/U5/Z (IV)                        1.12      37.57 r
+  b9a_0_0/U2/Z (ND2I)                      0.13      37.70 f
+  b9a_0_0/U1/Z (EON1P)                     1.06      38.76 f
+  b9a_0_0/U43/Z (AO4)                      1.58      40.35 r
+  b9a_0_0/U41/Z (AO5)                      0.78      41.12 f
+  b9a_0_0/U32/Z (AN2)                      0.85      41.97 f
+  b9a_0_0/U31/Z (AO4)                      1.32      43.29 r
+  b9a_0_0/U30/Z (IV)                       0.30      43.59 f
+  b9a_0_0/U29/Z (AO5)                      2.20      45.80 r
+  b9a_0_0/U19/Z (NR2)                      0.34      46.14 f
+  b9a_0_0/U18/Z (EO1)                      1.18      47.32 f
+  b9a_0_0/U17/Z (AO5)                      2.20      49.52 r
+  b9a_0_0/U8/Z (NR2)                       0.34      49.86 f
+  b9a_0_0/U7/Z (EO1)                       1.18      51.04 f
+  b9a_0_0/U6/Z (AO5)                       2.47      53.51 r
+  b9a_0_0/U3/Z (EO)                        1.16      54.67 f
+  b9a_0_0/C[8] (Bit9Adder_11)              0.00      54.67 f
+  b9a/A[8] (Bit9Adder_9)                   0.00      54.67 f
+  b9a/U5/Z (IV)                            1.12      55.79 r
+  b9a/U2/Z (ND2I)                          0.13      55.92 f
+  b9a/U1/Z (EON1P)                         1.06      56.99 f
+  b9a/U43/Z (AO4)                          1.58      58.57 r
+  b9a/U41/Z (AO5)                          0.78      59.35 f
+  b9a/U32/Z (AN2)                          0.85      60.20 f
+  b9a/U31/Z (AO4)                          1.32      61.52 r
+  b9a/U30/Z (IV)                           0.30      61.81 f
+  b9a/U29/Z (AO5)                          2.20      64.02 r
+  b9a/U19/Z (NR2)                          0.34      64.36 f
+  b9a/U18/Z (EO1)                          1.18      65.54 f
+  b9a/U17/Z (AO5)                          2.20      67.75 r
+  b9a/U8/Z (NR2)                           0.34      68.09 f
+  b9a/U7/Z (EO1)                           1.18      69.27 f
+  b9a/U6/Z (AO5)                           2.47      71.73 r
+  b9a/U3/Z (EO)                            1.09      72.83 f
+  b9a/C[8] (Bit9Adder_9)                   0.00      72.83 f
+  B[8] (out)                               0.00      72.83 f
+  data arrival time                                  72.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0][4] (input port)
+  Endpoint: B[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  accu               10x10                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  A[0][4] (in)                             0.00       0.00 f
+  ca_0/A[4] (ChipAdder_0)                  0.00       0.00 f
+  ca_0/B9A/A[8] (Bit9Adder_8)              0.00       0.00 f
+  ca_0/B9A/U5/Z (IV)                       1.12       1.12 r
+  ca_0/B9A/U2/Z (ND2I)                     0.13       1.25 f
+  ca_0/B9A/U1/Z (EON1P)                    1.06       2.32 f
+  ca_0/B9A/U43/Z (AO4)                     1.58       3.90 r
+  ca_0/B9A/U41/Z (AO5)                     0.78       4.68 f
+  ca_0/B9A/U32/Z (AN2)                     0.85       5.53 f
+  ca_0/B9A/U31/Z (AO4)                     1.32       6.85 r
+  ca_0/B9A/U30/Z (IV)                      0.30       7.14 f
+  ca_0/B9A/U29/Z (AO5)                     2.20       9.35 r
+  ca_0/B9A/U19/Z (NR2)                     0.34       9.69 f
+  ca_0/B9A/U18/Z (EO1)                     1.18      10.87 f
+  ca_0/B9A/U17/Z (AO5)                     2.20      13.08 r
+  ca_0/B9A/U8/Z (NR2)                      0.34      13.42 f
+  ca_0/B9A/U7/Z (EO1)                      1.18      14.60 f
+  ca_0/B9A/U6/Z (AO5)                      2.47      17.06 r
+  ca_0/B9A/U3/Z (EO)                       1.16      18.22 f
+  ca_0/B9A/C[8] (Bit9Adder_8)              0.00      18.22 f
+  ca_0/C[8] (ChipAdder_0)                  0.00      18.22 f
+  b9a_0/A[8] (Bit9Adder_0)                 0.00      18.22 f
+  b9a_0/U5/Z (IV)                          1.12      19.35 r
+  b9a_0/U2/Z (ND2I)                        0.13      19.48 f
+  b9a_0/U1/Z (EON1P)                       1.06      20.54 f
+  b9a_0/U43/Z (AO4)                        1.58      22.12 r
+  b9a_0/U41/Z (AO5)                        0.78      22.90 f
+  b9a_0/U32/Z (AN2)                        0.85      23.75 f
+  b9a_0/U31/Z (AO4)                        1.32      25.07 r
+  b9a_0/U30/Z (IV)                         0.30      25.37 f
+  b9a_0/U29/Z (AO5)                        2.20      27.57 r
+  b9a_0/U19/Z (NR2)                        0.34      27.91 f
+  b9a_0/U18/Z (EO1)                        1.18      29.09 f
+  b9a_0/U17/Z (AO5)                        2.20      31.30 r
+  b9a_0/U8/Z (NR2)                         0.34      31.64 f
+  b9a_0/U7/Z (EO1)                         1.18      32.82 f
+  b9a_0/U6/Z (AO5)                         2.47      35.29 r
+  b9a_0/U3/Z (EO)                          1.16      36.45 f
+  b9a_0/C[8] (Bit9Adder_0)                 0.00      36.45 f
+  b9a_0_0/A[8] (Bit9Adder_11)              0.00      36.45 f
+  b9a_0_0/U5/Z (IV)                        1.12      37.57 r
+  b9a_0_0/U2/Z (ND2I)                      0.13      37.70 f
+  b9a_0_0/U1/Z (EON1P)                     1.06      38.76 f
+  b9a_0_0/U43/Z (AO4)                      1.58      40.35 r
+  b9a_0_0/U41/Z (AO5)                      0.78      41.12 f
+  b9a_0_0/U32/Z (AN2)                      0.85      41.97 f
+  b9a_0_0/U31/Z (AO4)                      1.32      43.29 r
+  b9a_0_0/U30/Z (IV)                       0.30      43.59 f
+  b9a_0_0/U29/Z (AO5)                      2.20      45.80 r
+  b9a_0_0/U19/Z (NR2)                      0.34      46.14 f
+  b9a_0_0/U18/Z (EO1)                      1.18      47.32 f
+  b9a_0_0/U17/Z (AO5)                      2.20      49.52 r
+  b9a_0_0/U8/Z (NR2)                       0.34      49.86 f
+  b9a_0_0/U7/Z (EO1)                       1.18      51.04 f
+  b9a_0_0/U6/Z (AO5)                       2.47      53.51 r
+  b9a_0_0/U3/Z (EO)                        1.16      54.67 f
+  b9a_0_0/C[8] (Bit9Adder_11)              0.00      54.67 f
+  b9a/A[8] (Bit9Adder_9)                   0.00      54.67 f
+  b9a/U5/Z (IV)                            1.12      55.79 r
+  b9a/U2/Z (ND2I)                          0.13      55.92 f
+  b9a/U1/Z (EON1P)                         1.06      56.99 f
+  b9a/U48/Z (AO5)                          2.20      59.19 r
+  b9a/U38/Z (OR2)                          0.60      59.79 r
+  b9a/U37/Z (AO2)                          0.68      60.47 f
+  b9a/U36/Z (AO5)                          2.20      62.68 r
+  b9a/U25/Z (NR2)                          0.34      63.02 f
+  b9a/U24/Z (EO1)                          1.18      64.20 f
+  b9a/U23/Z (AO5)                          2.20      66.40 r
+  b9a/U13/Z (NR2)                          0.34      66.74 f
+  b9a/U12/Z (EO1)                          1.18      67.93 f
+  b9a/U11/Z (AO5)                          1.52      69.45 r
+  b9a/U9/Z (EO)                            1.09      70.54 f
+  b9a/C[7] (Bit9Adder_9)                   0.00      70.54 f
+  B[7] (out)                               0.00      70.54 f
+  data arrival time                                  70.54
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0][4] (input port)
+  Endpoint: B[6] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  accu               10x10                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  A[0][4] (in)                             0.00       0.00 f
+  ca_0/A[4] (ChipAdder_0)                  0.00       0.00 f
+  ca_0/B9A/A[8] (Bit9Adder_8)              0.00       0.00 f
+  ca_0/B9A/U5/Z (IV)                       1.12       1.12 r
+  ca_0/B9A/U2/Z (ND2I)                     0.13       1.25 f
+  ca_0/B9A/U1/Z (EON1P)                    1.06       2.32 f
+  ca_0/B9A/U43/Z (AO4)                     1.58       3.90 r
+  ca_0/B9A/U41/Z (AO5)                     0.78       4.68 f
+  ca_0/B9A/U32/Z (AN2)                     0.85       5.53 f
+  ca_0/B9A/U31/Z (AO4)                     1.32       6.85 r
+  ca_0/B9A/U30/Z (IV)                      0.30       7.14 f
+  ca_0/B9A/U29/Z (AO5)                     2.20       9.35 r
+  ca_0/B9A/U19/Z (NR2)                     0.34       9.69 f
+  ca_0/B9A/U18/Z (EO1)                     1.18      10.87 f
+  ca_0/B9A/U17/Z (AO5)                     2.20      13.08 r
+  ca_0/B9A/U8/Z (NR2)                      0.34      13.42 f
+  ca_0/B9A/U7/Z (EO1)                      1.18      14.60 f
+  ca_0/B9A/U6/Z (AO5)                      2.47      17.06 r
+  ca_0/B9A/U3/Z (EO)                       1.16      18.22 f
+  ca_0/B9A/C[8] (Bit9Adder_8)              0.00      18.22 f
+  ca_0/C[8] (ChipAdder_0)                  0.00      18.22 f
+  b9a_0/A[8] (Bit9Adder_0)                 0.00      18.22 f
+  b9a_0/U5/Z (IV)                          1.12      19.35 r
+  b9a_0/U2/Z (ND2I)                        0.13      19.48 f
+  b9a_0/U1/Z (EON1P)                       1.06      20.54 f
+  b9a_0/U43/Z (AO4)                        1.58      22.12 r
+  b9a_0/U41/Z (AO5)                        0.78      22.90 f
+  b9a_0/U32/Z (AN2)                        0.85      23.75 f
+  b9a_0/U31/Z (AO4)                        1.32      25.07 r
+  b9a_0/U30/Z (IV)                         0.30      25.37 f
+  b9a_0/U29/Z (AO5)                        2.20      27.57 r
+  b9a_0/U19/Z (NR2)                        0.34      27.91 f
+  b9a_0/U18/Z (EO1)                        1.18      29.09 f
+  b9a_0/U17/Z (AO5)                        2.20      31.30 r
+  b9a_0/U8/Z (NR2)                         0.34      31.64 f
+  b9a_0/U7/Z (EO1)                         1.18      32.82 f
+  b9a_0/U6/Z (AO5)                         2.47      35.29 r
+  b9a_0/U3/Z (EO)                          1.16      36.45 f
+  b9a_0/C[8] (Bit9Adder_0)                 0.00      36.45 f
+  b9a_0_0/A[8] (Bit9Adder_11)              0.00      36.45 f
+  b9a_0_0/U5/Z (IV)                        1.12      37.57 r
+  b9a_0_0/U2/Z (ND2I)                      0.13      37.70 f
+  b9a_0_0/U1/Z (EON1P)                     1.06      38.76 f
+  b9a_0_0/U43/Z (AO4)                      1.58      40.35 r
+  b9a_0_0/U41/Z (AO5)                      0.78      41.12 f
+  b9a_0_0/U32/Z (AN2)                      0.85      41.97 f
+  b9a_0_0/U31/Z (AO4)                      1.32      43.29 r
+  b9a_0_0/U30/Z (IV)                       0.30      43.59 f
+  b9a_0_0/U29/Z (AO5)                      2.20      45.80 r
+  b9a_0_0/U19/Z (NR2)                      0.34      46.14 f
+  b9a_0_0/U18/Z (EO1)                      1.18      47.32 f
+  b9a_0_0/U17/Z (AO5)                      2.20      49.52 r
+  b9a_0_0/U8/Z (NR2)                       0.34      49.86 f
+  b9a_0_0/U7/Z (EO1)                       1.18      51.04 f
+  b9a_0_0/U6/Z (AO5)                       2.47      53.51 r
+  b9a_0_0/U3/Z (EO)                        1.16      54.67 f
+  b9a_0_0/C[8] (Bit9Adder_11)              0.00      54.67 f
+  b9a/A[8] (Bit9Adder_9)                   0.00      54.67 f
+  b9a/U5/Z (IV)                            1.12      55.79 r
+  b9a/U2/Z (ND2I)                          0.13      55.92 f
+  b9a/U1/Z (EON1P)                         1.06      56.99 f
+  b9a/U43/Z (AO4)                          1.58      58.57 r
+  b9a/U41/Z (AO5)                          0.78      59.35 f
+  b9a/U32/Z (AN2)                          0.85      60.20 f
+  b9a/U31/Z (AO4)                          1.32      61.52 r
+  b9a/U30/Z (IV)                           0.30      61.81 f
+  b9a/U29/Z (AO5)                          2.20      64.02 r
+  b9a/U19/Z (NR2)                          0.34      64.36 f
+  b9a/U18/Z (EO1)                          1.18      65.54 f
+  b9a/U17/Z (AO5)                          2.20      67.75 r
+  b9a/U14/Z (EO)                           1.09      68.84 f
+  b9a/C[6] (Bit9Adder_9)                   0.00      68.84 f
+  B[6] (out)                               0.00      68.84 f
+  data arrival time                                  68.84
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0][4] (input port)
+  Endpoint: B[5] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  accu               10x10                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  A[0][4] (in)                             0.00       0.00 f
+  ca_0/A[4] (ChipAdder_0)                  0.00       0.00 f
+  ca_0/B9A/A[8] (Bit9Adder_8)              0.00       0.00 f
+  ca_0/B9A/U5/Z (IV)                       1.12       1.12 r
+  ca_0/B9A/U2/Z (ND2I)                     0.13       1.25 f
+  ca_0/B9A/U1/Z (EON1P)                    1.06       2.32 f
+  ca_0/B9A/U43/Z (AO4)                     1.58       3.90 r
+  ca_0/B9A/U41/Z (AO5)                     0.78       4.68 f
+  ca_0/B9A/U32/Z (AN2)                     0.85       5.53 f
+  ca_0/B9A/U31/Z (AO4)                     1.32       6.85 r
+  ca_0/B9A/U30/Z (IV)                      0.30       7.14 f
+  ca_0/B9A/U29/Z (AO5)                     2.20       9.35 r
+  ca_0/B9A/U19/Z (NR2)                     0.34       9.69 f
+  ca_0/B9A/U18/Z (EO1)                     1.18      10.87 f
+  ca_0/B9A/U17/Z (AO5)                     2.20      13.08 r
+  ca_0/B9A/U8/Z (NR2)                      0.34      13.42 f
+  ca_0/B9A/U7/Z (EO1)                      1.18      14.60 f
+  ca_0/B9A/U6/Z (AO5)                      2.47      17.06 r
+  ca_0/B9A/U3/Z (EO)                       1.16      18.22 f
+  ca_0/B9A/C[8] (Bit9Adder_8)              0.00      18.22 f
+  ca_0/C[8] (ChipAdder_0)                  0.00      18.22 f
+  b9a_0/A[8] (Bit9Adder_0)                 0.00      18.22 f
+  b9a_0/U5/Z (IV)                          1.12      19.35 r
+  b9a_0/U2/Z (ND2I)                        0.13      19.48 f
+  b9a_0/U1/Z (EON1P)                       1.06      20.54 f
+  b9a_0/U43/Z (AO4)                        1.58      22.12 r
+  b9a_0/U41/Z (AO5)                        0.78      22.90 f
+  b9a_0/U32/Z (AN2)                        0.85      23.75 f
+  b9a_0/U31/Z (AO4)                        1.32      25.07 r
+  b9a_0/U30/Z (IV)                         0.30      25.37 f
+  b9a_0/U29/Z (AO5)                        2.20      27.57 r
+  b9a_0/U19/Z (NR2)                        0.34      27.91 f
+  b9a_0/U18/Z (EO1)                        1.18      29.09 f
+  b9a_0/U17/Z (AO5)                        2.20      31.30 r
+  b9a_0/U8/Z (NR2)                         0.34      31.64 f
+  b9a_0/U7/Z (EO1)                         1.18      32.82 f
+  b9a_0/U6/Z (AO5)                         2.47      35.29 r
+  b9a_0/U3/Z (EO)                          1.16      36.45 f
+  b9a_0/C[8] (Bit9Adder_0)                 0.00      36.45 f
+  b9a_0_0/A[8] (Bit9Adder_11)              0.00      36.45 f
+  b9a_0_0/U5/Z (IV)                        1.12      37.57 r
+  b9a_0_0/U2/Z (ND2I)                      0.13      37.70 f
+  b9a_0_0/U1/Z (EON1P)                     1.06      38.76 f
+  b9a_0_0/U43/Z (AO4)                      1.58      40.35 r
+  b9a_0_0/U41/Z (AO5)                      0.78      41.12 f
+  b9a_0_0/U32/Z (AN2)                      0.85      41.97 f
+  b9a_0_0/U31/Z (AO4)                      1.32      43.29 r
+  b9a_0_0/U30/Z (IV)                       0.30      43.59 f
+  b9a_0_0/U29/Z (AO5)                      2.20      45.80 r
+  b9a_0_0/U19/Z (NR2)                      0.34      46.14 f
+  b9a_0_0/U18/Z (EO1)                      1.18      47.32 f
+  b9a_0_0/U17/Z (AO5)                      2.20      49.52 r
+  b9a_0_0/U8/Z (NR2)                       0.34      49.86 f
+  b9a_0_0/U7/Z (EO1)                       1.18      51.04 f
+  b9a_0_0/U6/Z (AO5)                       2.47      53.51 r
+  b9a_0_0/U3/Z (EO)                        1.16      54.67 f
+  b9a_0_0/C[8] (Bit9Adder_11)              0.00      54.67 f
+  b9a/A[8] (Bit9Adder_9)                   0.00      54.67 f
+  b9a/U5/Z (IV)                            1.12      55.79 r
+  b9a/U2/Z (ND2I)                          0.13      55.92 f
+  b9a/U1/Z (EON1P)                         1.06      56.99 f
+  b9a/U48/Z (AO5)                          2.20      59.19 r
+  b9a/U38/Z (OR2)                          0.60      59.79 r
+  b9a/U37/Z (AO2)                          0.68      60.47 f
+  b9a/U36/Z (AO5)                          2.20      62.68 r
+  b9a/U25/Z (NR2)                          0.34      63.02 f
+  b9a/U24/Z (EO1)                          1.18      64.20 f
+  b9a/U23/Z (AO5)                          2.20      66.40 r
+  b9a/U20/Z (EO)                           1.09      67.50 f
+  b9a/C[5] (Bit9Adder_9)                   0.00      67.50 f
+  B[5] (out)                               0.00      67.50 f
+  data arrival time                                  67.50
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0][4] (input port)
+  Endpoint: B[4] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  accu               10x10                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  A[0][4] (in)                             0.00       0.00 f
+  ca_0/A[4] (ChipAdder_0)                  0.00       0.00 f
+  ca_0/B9A/A[8] (Bit9Adder_8)              0.00       0.00 f
+  ca_0/B9A/U5/Z (IV)                       1.12       1.12 r
+  ca_0/B9A/U2/Z (ND2I)                     0.13       1.25 f
+  ca_0/B9A/U1/Z (EON1P)                    1.06       2.32 f
+  ca_0/B9A/U43/Z (AO4)                     1.58       3.90 r
+  ca_0/B9A/U41/Z (AO5)                     0.78       4.68 f
+  ca_0/B9A/U32/Z (AN2)                     0.85       5.53 f
+  ca_0/B9A/U31/Z (AO4)                     1.32       6.85 r
+  ca_0/B9A/U30/Z (IV)                      0.30       7.14 f
+  ca_0/B9A/U29/Z (AO5)                     2.20       9.35 r
+  ca_0/B9A/U19/Z (NR2)                     0.34       9.69 f
+  ca_0/B9A/U18/Z (EO1)                     1.18      10.87 f
+  ca_0/B9A/U17/Z (AO5)                     2.20      13.08 r
+  ca_0/B9A/U8/Z (NR2)                      0.34      13.42 f
+  ca_0/B9A/U7/Z (EO1)                      1.18      14.60 f
+  ca_0/B9A/U6/Z (AO5)                      2.47      17.06 r
+  ca_0/B9A/U3/Z (EO)                       1.16      18.22 f
+  ca_0/B9A/C[8] (Bit9Adder_8)              0.00      18.22 f
+  ca_0/C[8] (ChipAdder_0)                  0.00      18.22 f
+  b9a_0/A[8] (Bit9Adder_0)                 0.00      18.22 f
+  b9a_0/U5/Z (IV)                          1.12      19.35 r
+  b9a_0/U2/Z (ND2I)                        0.13      19.48 f
+  b9a_0/U1/Z (EON1P)                       1.06      20.54 f
+  b9a_0/U43/Z (AO4)                        1.58      22.12 r
+  b9a_0/U41/Z (AO5)                        0.78      22.90 f
+  b9a_0/U32/Z (AN2)                        0.85      23.75 f
+  b9a_0/U31/Z (AO4)                        1.32      25.07 r
+  b9a_0/U30/Z (IV)                         0.30      25.37 f
+  b9a_0/U29/Z (AO5)                        2.20      27.57 r
+  b9a_0/U19/Z (NR2)                        0.34      27.91 f
+  b9a_0/U18/Z (EO1)                        1.18      29.09 f
+  b9a_0/U17/Z (AO5)                        2.20      31.30 r
+  b9a_0/U8/Z (NR2)                         0.34      31.64 f
+  b9a_0/U7/Z (EO1)                         1.18      32.82 f
+  b9a_0/U6/Z (AO5)                         2.47      35.29 r
+  b9a_0/U3/Z (EO)                          1.16      36.45 f
+  b9a_0/C[8] (Bit9Adder_0)                 0.00      36.45 f
+  b9a_0_0/A[8] (Bit9Adder_11)              0.00      36.45 f
+  b9a_0_0/U5/Z (IV)                        1.12      37.57 r
+  b9a_0_0/U2/Z (ND2I)                      0.13      37.70 f
+  b9a_0_0/U1/Z (EON1P)                     1.06      38.76 f
+  b9a_0_0/U43/Z (AO4)                      1.58      40.35 r
+  b9a_0_0/U41/Z (AO5)                      0.78      41.12 f
+  b9a_0_0/U32/Z (AN2)                      0.85      41.97 f
+  b9a_0_0/U31/Z (AO4)                      1.32      43.29 r
+  b9a_0_0/U30/Z (IV)                       0.30      43.59 f
+  b9a_0_0/U29/Z (AO5)                      2.20      45.80 r
+  b9a_0_0/U19/Z (NR2)                      0.34      46.14 f
+  b9a_0_0/U18/Z (EO1)                      1.18      47.32 f
+  b9a_0_0/U17/Z (AO5)                      2.20      49.52 r
+  b9a_0_0/U8/Z (NR2)                       0.34      49.86 f
+  b9a_0_0/U7/Z (EO1)                       1.18      51.04 f
+  b9a_0_0/U6/Z (AO5)                       2.47      53.51 r
+  b9a_0_0/U3/Z (EO)                        1.16      54.67 f
+  b9a_0_0/C[8] (Bit9Adder_11)              0.00      54.67 f
+  b9a/A[8] (Bit9Adder_9)                   0.00      54.67 f
+  b9a/U5/Z (IV)                            1.12      55.79 r
+  b9a/U2/Z (ND2I)                          0.13      55.92 f
+  b9a/U1/Z (EON1P)                         1.06      56.99 f
+  b9a/U43/Z (AO4)                          1.58      58.57 r
+  b9a/U41/Z (AO5)                          0.78      59.35 f
+  b9a/U32/Z (AN2)                          0.85      60.20 f
+  b9a/U31/Z (AO4)                          1.32      61.52 r
+  b9a/U30/Z (IV)                           0.30      61.81 f
+  b9a/U29/Z (AO5)                          2.20      64.02 r
+  b9a/U26/Z (EO)                           1.09      65.11 f
+  b9a/C[4] (Bit9Adder_9)                   0.00      65.11 f
+  B[4] (out)                               0.00      65.11 f
+  data arrival time                                  65.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0][4] (input port)
+  Endpoint: B[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  accu               10x10                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  A[0][4] (in)                             0.00       0.00 f
+  ca_0/A[4] (ChipAdder_0)                  0.00       0.00 f
+  ca_0/B9A/A[8] (Bit9Adder_8)              0.00       0.00 f
+  ca_0/B9A/U5/Z (IV)                       1.12       1.12 r
+  ca_0/B9A/U2/Z (ND2I)                     0.13       1.25 f
+  ca_0/B9A/U1/Z (EON1P)                    1.06       2.32 f
+  ca_0/B9A/U43/Z (AO4)                     1.58       3.90 r
+  ca_0/B9A/U41/Z (AO5)                     0.78       4.68 f
+  ca_0/B9A/U32/Z (AN2)                     0.85       5.53 f
+  ca_0/B9A/U31/Z (AO4)                     1.32       6.85 r
+  ca_0/B9A/U30/Z (IV)                      0.30       7.14 f
+  ca_0/B9A/U29/Z (AO5)                     2.20       9.35 r
+  ca_0/B9A/U19/Z (NR2)                     0.34       9.69 f
+  ca_0/B9A/U18/Z (EO1)                     1.18      10.87 f
+  ca_0/B9A/U17/Z (AO5)                     2.20      13.08 r
+  ca_0/B9A/U8/Z (NR2)                      0.34      13.42 f
+  ca_0/B9A/U7/Z (EO1)                      1.18      14.60 f
+  ca_0/B9A/U6/Z (AO5)                      2.47      17.06 r
+  ca_0/B9A/U3/Z (EO)                       1.16      18.22 f
+  ca_0/B9A/C[8] (Bit9Adder_8)              0.00      18.22 f
+  ca_0/C[8] (ChipAdder_0)                  0.00      18.22 f
+  b9a_0/A[8] (Bit9Adder_0)                 0.00      18.22 f
+  b9a_0/U5/Z (IV)                          1.12      19.35 r
+  b9a_0/U2/Z (ND2I)                        0.13      19.48 f
+  b9a_0/U1/Z (EON1P)                       1.06      20.54 f
+  b9a_0/U43/Z (AO4)                        1.58      22.12 r
+  b9a_0/U41/Z (AO5)                        0.78      22.90 f
+  b9a_0/U32/Z (AN2)                        0.85      23.75 f
+  b9a_0/U31/Z (AO4)                        1.32      25.07 r
+  b9a_0/U30/Z (IV)                         0.30      25.37 f
+  b9a_0/U29/Z (AO5)                        2.20      27.57 r
+  b9a_0/U19/Z (NR2)                        0.34      27.91 f
+  b9a_0/U18/Z (EO1)                        1.18      29.09 f
+  b9a_0/U17/Z (AO5)                        2.20      31.30 r
+  b9a_0/U8/Z (NR2)                         0.34      31.64 f
+  b9a_0/U7/Z (EO1)                         1.18      32.82 f
+  b9a_0/U6/Z (AO5)                         2.47      35.29 r
+  b9a_0/U3/Z (EO)                          1.16      36.45 f
+  b9a_0/C[8] (Bit9Adder_0)                 0.00      36.45 f
+  b9a_0_0/A[8] (Bit9Adder_11)              0.00      36.45 f
+  b9a_0_0/U5/Z (IV)                        1.12      37.57 r
+  b9a_0_0/U2/Z (ND2I)                      0.13      37.70 f
+  b9a_0_0/U1/Z (EON1P)                     1.06      38.76 f
+  b9a_0_0/U43/Z (AO4)                      1.58      40.35 r
+  b9a_0_0/U41/Z (AO5)                      0.78      41.12 f
+  b9a_0_0/U32/Z (AN2)                      0.85      41.97 f
+  b9a_0_0/U31/Z (AO4)                      1.32      43.29 r
+  b9a_0_0/U30/Z (IV)                       0.30      43.59 f
+  b9a_0_0/U29/Z (AO5)                      2.20      45.80 r
+  b9a_0_0/U19/Z (NR2)                      0.34      46.14 f
+  b9a_0_0/U18/Z (EO1)                      1.18      47.32 f
+  b9a_0_0/U17/Z (AO5)                      2.20      49.52 r
+  b9a_0_0/U8/Z (NR2)                       0.34      49.86 f
+  b9a_0_0/U7/Z (EO1)                       1.18      51.04 f
+  b9a_0_0/U6/Z (AO5)                       2.47      53.51 r
+  b9a_0_0/U3/Z (EO)                        1.16      54.67 f
+  b9a_0_0/C[8] (Bit9Adder_11)              0.00      54.67 f
+  b9a/A[8] (Bit9Adder_9)                   0.00      54.67 f
+  b9a/U5/Z (IV)                            1.12      55.79 r
+  b9a/U2/Z (ND2I)                          0.13      55.92 f
+  b9a/U1/Z (EON1P)                         1.06      56.99 f
+  b9a/U48/Z (AO5)                          2.20      59.19 r
+  b9a/U38/Z (OR2)                          0.60      59.79 r
+  b9a/U37/Z (AO2)                          0.68      60.47 f
+  b9a/U36/Z (AO5)                          2.20      62.68 r
+  b9a/U33/Z (EO)                           1.09      63.77 f
+  b9a/C[3] (Bit9Adder_9)                   0.00      63.77 f
+  B[3] (out)                               0.00      63.77 f
+  data arrival time                                  63.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0][4] (input port)
+  Endpoint: B[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  accu               10x10                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  A[0][4] (in)                             0.00       0.00 f
+  ca_0/A[4] (ChipAdder_0)                  0.00       0.00 f
+  ca_0/B9A/A[8] (Bit9Adder_8)              0.00       0.00 f
+  ca_0/B9A/U5/Z (IV)                       1.12       1.12 r
+  ca_0/B9A/U2/Z (ND2I)                     0.13       1.25 f
+  ca_0/B9A/U1/Z (EON1P)                    1.06       2.32 f
+  ca_0/B9A/U43/Z (AO4)                     1.58       3.90 r
+  ca_0/B9A/U41/Z (AO5)                     0.78       4.68 f
+  ca_0/B9A/U32/Z (AN2)                     0.85       5.53 f
+  ca_0/B9A/U31/Z (AO4)                     1.32       6.85 r
+  ca_0/B9A/U30/Z (IV)                      0.30       7.14 f
+  ca_0/B9A/U29/Z (AO5)                     2.20       9.35 r
+  ca_0/B9A/U19/Z (NR2)                     0.34       9.69 f
+  ca_0/B9A/U18/Z (EO1)                     1.18      10.87 f
+  ca_0/B9A/U17/Z (AO5)                     2.20      13.08 r
+  ca_0/B9A/U8/Z (NR2)                      0.34      13.42 f
+  ca_0/B9A/U7/Z (EO1)                      1.18      14.60 f
+  ca_0/B9A/U6/Z (AO5)                      2.47      17.06 r
+  ca_0/B9A/U3/Z (EO)                       1.16      18.22 f
+  ca_0/B9A/C[8] (Bit9Adder_8)              0.00      18.22 f
+  ca_0/C[8] (ChipAdder_0)                  0.00      18.22 f
+  b9a_0/A[8] (Bit9Adder_0)                 0.00      18.22 f
+  b9a_0/U5/Z (IV)                          1.12      19.35 r
+  b9a_0/U2/Z (ND2I)                        0.13      19.48 f
+  b9a_0/U1/Z (EON1P)                       1.06      20.54 f
+  b9a_0/U43/Z (AO4)                        1.58      22.12 r
+  b9a_0/U41/Z (AO5)                        0.78      22.90 f
+  b9a_0/U32/Z (AN2)                        0.85      23.75 f
+  b9a_0/U31/Z (AO4)                        1.32      25.07 r
+  b9a_0/U30/Z (IV)                         0.30      25.37 f
+  b9a_0/U29/Z (AO5)                        2.20      27.57 r
+  b9a_0/U19/Z (NR2)                        0.34      27.91 f
+  b9a_0/U18/Z (EO1)                        1.18      29.09 f
+  b9a_0/U17/Z (AO5)                        2.20      31.30 r
+  b9a_0/U8/Z (NR2)                         0.34      31.64 f
+  b9a_0/U7/Z (EO1)                         1.18      32.82 f
+  b9a_0/U6/Z (AO5)                         2.47      35.29 r
+  b9a_0/U3/Z (EO)                          1.16      36.45 f
+  b9a_0/C[8] (Bit9Adder_0)                 0.00      36.45 f
+  b9a_0_0/A[8] (Bit9Adder_11)              0.00      36.45 f
+  b9a_0_0/U5/Z (IV)                        1.12      37.57 r
+  b9a_0_0/U2/Z (ND2I)                      0.13      37.70 f
+  b9a_0_0/U1/Z (EON1P)                     1.06      38.76 f
+  b9a_0_0/U43/Z (AO4)                      1.58      40.35 r
+  b9a_0_0/U41/Z (AO5)                      0.78      41.12 f
+  b9a_0_0/U32/Z (AN2)                      0.85      41.97 f
+  b9a_0_0/U31/Z (AO4)                      1.32      43.29 r
+  b9a_0_0/U30/Z (IV)                       0.30      43.59 f
+  b9a_0_0/U29/Z (AO5)                      2.20      45.80 r
+  b9a_0_0/U19/Z (NR2)                      0.34      46.14 f
+  b9a_0_0/U18/Z (EO1)                      1.18      47.32 f
+  b9a_0_0/U17/Z (AO5)                      2.20      49.52 r
+  b9a_0_0/U8/Z (NR2)                       0.34      49.86 f
+  b9a_0_0/U7/Z (EO1)                       1.18      51.04 f
+  b9a_0_0/U6/Z (AO5)                       2.47      53.51 r
+  b9a_0_0/U3/Z (EO)                        1.01      54.52 r
+  b9a_0_0/C[8] (Bit9Adder_11)              0.00      54.52 r
+  b9a/A[8] (Bit9Adder_9)                   0.00      54.52 r
+  b9a/U5/Z (IV)                            0.45      54.98 f
+  b9a/U2/Z (ND2I)                          0.26      55.23 r
+  b9a/U1/Z (EON1P)                         1.55      56.78 r
+  b9a/U43/Z (AO4)                          0.58      57.36 f
+  b9a/U41/Z (AO5)                          2.20      59.57 r
+  b9a/U39/Z (EN)                           1.09      60.66 f
+  b9a/C[2] (Bit9Adder_9)                   0.00      60.66 f
+  B[2] (out)                               0.00      60.66 f
+  data arrival time                                  60.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0][4] (input port)
+  Endpoint: B[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  accu               10x10                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  A[0][4] (in)                             0.00       0.00 f
+  ca_0/A[4] (ChipAdder_0)                  0.00       0.00 f
+  ca_0/B9A/A[8] (Bit9Adder_8)              0.00       0.00 f
+  ca_0/B9A/U5/Z (IV)                       1.12       1.12 r
+  ca_0/B9A/U2/Z (ND2I)                     0.13       1.25 f
+  ca_0/B9A/U1/Z (EON1P)                    1.06       2.32 f
+  ca_0/B9A/U43/Z (AO4)                     1.58       3.90 r
+  ca_0/B9A/U41/Z (AO5)                     0.78       4.68 f
+  ca_0/B9A/U32/Z (AN2)                     0.85       5.53 f
+  ca_0/B9A/U31/Z (AO4)                     1.32       6.85 r
+  ca_0/B9A/U30/Z (IV)                      0.30       7.14 f
+  ca_0/B9A/U29/Z (AO5)                     2.20       9.35 r
+  ca_0/B9A/U19/Z (NR2)                     0.34       9.69 f
+  ca_0/B9A/U18/Z (EO1)                     1.18      10.87 f
+  ca_0/B9A/U17/Z (AO5)                     2.20      13.08 r
+  ca_0/B9A/U8/Z (NR2)                      0.34      13.42 f
+  ca_0/B9A/U7/Z (EO1)                      1.18      14.60 f
+  ca_0/B9A/U6/Z (AO5)                      2.47      17.06 r
+  ca_0/B9A/U3/Z (EO)                       1.16      18.22 f
+  ca_0/B9A/C[8] (Bit9Adder_8)              0.00      18.22 f
+  ca_0/C[8] (ChipAdder_0)                  0.00      18.22 f
+  b9a_0/A[8] (Bit9Adder_0)                 0.00      18.22 f
+  b9a_0/U5/Z (IV)                          1.12      19.35 r
+  b9a_0/U2/Z (ND2I)                        0.13      19.48 f
+  b9a_0/U1/Z (EON1P)                       1.06      20.54 f
+  b9a_0/U43/Z (AO4)                        1.58      22.12 r
+  b9a_0/U41/Z (AO5)                        0.78      22.90 f
+  b9a_0/U32/Z (AN2)                        0.85      23.75 f
+  b9a_0/U31/Z (AO4)                        1.32      25.07 r
+  b9a_0/U30/Z (IV)                         0.30      25.37 f
+  b9a_0/U29/Z (AO5)                        2.20      27.57 r
+  b9a_0/U19/Z (NR2)                        0.34      27.91 f
+  b9a_0/U18/Z (EO1)                        1.18      29.09 f
+  b9a_0/U17/Z (AO5)                        2.20      31.30 r
+  b9a_0/U8/Z (NR2)                         0.34      31.64 f
+  b9a_0/U7/Z (EO1)                         1.18      32.82 f
+  b9a_0/U6/Z (AO5)                         2.47      35.29 r
+  b9a_0/U3/Z (EO)                          1.16      36.45 f
+  b9a_0/C[8] (Bit9Adder_0)                 0.00      36.45 f
+  b9a_0_0/A[8] (Bit9Adder_11)              0.00      36.45 f
+  b9a_0_0/U5/Z (IV)                        1.12      37.57 r
+  b9a_0_0/U2/Z (ND2I)                      0.13      37.70 f
+  b9a_0_0/U1/Z (EON1P)                     1.06      38.76 f
+  b9a_0_0/U43/Z (AO4)                      1.58      40.35 r
+  b9a_0_0/U41/Z (AO5)                      0.78      41.12 f
+  b9a_0_0/U32/Z (AN2)                      0.85      41.97 f
+  b9a_0_0/U31/Z (AO4)                      1.32      43.29 r
+  b9a_0_0/U30/Z (IV)                       0.30      43.59 f
+  b9a_0_0/U29/Z (AO5)                      2.20      45.80 r
+  b9a_0_0/U19/Z (NR2)                      0.34      46.14 f
+  b9a_0_0/U18/Z (EO1)                      1.18      47.32 f
+  b9a_0_0/U17/Z (AO5)                      2.20      49.52 r
+  b9a_0_0/U8/Z (NR2)                       0.34      49.86 f
+  b9a_0_0/U7/Z (EO1)                       1.18      51.04 f
+  b9a_0_0/U6/Z (AO5)                       2.47      53.51 r
+  b9a_0_0/U3/Z (EO)                        1.16      54.67 f
+  b9a_0_0/C[8] (Bit9Adder_11)              0.00      54.67 f
+  b9a/A[8] (Bit9Adder_9)                   0.00      54.67 f
+  b9a/U5/Z (IV)                            1.12      55.79 r
+  b9a/U2/Z (ND2I)                          0.13      55.92 f
+  b9a/U1/Z (EON1P)                         1.06      56.99 f
+  b9a/U48/Z (AO5)                          2.20      59.19 r
+  b9a/U46/Z (EN)                           1.09      60.29 f
+  b9a/C[1] (Bit9Adder_9)                   0.00      60.29 f
+  B[1] (out)                               0.00      60.29 f
+  data arrival time                                  60.29
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0][4] (input port)
+  Endpoint: B[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  accu               10x10                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  A[0][4] (in)                             0.00       0.00 f
+  ca_0/A[4] (ChipAdder_0)                  0.00       0.00 f
+  ca_0/B9A/A[8] (Bit9Adder_8)              0.00       0.00 f
+  ca_0/B9A/U5/Z (IV)                       1.12       1.12 r
+  ca_0/B9A/U2/Z (ND2I)                     0.13       1.25 f
+  ca_0/B9A/U1/Z (EON1P)                    1.06       2.32 f
+  ca_0/B9A/U43/Z (AO4)                     1.58       3.90 r
+  ca_0/B9A/U41/Z (AO5)                     0.78       4.68 f
+  ca_0/B9A/U32/Z (AN2)                     0.85       5.53 f
+  ca_0/B9A/U31/Z (AO4)                     1.32       6.85 r
+  ca_0/B9A/U30/Z (IV)                      0.30       7.14 f
+  ca_0/B9A/U29/Z (AO5)                     2.20       9.35 r
+  ca_0/B9A/U19/Z (NR2)                     0.34       9.69 f
+  ca_0/B9A/U18/Z (EO1)                     1.18      10.87 f
+  ca_0/B9A/U17/Z (AO5)                     2.20      13.08 r
+  ca_0/B9A/U8/Z (NR2)                      0.34      13.42 f
+  ca_0/B9A/U7/Z (EO1)                      1.18      14.60 f
+  ca_0/B9A/U6/Z (AO5)                      2.47      17.06 r
+  ca_0/B9A/U3/Z (EO)                       1.16      18.22 f
+  ca_0/B9A/C[8] (Bit9Adder_8)              0.00      18.22 f
+  ca_0/C[8] (ChipAdder_0)                  0.00      18.22 f
+  b9a_0/A[8] (Bit9Adder_0)                 0.00      18.22 f
+  b9a_0/U5/Z (IV)                          1.12      19.35 r
+  b9a_0/U2/Z (ND2I)                        0.13      19.48 f
+  b9a_0/U1/Z (EON1P)                       1.06      20.54 f
+  b9a_0/U43/Z (AO4)                        1.58      22.12 r
+  b9a_0/U41/Z (AO5)                        0.78      22.90 f
+  b9a_0/U32/Z (AN2)                        0.85      23.75 f
+  b9a_0/U31/Z (AO4)                        1.32      25.07 r
+  b9a_0/U30/Z (IV)                         0.30      25.37 f
+  b9a_0/U29/Z (AO5)                        2.20      27.57 r
+  b9a_0/U19/Z (NR2)                        0.34      27.91 f
+  b9a_0/U18/Z (EO1)                        1.18      29.09 f
+  b9a_0/U17/Z (AO5)                        2.20      31.30 r
+  b9a_0/U8/Z (NR2)                         0.34      31.64 f
+  b9a_0/U7/Z (EO1)                         1.18      32.82 f
+  b9a_0/U6/Z (AO5)                         2.47      35.29 r
+  b9a_0/U3/Z (EO)                          1.16      36.45 f
+  b9a_0/C[8] (Bit9Adder_0)                 0.00      36.45 f
+  b9a_0_0/A[8] (Bit9Adder_11)              0.00      36.45 f
+  b9a_0_0/U5/Z (IV)                        1.12      37.57 r
+  b9a_0_0/U2/Z (ND2I)                      0.13      37.70 f
+  b9a_0_0/U1/Z (EON1P)                     1.06      38.76 f
+  b9a_0_0/U43/Z (AO4)                      1.58      40.35 r
+  b9a_0_0/U41/Z (AO5)                      0.78      41.12 f
+  b9a_0_0/U32/Z (AN2)                      0.85      41.97 f
+  b9a_0_0/U31/Z (AO4)                      1.32      43.29 r
+  b9a_0_0/U30/Z (IV)                       0.30      43.59 f
+  b9a_0_0/U29/Z (AO5)                      2.20      45.80 r
+  b9a_0_0/U19/Z (NR2)                      0.34      46.14 f
+  b9a_0_0/U18/Z (EO1)                      1.18      47.32 f
+  b9a_0_0/U17/Z (AO5)                      2.20      49.52 r
+  b9a_0_0/U8/Z (NR2)                       0.34      49.86 f
+  b9a_0_0/U7/Z (EO1)                       1.18      51.04 f
+  b9a_0_0/U6/Z (AO5)                       2.47      53.51 r
+  b9a_0_0/U3/Z (EO)                        1.16      54.67 f
+  b9a_0_0/C[8] (Bit9Adder_11)              0.00      54.67 f
+  b9a/A[8] (Bit9Adder_9)                   0.00      54.67 f
+  b9a/U5/Z (IV)                            1.12      55.79 r
+  b9a/U2/Z (ND2I)                          0.13      55.92 f
+  b9a/U1/Z (EON1P)                         1.06      56.99 f
+  b9a/U50/Z (EO)                           1.23      58.21 f
+  b9a/U49/Z (EO)                           1.09      59.31 f
+  b9a/C[0] (Bit9Adder_9)                   0.00      59.31 f
+  B[0] (out)                               0.00      59.31 f
+  data arrival time                                  59.31
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+

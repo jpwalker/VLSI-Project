@@ -1,0 +1,23 @@
+
+STANDARD CELL PLACER run at 05:37:50 on 05/08/19.
+
+
+$autoplace_standard_cells(@init_n_improve, @bal, 0, 0.000000) 
+
+
+Bipartition pass  1 of  8, average nets cut:   0, cuts performed:  1 
+Bipartition pass  2 of  8, average nets cut:   6, cuts performed:  1 
+Bipartition pass  3 of  8, average nets cut:   0, cuts performed:  2 
+Bipartition pass  4 of  8, average nets cut:   0, cuts performed:  2 
+Bipartition pass  5 of  8, average nets cut:   0, cuts performed:  2 
+Bipartition pass  6 of  8, average nets cut:   0, cuts performed:  2 
+Bipartition pass  7 of  8, average nets cut:   0, cuts performed:  1 
+Bipartition pass  8 of  8, average nets cut:   0, cuts performed:  1 
+
+Initial placement: CPU seconds: 0, Wall Core_clock seconds: 0
+
+Iteration:     0, wire length: 306  (T= 0.00) 
+
+Final iteration: 60, wire length: 261  (T= 0.00) 
+
+Detailed placement: CPU seconds: 0, Wall Core_clock seconds: 0

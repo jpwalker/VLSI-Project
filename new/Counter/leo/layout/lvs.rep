@@ -1,0 +1,270 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         /afs/cad/u/j/p/jpw33/VLSI-2/Project/correct/counter/leo/layout/lvs.rep
+LAYOUT NAME:              $HOME/VLSI-2/Project/correct/counter/leo/layout/counter
+SOURCE NAME:              $HOME/VLSI-2/Project/correct/counter/leo/schem/counter/layout
+RULE FILE:                /afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules
+LVS MODE:                 Direct
+ICGRAPH CONFIGURATION:    Correct By Construction (CBC)
+CREATION TIME:            Wed May  8 05:56:56 2019
+CURRENT DIRECTORY:        /afs/cad.njit.edu/u/j/p/jpw33/VLSI-2/Project/correct/counter/leo/layout
+USER NAME:                jpw33
+
+
+**************************************************************************************************************
+                               OVERALL COMPARISON RESULTS
+**************************************************************************************************************
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Unplaced objects in layout.
+  Error:    Components with non-identical signal pins.
+  Warning:  Components with non-identical power or ground pins.
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              5         3    *
+
+ Nets:              11         9    *
+
+ Instances:          2         0    *    dffr (9 pins): (gnd gnd) (vdd vdd) r d q qb clk
+                     0         2    *    dffr (5 pins): d clk q qb r
+                     1         0    *    mux21 (6 pins): gnd vdd y s0 a1 a0
+                     0         1    *    mux21 (4 pins): y a1 a0 s0
+                     1         0    *    nor02 (5 pins): gnd vdd a1 a0 y
+                     0         1    *    nor02 (3 pins): y a1 a0
+                     1         0    *    or02 (5 pins): gnd vdd a1 a0 y
+                     0         1    *    or02 (3 pins): y a1 a0
+                ------    ------
+ Total Inst:         5         5
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              3         3
+
+ Nets:               9         9
+
+ Instances:          2         2         dffr (5 pins): d clk q qb r
+                     1         1         mux21 (4 pins): y a1 a0 s0
+                     1         1         nor02 (3 pins): y a1 a0
+                     1         1         or02 (3 pins): y a1 a0
+                ------    ------
+ Total Inst:         5         5
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                  COMPONENT TYPES WITH NON-IDENTICAL SIGNAL PINS
+**************************************************************************************************************
+
+
+      (Component types that have different numbers of signal pins or different signal pin
+       names in the layout and source are listed below. Layout pins missing in the source
+       and source pins missing in the layout are ignored by the comparison algorithm.
+       Note that differences in power or ground pins, if any, are listed separately in the
+       INFORMATION AND WARNINGS section.)
+
+   Layout Pin Name       Source Pin Name         Component Type
+   ---------------       ---------------         --------------
+
+   GND                   ** missing pin **       dffr
+   GND                   ** missing pin **       dffr
+   GND                   ** missing pin **       mux21
+   GND                   ** missing pin **       nor02
+   GND                   ** missing pin **       or02
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            phy_comp element comp
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   LVS PIN NAME PROPERTY                  phy_pin
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS EDDM PROCESS M                     NO
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+
+   // Filter
+
+   LVS FILTER  sch_filter_direct_open  OPEN SOURCE DIRECT
+   LVS FILTER  sch_filter_direct_short  SHORT SOURCE DIRECT
+   LVS FILTER  sch_filter_mask_open  OPEN SOURCE MASK
+   LVS FILTER  sch_filter_mask_short  SHORT SOURCE MASK
+   LVS FILTER  lay_filter_direct_open  OPEN LAYOUT DIRECT
+   LVS FILTER  lay_filter_direct_short  SHORT LAYOUT DIRECT
+   LVS FILTER  v  OPEN
+   LVS FILTER  i  OPEN
+   LVS FILTER  e  OPEN
+   LVS FILTER  f  OPEN
+   LVS FILTER  g  OPEN
+
+   // Trace Property
+
+   // TRACE PROPERTY  mn  instpar(w) width w 0
+   // TRACE PROPERTY  mp  instpar(w) width w 0
+   // TRACE PROPERTY  me  instpar(w) width w 0
+   // TRACE PROPERTY  md  instpar(w) width w 0
+   // TRACE PROPERTY  mn  instpar(l) length l 0
+   // TRACE PROPERTY  mp  instpar(l) length l 0
+   // TRACE PROPERTY  me  instpar(l) length l 0
+   // TRACE PROPERTY  md  instpar(l) length l 0
+   // TRACE PROPERTY  r  instpar(r) resistance r 0
+   // TRACE PROPERTY  c  instpar(c) capacitance c 0
+   // TRACE PROPERTY  d  instpar(a) area a 0
+   // TRACE PROPERTY  d  instpar(p) perimeter p 0
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               3          3            0            0
+
+   Nets:                9          9            0            0
+
+   Instances:           2          2            0            0    dffr(ami12)
+                        1          1            0            0    mux21(ami12)
+                        1          1            0            0    nor02(ami12)
+                        1          1            0            0    or02(ami12)
+                  -------    -------    ---------    ---------
+   Total Inst:          5          5            0            0
+
+
+o Statistics:
+
+   2 layout nets were reduced to passthrough nets and deleted.
+
+
+o Component types with non-identical power or ground pins:
+
+      (Component types that have different power or ground pins in the
+       layout and source are listed below. Layout pins missing in the source and
+       source pins missing in the layout are ignored by the comparison algorithm).
+
+   Layout Pin Name       Source Pin Name         Component Type
+   ---------------       -----------------       --------------
+
+   VDD                   ** missing pin **       dffr
+   VDD                   ** missing pin **       dffr
+   VDD                   ** missing pin **       mux21
+   VDD                   ** missing pin **       nor02
+   VDD                   ** missing pin **       or02
+
+
+o Layout Names That Are Missing In The Source:
+
+   Ports:        VDD GND
+   Nets:         VDD GND
+
+
+o Initial Correspondence Points:
+
+   Ports:        msg_rdy rst count
+   Nets:         nx66 $dummy[0] nx76 nx14 curr_state_1 nx80
+   Instances:    reg_curr_state_0 reg_curr_state_1 ix21 ix15 ix7
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

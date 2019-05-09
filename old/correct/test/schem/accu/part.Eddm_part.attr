@@ -1,0 +1,12 @@
+A 5 u Eddm_part 5cd27167339c.03.80.eb.2c.4c.00.33.69 2 2 2 0
+V v 1 1 5cd27167339c.03.80.eb.2c.4c.01.33.69
+F f 1 "part.part_1"
+V v 2 1 5cd271689087.03.80.eb.2c.4c.00.33.69
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/VLSI-2/Project/correct/test/schem/accu/accu" 1 mgc_symbol 5cd271672fa9.03.80.eb.2c.4c.00.33.69 5cd271672fa8.03.80.eb.2c.4c.00.33.69
+R csduv 1 "$HOME/VLSI-2/Project/correct/test/schem/accu/schematic" 1 mgc_schematic 5cd27167b5a6.03.80.eb.2c.4c.01.33.69 5cd27167b5a6.03.80.eb.2c.4c.00.33.69
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/VLSI-2/Project/correct/test/schem/accu/accu" 1 mgc_symbol 5cd271672fa9.03.80.eb.2c.4c.00.33.69 5cd271672fa8.03.80.eb.2c.4c.00.33.69

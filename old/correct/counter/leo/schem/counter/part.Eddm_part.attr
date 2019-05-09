@@ -1,0 +1,18 @@
+A 5 u Eddm_part 5cd29f976c0c.03.80.eb.2c.48.00.7f.ad 15 2 10 0
+V v 13 1 5cd2a2459d2a.03.80.eb.2c.48.00.07.5e
+F f 13 "part.part_13"
+V v 14 1 5cd2a245c278.03.80.eb.2c.48.00.07.5e
+F f 14 "part.part_14"
+V v 15 1 5cd33302afcc.03.80.eb.2c.4b.00.17.f9
+F f 15 "part.part_15"
+O 15
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 8 "$HOME/VLSI-2/Project/correct/counter/leo/schem/counter/counter" 2 mgc_symbol 5cd33302af94.03.80.eb.2c.4b.00.17.f9 5cd2a2459a6d.03.80.eb.2c.48.00.07.5e
+R csduv 9 "$HOME/VLSI-2/Project/correct/counter/leo/schem/counter/schematic" 1 mgc_schematic 5cd2a245a44a.03.80.eb.2c.48.01.07.5e 5cd2a245a44a.03.80.eb.2c.48.00.07.5e
+O 14
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 8 "$HOME/VLSI-2/Project/correct/counter/leo/schem/counter/counter" 1 mgc_symbol 5cd2a2459a6d.03.80.eb.2c.48.01.07.5e 5cd2a2459a6d.03.80.eb.2c.48.00.07.5e
+R csduv 9 "$HOME/VLSI-2/Project/correct/counter/leo/schem/counter/schematic" 1 mgc_schematic 5cd2a245a44a.03.80.eb.2c.48.01.07.5e 5cd2a245a44a.03.80.eb.2c.48.00.07.5e
+O 13
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 8 "$HOME/VLSI-2/Project/correct/counter/leo/schem/counter/counter" 1 mgc_symbol 5cd2a2459a6d.03.80.eb.2c.48.01.07.5e 5cd2a2459a6d.03.80.eb.2c.48.00.07.5e

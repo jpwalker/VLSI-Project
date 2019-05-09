@@ -1,0 +1,103 @@
+* LVS netlist generated with ICnet by 'jpw33' on Wed May  8 2019 at 15:50:38
+
+*
+* Globals.
+*
+.global GND VDD
+
+*
+* Component pathname : $ADK/parts/or02
+*
+.subckt or02  A0 A1 Y
+
+        M_I$212 Y N$5 GND GND n L=1.2u W=3u
+        M_I$211 Y N$5 VDD VDD p L=1.2u W=5.4u
+        M_I$5 N$5 A0 GND GND n L=1.2u W=3u
+        M_I$4 N$5 A1 GND GND n L=1.2u W=3u
+        M_I$3 N$5 A1 N$1 VDD p L=1.2u W=7.8u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=7.8u
+.ends or02
+
+*
+* Component pathname : $ADK/parts/mux21
+*
+.subckt mux21  S0 A0 A1 Y
+
+        M_I$5 Y S0 N$10 VDD p L=1.2u W=10.8u
+        M_I$13 N$6 A1 GND GND n L=1.2u W=6u
+        M_I$12 Y S0 N$6 GND n L=1.2u W=6u
+        M_I$17 Y N$7 N$5 VDD p L=1.2u W=10.8u
+        M_I$16 N$5 A1 VDD VDD p L=1.2u W=10.8u
+        M_I$7 N$4 A0 GND GND n L=1.2u W=6u
+        M_I$6 Y N$7 N$4 GND n L=1.2u W=6u
+        M_I$4 N$10 A0 VDD VDD p L=1.2u W=10.8u
+        M_I$3 N$7 S0 GND GND n L=1.2u W=3u
+        M_I$2 N$7 S0 VDD VDD p L=1.2u W=5.4u
+.ends mux21
+
+*
+* Component pathname : $ADK/parts/nor02
+*
+.subckt nor02  A0 A1 Y
+
+        M_I$5 Y A0 GND GND n L=1.2u W=3u
+        M_I$4 Y A1 GND GND n L=1.2u W=3u
+        M_I$3 Y A1 N$1 VDD p L=1.2u W=7.8u
+        M_I$2 N$1 A0 VDD VDD p L=1.2u W=7.8u
+.ends nor02
+
+*
+* Component pathname : $ADK/parts/dffr
+*
+.subckt dffr  R QB Q CLK D
+
+        M_I$1476 N$3588 R GND GND n L=1.2u W=3u
+        M_I$2125 N$3586 bclk- N$3588 GND n L=1.2u W=3u
+        M_I$1478 N$3584 N$3589 VDD VDD p L=1.2u W=3u
+        M_I$2124 N$3588 R N$3584 VDD p L=1.2u W=3u
+        M_I$1474 N$3586 bclk N$3588 VDD p L=1.2u W=3u
+        M_I$2123 N$3588 N$3589 GND GND n L=1.2u W=3u
+        M_I$1904 N$3367 N$3357 GND GND n L=1.2u W=3u
+        M_I$1901 N$3365 D GND GND n L=1.2u W=9u
+        M_I$1900 N$3364 bclk- N$3365 GND n L=1.2u W=9u
+        M_I$1899 N$3364 bclk N$3363 VDD p L=1.2u W=16.2u
+        M_I$1898 N$3363 D VDD VDD p L=1.2u W=16.2u
+        M_I$1902 N$3364 bclk- N$3370 VDD p L=1.2u W=3u
+        M_I$1906 N$3364 bclk N$3367 GND n L=1.2u W=3u
+        M_I$672 Q QB VDD VDD p L=1.2u W=10.8u
+        M_I$673 Q QB GND GND n L=1.2u W=6u
+        M_I$452 bclk bclk- GND GND n L=1.2u W=6u
+        M_I$1682 N$3147 N$3357 GND GND n L=1.2u W=3u
+        M_I$1681 N$3147 N$3357 VDD VDD p L=1.2u W=5.4u
+        M_I$1905 N$3370 N$3357 VDD VDD p L=1.2u W=3u
+        M_I$1903 N$3366 N$3364 VDD VDD p L=1.2u W=7.2u
+        M_I$448 bclk- CLK VDD VDD p L=1.2u W=10.8u
+        M_I$453 bclk bclk- VDD VDD p L=1.2u W=10.8u
+        M_I$1907 N$3357 N$3364 GND GND n L=1.2u W=6u
+        M_I$449 bclk- CLK GND GND n L=1.2u W=6u
+        M_I$1909 N$3357 R GND GND n L=1.2u W=6u
+        M_I$1908 N$3357 R N$3366 VDD p L=1.2u W=7.2u
+        M_I$669 QB N$3586 GND GND n L=1.2u W=6u
+        M_I$675 QB N$3586 VDD VDD p L=1.2u W=10.8u
+        M_I$1465 N$3589 N$3586 GND GND n L=1.2u W=3u
+        M_I$1464 N$2732 N$3147 GND GND n L=1.2u W=9u
+        M_I$1463 N$3586 bclk N$2732 GND n L=1.2u W=9u
+        M_I$1462 N$3589 N$3586 VDD VDD p L=1.2u W=3u
+        M_I$1461 N$3586 bclk- N$2730 VDD p L=1.2u W=16.2u
+        M_I$1460 N$2730 N$3147 VDD VDD p L=1.2u W=16.2u
+.ends dffr
+
+*
+* Component pathname : $HOME/VLSI-2/Project/correct/counter/leo/schem/counter
+*
+.subckt counter  VDD_esc2 GND_esc1 msg_rdy rst count
+
+        *.connect GND GND_esc1
+        *.connect VDD VDD_esc2
+        X_ix7 nx76 curr_state_1 nx66 or02
+        X_ix15 nx80 msg_rdy nx76 nx14 mux21
+        X_ix21 nx80 nx76 msg_rdy nor02
+        X_reg_curr_state_1 rst nx80 curr_state_1 count nx14 dffr
+        X_reg_curr_state_0 rst nx76 N$dummy_esc3[0] count nx66 dffr
+.ends counter
+

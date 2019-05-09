@@ -1,0 +1,178 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   GND GND
+   VDD VDD
+End Globals
+
+Cell nmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell pmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell or02
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$5 N$5
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Global GND GND
+   Global VDD VDD
+   Inst I$212 M_I$212 nmos4
+   Inst I$211 M_I$211 pmos4
+   Inst I$5 M_I$5 nmos4
+   Inst I$4 M_I$4 nmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell mux21
+   Pin S0 S0
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$10 N$10
+   Net N$7 N$7
+   Net N$6 N$6
+   Net N$5 N$5
+   Net N$4 N$4
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net S0 S0
+   Global GND GND
+   Global VDD VDD
+   Inst I$5 M_I$5 pmos4
+   Inst I$13 M_I$13 nmos4
+   Inst I$12 M_I$12 nmos4
+   Inst I$17 M_I$17 pmos4
+   Inst I$16 M_I$16 pmos4
+   Inst I$7 M_I$7 nmos4
+   Inst I$6 M_I$6 nmos4
+   Inst I$4 M_I$4 pmos4
+   Inst I$3 M_I$3 nmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell nor02
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Global GND GND
+   Global VDD VDD
+   Inst I$5 M_I$5 nmos4
+   Inst I$4 M_I$4 nmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell dffr
+   Pin R R
+   Pin QB QB
+   Pin Q Q
+   Pin CLK CLK
+   Pin D D
+   Net N$3584 N$3584
+   Net N$3589 N$3589
+   Net N$3588 N$3588
+   Net N$3586 N$3586
+   Net N$2730 N$2730
+   Net N$3147 N$3147
+   Net N$2732 N$2732
+   Net N$3370 N$3370
+   Net N$3357 N$3357
+   Net N$3367 N$3367
+   Net N$3366 N$3366
+   Net N$3365 N$3365
+   Net N$3364 N$3364
+   Net bclk bclk
+   Net bclk- bclk-
+   Net N$3363 N$3363
+   Net D D
+   Net CLK CLK
+   Net Q Q
+   Net QB QB
+   Net R R
+   Global GND GND
+   Global VDD VDD
+   Inst I$1476 M_I$1476 nmos4
+   Inst I$2125 M_I$2125 nmos4
+   Inst I$1478 M_I$1478 pmos4
+   Inst I$2124 M_I$2124 pmos4
+   Inst I$1474 M_I$1474 pmos4
+   Inst I$2123 M_I$2123 nmos4
+   Inst I$1904 M_I$1904 nmos4
+   Inst I$1901 M_I$1901 nmos4
+   Inst I$1900 M_I$1900 nmos4
+   Inst I$1899 M_I$1899 pmos4
+   Inst I$1898 M_I$1898 pmos4
+   Inst I$1902 M_I$1902 pmos4
+   Inst I$1906 M_I$1906 nmos4
+   Inst I$672 M_I$672 pmos4
+   Inst I$673 M_I$673 nmos4
+   Inst I$452 M_I$452 nmos4
+   Inst I$1682 M_I$1682 nmos4
+   Inst I$1681 M_I$1681 pmos4
+   Inst I$1905 M_I$1905 pmos4
+   Inst I$1903 M_I$1903 pmos4
+   Inst I$448 M_I$448 pmos4
+   Inst I$453 M_I$453 pmos4
+   Inst I$1907 M_I$1907 nmos4
+   Inst I$449 M_I$449 nmos4
+   Inst I$1909 M_I$1909 nmos4
+   Inst I$1908 M_I$1908 pmos4
+   Inst I$669 M_I$669 nmos4
+   Inst I$675 M_I$675 pmos4
+   Inst I$1465 M_I$1465 nmos4
+   Inst I$1464 M_I$1464 nmos4
+   Inst I$1463 M_I$1463 nmos4
+   Inst I$1462 M_I$1462 pmos4
+   Inst I$1461 M_I$1461 pmos4
+   Inst I$1460 M_I$1460 pmos4
+End Cell
+
+Cell #top#
+   Pin VDD VDD
+   Pin GND GND
+   Pin msg_rdy msg_rdy
+   Pin rst rst
+   Pin count count
+   Net nx66 nx66
+   Net nx80 nx80
+   Net nx76 nx76
+   Net curr_state_1 curr_state_1
+   Net nx14 nx14
+   Net $dummy[0] N$dummy_esc3[0]
+   Net count count
+   Net rst rst
+   Net msg_rdy msg_rdy
+   Net GND_esc1 GND_esc1
+   Net VDD_esc2 VDD_esc2
+   Global GND GND
+   Global VDD VDD
+   Inst ix7 X_ix7 or02
+   Inst ix15 X_ix15 mux21
+   Inst ix21 X_ix21 nor02
+   Inst reg_curr_state_1 X_reg_curr_state_1 dffr
+   Inst reg_curr_state_0 X_reg_curr_state_0 dffr
+End Cell
+

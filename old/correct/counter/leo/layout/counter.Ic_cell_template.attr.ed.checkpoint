@@ -1,0 +1,32 @@
+A 5 u Ic_cell_template 5cd2a34f4bd7.03.80.eb.2c.48.00.08.eb 2 4 31 0
+V v 1 2 5cd2aa944b61.03.80.eb.2c.48.00.08.eb
+F f 1 "counter.iccel_1"
+F o 0 ""
+V v 2 2 5cd334c4a877.03.80.eb.2c.4b.00.05.5d
+F f 2 "counter.iccel_2"
+F o 0 ""
+O 2
+R csduv 1 "$ADK/technology/ic/process/tsmc018" 1 Ic_lib_template 43349e4fe097.03.93.22.46.d8.00.02.ea 43349f1b0fb1.03.93.22.46.d8.06.02.fa
+R csduv 2 "$ADK/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 4 "$ADK/technology/ic/process/tsmc018/or02" 1 Ic_cell_template 4334785fc272.03.93.22.46.d8.00.6b.76 43349f1b0fa7.03.93.22.46.d8.03.02.fa
+R csduv 5 "$ADK/technology/ic/process/tsmc018/mux21" 1 Ic_cell_template 4334782fce30.03.93.22.46.d8.00.6b.76 43349f1b0fab.03.93.22.46.d8.03.02.fa
+R csduv 6 "$ADK/technology/ic/process/tsmc018/nor02" 1 Ic_cell_template 4334783d4432.03.93.22.46.d8.00.6b.76 43349f1b0faa.03.93.22.46.d8.02.02.fa
+R csduv 7 "$ADK/technology/ic/process/tsmc018/dffr" 1 Ic_cell_template 4334780c77eb.03.93.22.46.d8.00.6b.76 43349f1b0fae.03.93.22.46.d8.00.02.fa
+R csdui 14 "$ADK/technology/ic/process/tsmc018.rules" 0 Mgc_file 43349f1b0e3a.03.93.22.46.d8.01.02.fa
+R csduv 27 "$ADK/technology/ic/process/tsmc018_via/via2" 1 Ic_cell_template 40dcc0f9c5e7.03.93.22.46.d8.00.6c.f8 43349f1b0e13.03.93.22.46.d8.05.02.fa
+R csduv 28 "$ADK/technology/ic/process/tsmc018_via/via3" 1 Ic_cell_template 40dcc1381b6f.03.93.22.46.d8.00.6c.f8 43349f1b0e14.03.93.22.46.d8.00.02.fa
+R csduv 29 "$ADK/technology/ic/process/tsmc018_via/via4" 1 Ic_cell_template 40dcc1b07a1c.03.93.22.46.d8.00.6c.f8 43349f1b0e14.03.93.22.46.d8.01.02.fa
+R csduv 30 "$HOME/VLSI-2/Project/correct/counter/leo/schem/counter/lvs" 1 Eddm_design_viewpoint 5cd2a2bc754f.03.80.eb.2c.48.01.08.69 5cd2a2bc754f.03.80.eb.2c.48.00.08.69
+O 1
+R csduv 1 "$ADK/technology/ic/process/tsmc018" 1 Ic_lib_template 43349e4fe097.03.93.22.46.d8.00.02.ea 43349f1b0fb1.03.93.22.46.d8.06.02.fa
+R csduv 2 "$ADK/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 3 "$HOME/VLSI-2/Project/correct/counter/leo/schem/counter/layout" 1 Eddm_design_viewpoint 5cd2a2bc87e5.03.80.eb.2c.48.01.08.69 5cd2a2bc87e5.03.80.eb.2c.48.00.08.69
+R csduv 4 "$ADK/technology/ic/process/tsmc018/or02" 1 Ic_cell_template 4334785fc272.03.93.22.46.d8.00.6b.76 43349f1b0fa7.03.93.22.46.d8.03.02.fa
+R csduv 5 "$ADK/technology/ic/process/tsmc018/mux21" 1 Ic_cell_template 4334782fce30.03.93.22.46.d8.00.6b.76 43349f1b0fab.03.93.22.46.d8.03.02.fa
+R csduv 6 "$ADK/technology/ic/process/tsmc018/nor02" 1 Ic_cell_template 4334783d4432.03.93.22.46.d8.00.6b.76 43349f1b0faa.03.93.22.46.d8.02.02.fa
+R csduv 7 "$ADK/technology/ic/process/tsmc018/dffr" 1 Ic_cell_template 4334780c77eb.03.93.22.46.d8.00.6b.76 43349f1b0fae.03.93.22.46.d8.00.02.fa
+R csdni 14 "$ADK/technology/ic/process/tsmc018.rules" 0 Mgc_file
+R csduv 19 "$ADK/technology/ic/process/tsmc018_via/via" 1 Ic_cell_template 40dcbec25381.03.93.22.46.d8.00.6c.38 43349f1b0e13.03.93.22.46.d8.04.02.fa
+R csduv 20 "$ADK/technology/ic/process/tsmc018_via/via2" 1 Ic_cell_template 40dcc0f9c5e7.03.93.22.46.d8.00.6c.f8 43349f1b0e13.03.93.22.46.d8.05.02.fa
+R csduv 21 "$ADK/technology/ic/process/tsmc018_via/via3" 1 Ic_cell_template 40dcc1381b6f.03.93.22.46.d8.00.6c.f8 43349f1b0e14.03.93.22.46.d8.00.02.fa
+R csduv 22 "$ADK/technology/ic/process/tsmc018_via/via4" 1 Ic_cell_template 40dcc1b07a1c.03.93.22.46.d8.00.6c.f8 43349f1b0e14.03.93.22.46.d8.01.02.fa

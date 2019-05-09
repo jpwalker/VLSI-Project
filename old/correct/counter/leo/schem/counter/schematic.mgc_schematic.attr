@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5cd2a245a44a.03.80.eb.2c.48.00.07.5e 7 2 1 0
+V v 5 1 5cd2a66db160.03.80.eb.2c.48.00.7d.fe
+F o 0 ""
+V v 6 1 5cd333063c52.03.80.eb.2c.4b.00.17.f9
+F o 0 ""
+V v 7 1 5cd34e39170a.03.80.eb.2c.4a.00.79.05
+F o 0 ""
+O 7
+R cspuv 0 "$HOME/VLSI-2/Project/correct/counter/leo/schem/counter/schematic/sheet1" 6 mgc_sheet 5cd34e3914dd.03.80.eb.2c.4a.00.79.05 5cd2a245a97a.03.80.eb.2c.48.00.07.5e
+O 6
+R cspuv 0 "$HOME/VLSI-2/Project/correct/counter/leo/schem/counter/schematic/sheet1" 5 mgc_sheet 5cd333063b33.03.80.eb.2c.4b.00.17.f9 5cd2a245a97a.03.80.eb.2c.48.00.07.5e
+O 5
+R cspuv 0 "$HOME/VLSI-2/Project/correct/counter/leo/schem/counter/schematic/sheet1" 4 mgc_sheet 5cd2a66db045.03.80.eb.2c.48.00.7d.fe 5cd2a245a97a.03.80.eb.2c.48.00.07.5e

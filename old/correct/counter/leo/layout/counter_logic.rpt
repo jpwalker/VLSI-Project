@@ -1,0 +1,13 @@
+ Logic loading report
+ ====================
+
+ Top level Layout cell : counter
+ Eddm Logic source : $HOME/VLSI-2/Project/correct/counter/leo/schem/counter/layout
+
+
+*** Existing cell $HOME/VLSI-2/Project/correct/counter/leo/layout/counter
+
+
+   Single pin nets
+   ---------------
+   $dummy[0]
